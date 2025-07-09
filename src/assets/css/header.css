@@ -1,0 +1,157 @@
+header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  margin: 0;
+}
+
+.pfp img {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+
+nav {
+  display: flex; 
+  align-items: center; 
+  padding: 15px 15px;
+  justify-content: space-between; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px; 
+}
+
+a {
+  color: var(--header-text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--links-text-hover);
+}
+
+.nav-groups {
+  display: flex;
+  gap: 15px; 
+}
+
+.group-links {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background: var(--header-bg);
+  padding: 15px;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+.group h4 {
+  cursor: pointer;
+  color: var(--header-text);
+  margin: 0;
+  font-weight: normal
+}
+
+.group h4:hover {
+  color: var(--links-text-hover);
+}
+
+.group-links.open {
+  display: flex;
+}
+
+.hamburger {
+  display: none; 
+}
+
+@media (max-width: 768px) {
+
+  .pfp img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  nav {
+    position: relative;
+    padding: 10px 10px;
+  }
+
+  .nav-links, nav-groups {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--box-bg);
+    width: 100%;
+    padding: 10px 0;
+    gap: 10px;
+    z-index: 1000; 
+  }
+
+  .nav-groups {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .group-links {
+  display: none;
+  position: relative;
+  z-index: 1000;
+  background: var(--box-bg-dropdown);
+  padding: 0;
+  flex-direction: column;
+  gap: 5px;
+  border-top: solid 3px var(--text-secondary);
+  }
+
+  a, h4 {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+
+  .hamburger span {
+    display: block;
+    background: var(--background);
+    height: 3px;
+    width: 100%;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 25%;
+  }
+
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 25%;
+  }
+}
