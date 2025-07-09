@@ -1,0 +1,23 @@
+{
+  "name": "crossingallborders",
+  "version": "1.0.0",
+  "description": "A simple website for Crossing All Borders Ministry to help them share their mission and give volunteers more information.",
+  "homepage": "https://github.com/Silas-N-Schlax/crossingallborders#readme",
+  "bugs": {
+    "url": "https://github.com/Silas-N-Schlax/crossingallborders/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silas-N-Schlax/crossingallborders.git"
+  },
+  "license": "ISC",
+  "author": "Silas Schlax",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
