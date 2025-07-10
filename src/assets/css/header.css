@@ -132,7 +132,7 @@ a:hover {
 
   .hamburger span {
     display: block;
-    background: var(--background);
+    background: var(--background-opposite);
     height: 3px;
     width: 100%;
     margin: 5px 0;
