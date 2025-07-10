@@ -3,6 +3,8 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: var(--background);
+  color: var(--text-primary);
+  font-size: 14px;
 }
 
 
@@ -11,16 +13,17 @@ body {
   --text-primary: #1a1a1a;
   --text-secondary: #555555;
   --background: #ffffff;
+  --background-opposite: #121212; 
   --banner-bg: #586e83;
   --header-bg: #8f9194;
   --footer-bg: #777575;
   --banner-text: #ffffff; 
   --header-text: #1a1a1a; 
   --footer-text: #f2f2f2; 
-  --box-bg: #f9f9f9;
+  --box-bg: #dad8d8;
   --box-bg-dropdown: #f0f0f0;
-  --slider-light: var(--background);
-  --slider-dark: #121212;
+  --slider-light: #ffffff;
+  --slider-dark: #000000;
   --buttons-bg: #0077cc;
   --buttons-text: #ffffff;
   --links-text: #005fa3;
@@ -32,6 +35,7 @@ body {
   --text-primary: #f2f2f2;
   --text-secondary: #bbbbbb;
   --background: #121212;
+  --background-opposite: #ffffff; 
   --banner-bg: #2c3e50;
   --header-bg: #2a2a2a;
   --footer-bg: #1e1e1e;
@@ -41,7 +45,7 @@ body {
   --box-bg: #1c1c1c;
   --box-bg-dropdown: #2a2a2a;
   --slider-light: #ffffff;
-  --slider-dark: var(--background);
+  --slider-dark: #000000;
   --buttons-bg: #3399ff;
   --buttons-text: #ffffff;
   --links-text: #66bfff;
