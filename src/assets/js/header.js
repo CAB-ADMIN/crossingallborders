@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelector(".nav-links");
   const ministryGroup = document.querySelector("#ministry");
   const getInvolvedGroup = document.querySelector("#get-involved"); 
-  const newsEventsGroup = document.querySelector("#news-events"); 
+  const newsEventsGroup = document.querySelector("#the-inside"); 
   const morePagesGroup = document.querySelector("#more-pages");
   const groups = [ministryGroup, getInvolvedGroup, newsEventsGroup, morePagesGroup];
 
