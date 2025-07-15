@@ -2,6 +2,8 @@ header {
   background: var(--header-bg);
   color: var(--header-text);
   margin: 0;
+  font-size: 16px;
+  max-height: 75px;
 }
 
 .pfp img {
@@ -40,11 +42,11 @@ a:hover {
   display: none;
   position: absolute;
   z-index: 1000;
-  background: var(--header-bg);
+  background: var(--box-bg);
   padding: 15px;
   flex-direction: column;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 26px;
   align-items: center;
 }
 
@@ -71,9 +73,8 @@ a:hover {
 @media (max-width: 768px) {
 
   .pfp img {
-    width: 40px;
+    width: auto;
     height: 40px;
-    border-radius: 50%;
     object-fit: cover;
   }
   
