@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/404.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{page_title}}</title>
+</head>
+
+<body>
+
+<div class="page-container">
+  {% include "header.njk" %}
+
+  {% include "banner.njk" %}
+
+
+  <main class="main-content">
+
+    <div class="container-404">
+      <h2 class="main">Oops — the page you’re looking for has gone on a mission trip.</h2>
+      <p class="sub">But don’t worry — <strong>Crossing All Borders Ministries</strong> is all about going places: 
+        across countries, across cultures, and even across denominational lines.</p>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/">About Us</a>
+        <a href="/">Volunteer</a>
+        <a href="/">Contact Us</a>
+      </div>
+    </div>
+
+  </main>
+
+  {% include "footer.njk" %}
+</div>
+
+</body>
