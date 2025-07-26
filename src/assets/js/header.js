@@ -1,12 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
-  const ministryGroup = document.querySelector("#ministry");
-  const getInvolvedGroup = document.querySelector("#get-involved"); 
-  const theInsideGroup = document.querySelector("#the-inside"); 
-  const morePagesGroup = document.querySelector("#more-pages");
-  const groups = [ministryGroup, getInvolvedGroup, theInsideGroup, morePagesGroup];
-
+  // const ministryGroup = document.querySelector("#ministry");
+  // const getInvolvedGroup = document.querySelector("#get-involved"); 
+  // const theInsideGroup = document.querySelector("#the-inside"); 
+  // const morePagesGroup = document.querySelector("#more-pages");
+  // const groups = [ministryGroup, getInvolvedGroup, theInsideGroup, morePagesGroup];
+  const navGroups = document.querySelector(".nav-groups");
+  let groups = []
+  navGroups.querySelectorAll(".group").forEach(group => {
+    groups.push(group);
+  })
 
 
   groups.forEach(group => {
@@ -34,3 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinks.classList.toggle("open");
   });
 });
+
+document.getElementById("theme-toggle").addEventListener("change", function() {
+  const icon = document.getElementById("theme-icon");
+
+  if (this.checked) {
+    icon.classList.remove("fa-sun")
+    icon.classList.add("fa-moon")
+  } else {
+    icon.classList.remove("fa-moon");
+    icon.classList.add("fa-sun");
+  }
+})
