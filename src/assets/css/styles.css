@@ -19,7 +19,7 @@ body {
   --footer-bg: #777575;
   --banner-text: #ffffff; 
   --header-text: #1a1a1a; 
-  --footer-text: #f2f2f2; 
+  --footer-text: #fdfbfb; 
   --box-bg: #dad8d8;
   --box-bg-dropdown: #f0f0f0;
   --slider-light: #ffffff;
@@ -41,8 +41,8 @@ body {
   --footer-bg: #1e1e1e;
   --banner-text: #ffffff;
   --header-text: #f2f2f2;
-  --footer-text: #cccccc;
-  --box-bg: #1c1c1c;
+  --footer-text: #ebe6e6;
+  --box-bg: #2c2c2c;
   --box-bg-dropdown: #2a2a2a;
   --slider-light: #ffffff;
   --slider-dark: #000000;
