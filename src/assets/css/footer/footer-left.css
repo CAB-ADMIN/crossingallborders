@@ -1,0 +1,45 @@
+.footer-left {
+  color: var(--footer-text);
+  text-align: left;
+  line-height: 0.5rem;
+  font-size: 12px;
+  padding: 0;
+}
+
+
+.info {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+
+.image {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 125px;
+  height: auto;
+}
+
+
+.disclaimers p {
+  font-size: 12px;
+  max-width: 500px;
+  line-height: 0.75rem;
+}
+
+.copyright {
+  font-size: 14px;
+  text-decoration: bold;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  color: var(--footer-text);
+  font-size: 16px;
+  margin-bottom: 5px;
+}

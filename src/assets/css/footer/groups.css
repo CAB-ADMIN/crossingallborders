@@ -1,0 +1,37 @@
+.link-groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0; 
+}
+
+
+.link-group h4 {
+  margin: 0;
+  font-weight: bold;
+  color: var(--footer-text);
+  flex: 1;
+  text-transform: uppercase
+}
+
+.link-group a {
+  color: var(--footer-text);
+  text-decoration: none;
+  margin: 5px 0;
+  flex: 1;
+}
+
+.link-group hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid var(--footer-text);
+  margin: 10px 0;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #icon {
+    font-size: 14px;
+  }
+
+  .link-groups h4 {
+    padding-bottom: 3px;
+  }
+
+  .link-groups a {
+    margin: 0 3px;
+    padding: 1px;
+  }
+
+
+  .link {
+    padding: 0;
+  }
+
+  .link-group {
+    margin: 10px 3px;
+  }
+}
