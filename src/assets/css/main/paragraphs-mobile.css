@@ -1,0 +1,58 @@
+@media(max-width: 768px){
+  .content-container {
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+      text-indent: 1.5em;
+    }
+
+    blockquote {
+      margin: 0;
+      text-indent: 0;
+    }
+
+    blockquote p {
+      padding-left: 10px;
+      border-left: 2px solid var(--text-secondary);
+    }
+
+    ul, ol {
+      font-size: 14px;
+      line-height: 1.4em;
+      margin-left: 5px;
+      padding-left: 15px;
+    }
+
+    .spacer {
+      margin-top: 15px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 16px;
+      text-align: left;
+    }
+
+    h4 {
+      font-size: 14px;
+      text-align: left;
+    }
+
+    h6 {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    a {
+      color: var(--links-text-mobile);
+    }
+  }
+}
