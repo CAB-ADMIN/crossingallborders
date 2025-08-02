@@ -1,12 +1,10 @@
 <html lang="en">
 <head>
-
-  <link rel="stylesheet" href="assets/css/styles.css">
-
+  {% include "css.njk" %}
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{page_title}}</title>
+  <title>{{page_title}} | Crossing All Borders</title>
 </head>
 
 <body>
@@ -17,7 +15,10 @@
   {% include "banner.njk" %}
 
 
-  <main class="main-content">
+  <main class="content-container">
+
+    <h1>{{title | safe}}</h1>
+    <h2>{{subtitle | safe}}</h2>
 
     {{ content | safe }}
 
