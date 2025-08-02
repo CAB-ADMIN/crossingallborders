@@ -1,0 +1,6 @@
+@media (max-width: 786px) {
+  table {
+    width: 95%;
+    font-size: 12px
+  }
+}
