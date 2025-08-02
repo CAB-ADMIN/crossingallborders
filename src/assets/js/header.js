@@ -1,11 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
-  // const ministryGroup = document.querySelector("#ministry");
-  // const getInvolvedGroup = document.querySelector("#get-involved"); 
-  // const theInsideGroup = document.querySelector("#the-inside"); 
-  // const morePagesGroup = document.querySelector("#more-pages");
-  // const groups = [ministryGroup, getInvolvedGroup, theInsideGroup, morePagesGroup];
   const navGroups = document.querySelector(".nav-groups");
   let groups = []
   navGroups.querySelectorAll(".group").forEach(group => {
@@ -36,6 +31,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     hamburger.classList.toggle("open");
     navLinks.classList.toggle("open");
+  });
+});
+
+
+document.addEventListener("click", (event) => {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+  const navGroups = document.querySelector(".nav-groups");
+
+  if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+    hamburger.classList.remove("open");
+    navLinks.classList.remove("open");
+  }
+
+  const groups = navGroups.querySelectorAll(".group");
+  groups.forEach(group => {
+    const groupLinks = document.querySelector(`#group-links-${group.id}`);
+    if (groupLinks && groupLinks.classList.contains("open")) {
+      groupLinks.classList.remove("open");
+    }
   });
 });
 
