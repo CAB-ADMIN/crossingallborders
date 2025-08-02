@@ -12,20 +12,29 @@ body {
 :root[data-theme="light"] {
   --text-primary: #1a1a1a;
   --text-secondary: #555555;
+  --highlight-bg: #6289c4;
+  --highlight-text: #ffffff;
+  --hr-color: #cccccc;
+  --paragraph-bg: #f9f9f9;
   --background: #ffffff;
   --background-opposite: #121212; 
   --banner-bg: #586e83;
   --header-bg: #8f9194;
-  --footer-bg: #777575;
+  --footer-bg: #47576e;
   --banner-text: #ffffff; 
   --header-text: #1a1a1a; 
   --footer-text: #fdfbfb; 
   --box-bg: #dad8d8;
   --box-bg-dropdown: #f0f0f0;
+  --photo-title-bg: #dfdcdc;
   --slider-light: #ffffff;
   --slider-dark: #000000;
   --buttons-bg: #0077cc;
   --buttons-text: #ffffff;
+  --table-header-bg: #e0e0e0;
+  --table-bg-even: #f2f2f2;
+  --table-bg-odd: #ffffff;
+  --table-hover: #d4d2d2;
   --links-text: #005fa3;
   --links-text-hover: #004c99;
   --links-text-mobile: #003f80;
@@ -34,6 +43,10 @@ body {
 :root[data-theme="dark"] {
   --text-primary: #f2f2f2;
   --text-secondary: #bbbbbb;
+  --highlight-bg: #345fbd;
+  --highlight-text: #ffffff;
+  --hr-color: #555555;
+  --paragraph-bg: #1b1b1b;
   --background: #121212;
   --background-opposite: #ffffff; 
   --banner-bg: #2c3e50;
@@ -44,10 +57,15 @@ body {
   --footer-text: #ebe6e6;
   --box-bg: #2c2c2c;
   --box-bg-dropdown: #2a2a2a;
+  --photo-title-bg: #3f3e3e;
   --slider-light: #ffffff;
   --slider-dark: #000000;
   --buttons-bg: #3399ff;
   --buttons-text: #ffffff;
+  --table-header-bg: #444444;
+  --table-bg-even: #333333;
+  --table-bg-odd: #2c2c2c;
+  --table-hover: #0c0c0c;
   --links-text: #66bfff;
   --links-text-hover: #3399ff;
   --links-text-mobile: #1a8cff;
