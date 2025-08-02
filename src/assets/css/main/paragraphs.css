@@ -1,0 +1,103 @@
+.content-container {
+  p {
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 2em;
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote p {
+    color: var(--text-secondary);
+    line-height: 1em;
+    text-indent: 0;
+    margin-left: 20px;
+    border-left: 3px solid var(--text-secondary);
+    padding-left: 15px;
+  }
+
+  ul, ol {
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+
+  .spacer {
+    margin-top: 20px;
+    opacity: 0;
+  }
+
+  .hr {
+    border: none;
+    border-top: 2px solid var(--hr-color);
+    margin: 20px 0;
+  }
+
+  h1 {
+    color: var(--text-primary);
+    font-size: 32px;
+    text-indent: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2 {
+    color: var(--text-secondary);
+    font-size: 20px;
+    text-indent: 0;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px
+  }
+
+  h3 {
+    color: var(--text-primary);
+    font-size: 20px;
+    line-height: 1.5em;
+    text-indent: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  h4 {
+    color: var(--text-primary);
+    font-size: 18px;
+    line-height: 1.5em;
+    text-indent: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  h6 {
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 1.5em;
+    text-indent: 0;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: var(--links-text);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--links-text-hover);
+  }
+
+  mark {
+    background-color: var(--highlight-bg);
+    color: var(--highlight-text);
+  }
+}
