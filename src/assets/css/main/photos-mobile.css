@@ -1,0 +1,11 @@
+@media (max-width: 786px) {
+  .content-container {
+    .photo-block {
+      max-width: 90%
+    }
+    
+    .photo-block #title {
+      font-size: 14px;
+    }
+  }
+}

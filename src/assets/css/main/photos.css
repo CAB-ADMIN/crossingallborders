@@ -1,0 +1,22 @@
+.content-container {
+  .photo-block {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .photo-block #title {
+    background-color: var(--photo-title-bg);
+    font-size: 16px;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+  }
+
+  .photo-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+}
