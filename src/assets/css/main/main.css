@@ -1,0 +1,8 @@
+.content-container {
+  max-width: 1200px;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  background-color: var(--paragraph-bg);
+}
+
