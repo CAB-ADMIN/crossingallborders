@@ -1,10 +1,13 @@
 ---
 layout: "main"
 title: "Volunteer"
-subtitle: ""
+subtitle: "This is a subtitle"
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
+scripts: []
+stylesheets: []
 ---
+
 
 Lorem ipsum dolor **sit amet consectetur adipisicing** elit. Molestias maxime, culpa, nulla quaerat cum a aliquam, in deserunt excepturi earum *tempore consequatur fugiat hic incidunt laboriosam placeat!* Debitis, recusandae aperiam.
 
@@ -57,13 +60,13 @@ This is a divider ^
 ::: photo-block
   This is a photo title {#title}
 
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
+  <img src="assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 ::: photo-block
   This is a photo title {#title}
   
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
+  <img src="assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 | Left Aligned | Center Aligned | Right Aligned |
@@ -72,3 +75,4 @@ This is a divider ^
 | Text         | Text           | Text          |
 
 
+<a href="#"><button id="middle">This is a button :O</button></a>
