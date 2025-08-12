@@ -1,0 +1,39 @@
+#submission-form {
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 3px solid var(--hr-color);
+  padding: 10px;
+  background-color: var(--paragraph-bg);
+  color: var(--text-secondary);
+  border-radius: 2px;
+  margin-bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 150px;
+  height: auto;
+  border: 3px solid var(--hr-color);
+  margin-top: 10px;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
+input#short {
+  width: 50px;
+  margin-right: 15px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
