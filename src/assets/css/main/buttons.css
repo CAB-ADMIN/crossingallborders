@@ -1,0 +1,32 @@
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+
+button#middle {
+  display: block;
+  margin: 0 auto;
+}
+
+button#form {
+  width: 100%;
+  background-color: var(--paragraph-bg);
+  border: 3px solid var(--hr-color);
+  color: var(--text-primary);
+  font-size: 16px;
+  padding: 5px;
+}
+
+button#form:hover {
+  border: 3px solid var(--background-opposite)
+}
+
