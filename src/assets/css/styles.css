@@ -38,6 +38,9 @@ body {
   --links-text: #005fa3;
   --links-text-hover: #004c99;
   --links-text-mobile: #003f80;
+  --button-bg: #0077cc;
+  --button-text: #ffffff;
+  --button-hover-bg: #005fa3;
 }
 
 :root[data-theme="dark"] {
@@ -69,6 +72,9 @@ body {
   --links-text: #66bfff;
   --links-text-hover: #3399ff;
   --links-text-mobile: #1a8cff;
+  --button-bg: #3399ff;
+  --button-text: #ffffff;
+  --button-hover-bg: #1a8cff;
 }
 
 /* :root {
