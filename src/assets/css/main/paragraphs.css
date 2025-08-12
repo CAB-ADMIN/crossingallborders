@@ -8,6 +8,16 @@
     padding: 0;
   }
 
+  #center {
+    text-align: center;
+  }
+
+  #small-text-center {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-align: center;
+  }
+
   blockquote p {
     color: var(--text-secondary);
     line-height: 1em;
@@ -99,5 +109,9 @@
   mark {
     background-color: var(--highlight-bg);
     color: var(--highlight-text);
+  }
+
+  iframe {
+    margin: auto;
   }
 }
