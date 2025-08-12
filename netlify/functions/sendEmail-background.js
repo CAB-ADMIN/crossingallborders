@@ -60,13 +60,13 @@ exports.handler = async (event) => {
       const sanitizedSubject = sanitizeForEmailHeader(subject);
       const sanitizedEmail = sanitizeForEmailHeader(email);
 
-      // await transporter.sendMail({
-      //   from: `"${sanitizedName}" <${GMAIL_USER}>`,
-      //   replyTo: `"${sanitizedName}" <${sanitizedEmail}>`,
-      //   to: 'silasschlax@gmail.com',
-      //   subject: `${sanitizedName} - ${sanitizedSubject}`,
-      //   html: htmlMessage
-      // });
+      await transporter.sendMail({
+        from: `"${sanitizedName}" <${GMAIL_USER}>`,
+        replyTo: `"${sanitizedName}" <${sanitizedEmail}>`,
+        to: 'silasschlax@gmail.com',
+        subject: `${sanitizedName} - ${sanitizedSubject}`,
+        html: htmlMessage
+      });
       
       console.log('Email sent successfully');
 
