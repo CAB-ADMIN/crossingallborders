@@ -10,6 +10,7 @@ header {
   width: auto;
   height: 50px;
   object-fit: cover;
+  border-radius: 7px;
 }
 
 nav {
