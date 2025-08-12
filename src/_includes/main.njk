@@ -1,9 +1,13 @@
 <html lang="en">
 <head>
   {% include "css.njk" %}
+  {% for css in stylesheets %}
+    <link rel="stylesheet" href="../assets/css/{{ css }}">
+  {% endfor %}
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
   <title>{{page_title}} | Crossing All Borders</title>
 </head>
 
@@ -17,14 +21,18 @@
 
   <main class="content-container">
 
+    
     <h1>{{title | safe}}</h1>
     <h2>{{subtitle | safe}}</h2>
-
     {{ content | safe }}
 
   </main>
 
   {% include "footer.njk" %}
 </div>
+
+{% for script in scripts %}
+  <script src="/assets/js/{{ script }}"></script>
+{% endfor %}
 
 </body>
