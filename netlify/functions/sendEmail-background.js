@@ -2,12 +2,14 @@ const nodemailer = require('nodemailer');
 const { GMAIL_USER, GMAIL_PASS } = process.env;
 const fs = require('fs');
 const path = require('path');
-const blacklistFilePath = path.join(__dirname, 'data', 'blacklist.txt');
-const emailBlacklistFilePath = path.join(__dirname, 'data', 'emailBlacklist.txt');
-const blacklist = fs.readFileSync(blacklistFilePath, 'utf-8').split('\n').map(ip => ip.trim()).filter(ip => ip);
-const emailBlacklist = fs.readFileSync(emailBlacklistFilePath, 'utf-8').split('\n').map(email => email.trim()).filter(email => email);
-const { validateInput } = require('./data/validateInput.js');
-const { formatMessage } = require('./data/formatMessage.js');
+const { validateInput } = require('./validateInput.js');
+const { formatMessage } = require('./formatMessage.js');
+const { decryptData } = require('./decrypt');
+const blacklistFilePath = path.join(__dirname, '', 'ipBlacklist.txt');
+const emailBlacklistFilePath = path.join(__dirname, '', 'emailBlacklist.txt');
+const ipBlacklist = decryptData(fs.readFileSync(blacklistFilePath, 'utf-8').split('\n').map(ip => ip.trim()).filter(ip => ip));
+const emailBlacklist = decryptData(fs.readFileSync(emailBlacklistFilePath, 'utf-8').split('\n').map(email => email.trim()).filter(email => email));
+
 
 function sanitizeForEmailHeader(input) {
   if (!input) return '';
@@ -37,7 +39,7 @@ exports.handler = async (event) => {
 
   const ip = event.headers['x-forwarded-for'] || event.headers['X-Forwarded-For'] || 'Unknown IP';
 
-  if (blacklist.includes(ip) || emailBlacklist.includes(email)) {
+  if (ipBlacklist.includes(ip) || emailBlacklist.includes(email)) {
     console.error(`Blocked request from blacklisted IP or email: ${ip} | ${email}`);
     return;
   }
