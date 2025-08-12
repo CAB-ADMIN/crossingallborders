@@ -5,6 +5,10 @@
     height: 40px;
     object-fit: cover;
   }
+
+  .pfp {
+    padding: 5px;
+  }
   
   nav {
     position: relative;
