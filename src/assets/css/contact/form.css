@@ -37,3 +37,20 @@ input#short {
 input:focus, textarea:focus {
   outline: none;
 }
+
+.errorDiv {
+  display: flex;
+  columns: 2;
+}
+
+.errorX {
+  color: var(--error-color);
+  font-size: 10px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.errorText {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
