@@ -41,6 +41,10 @@ body {
   --button-bg: #0077cc;
   --button-text: #ffffff;
   --button-hover-bg: #005fa3;
+  --button-bg-giving: #C07B02;
+  --button-text-giving: #ffffff;
+  --button-hover-bg-giving: #a66b02;
+  --error-color: #ff0000;
 }
 
 :root[data-theme="dark"] {
@@ -75,6 +79,10 @@ body {
   --button-bg: #3399ff;
   --button-text: #ffffff;
   --button-hover-bg: #1a8cff;
+  --button-bg-giving: #C07B02;
+  --button-text-giving: #ffffff;
+  --button-hover-bg-giving: #a66b02;
+  --error-color: #ff3333;
 }
 
 /* :root {
