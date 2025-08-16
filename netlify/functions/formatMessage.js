@@ -51,7 +51,7 @@ Re: ${sanitizedSubject}
     <p style="font-size: 0.9em; color: #666;">
     Best regards,<br>
     The Crossing All Borders Website<br>
-    <em>(aka, Silas's little pet 🐾)</em>
+    <em>(${randomEnding()})</em>
     </p>
     <p style="font-size: 0.001em; opacity: 0;">
     <strong>IP Address:</strong> ${escapeHtml(ip)} (this is for abuse prevention purposes only)</p>
@@ -71,6 +71,33 @@ function formatPhoneNumber(phone, phoneArea) {
   }
   
   return phoneArea ? `${phoneArea} ${phone}` : phone;
+}
+
+
+function randomEnding() {
+  const endings = [
+    "Sent by a highly caffeinated website",
+    "Digitally handcrafted just for you",
+    "Your friendly neighborhood website",
+    "Powered by pixels and optimism",
+    "Delivered by invisible code ninjas",
+    "Sent from our server, not a magic owl",
+    "This email brought to you by caffeine and good intentions",
+    "Your website, keeping it professional-ish",
+    "Generated with love and JavaScript",
+    "Another successful mission completed by our website",
+    "Brought to you by a team of very small electrons",
+    "From the desk of a busy website",
+    "Where no pixel is left behind",
+    "Spam-free and full of charm",
+    "Typed, compiled, and sent with care",
+    "This website never sleeps (literally)",
+    "Built with coffee, hope, and code",
+    "Your message has been safely teleported",
+    "Powered by good vibes and HTML",
+    "Sent from a place where HTML dreams come true"
+  ];
+  return endings[Math.floor(Math.random() * endings.length)];
 }
 
 module.exports = { formatMessage };
