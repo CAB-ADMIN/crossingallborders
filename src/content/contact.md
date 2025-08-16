@@ -13,10 +13,11 @@ stylesheets: ["contact/form.css"]
   <input type="email" name="email" placeholder="Email" maxlength="254" required>
   <input type="text" name="subject" placeholder="Subject" maxlength="200" required>
   <span><input type="tel" id="short" name="area-phone" maxlength="5" placeholder="+1"><input type="tel" name="phone" placeholder="(000) 000-0000" maxlength="15"></span>
+  <input type="text" class="bot-test" id="null" name="bot-test" placeholder="Error..." maxlength="100" required>
   <textarea name="message" placeholder="Your Message" maxlength="2000" required></textarea>
   <input type="text" name="honeypot" style="display:none;" aria-hidden="true" autocomplete="off">
   <button type="submit" id="form">Send Message</button>
-  <div class="errors"></div>
+  <div ><ul class="errors"></ul></div>
 </form>
 
 --{.spacer}
