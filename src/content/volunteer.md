@@ -1,78 +1,60 @@
 ---
 layout: "main"
-title: "Volunteer"
-subtitle: "This is a subtitle"
+title: "Volunteering"
+subtitle: ""
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
-scripts: []
-stylesheets: []
+meta_description: "Be a part of God’s work at Crossing All Borders! Volunteer individually or with groups to help sort donations, pack supplies, and serve those in need."
 ---
 
-
-Lorem ipsum dolor **sit amet consectetur adipisicing** elit. Molestias maxime, culpa, nulla quaerat cum a aliquam, in deserunt excepturi earum *tempore consequatur fugiat hic incidunt laboriosam placeat!* Debitis, recusandae aperiam.
-
-> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolorem repellendus perspiciatis voluptate in ex reprehenderit optio illum, sunt laboriosam molestias odit quaerat! Velit minima earum ut cupiditate nesciunt consectetur.
-
-###### Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officiis pariatur, eius explicabo odio possimus iure fugit optio ea cumque tenetur. Quisquam nesciunt porro amet, et doloribus aliquam cupiditate quae.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non temporibus sequi deleniti sint consectetur nesciunt incidunt molestias id quibusdam! Voluptatum neque nobis, repudiandae et temporibus sequi. Id praesentium porro recusandae!
-
-- This is a bullet point
-- This is another bullet point
+*Come when you can, leave when you need too! This ministry is able to help so many in need because of volunteers like you, come be a part of what God is doing!*
 
 ---{.spacer}
-<!-- this is a spacer ^^^ -->
 
-1. This is a numbered list
-2. This is another numbered list
+### How You Can Be a Part and Pitch In:
 
-# Title (only used once per page, put in page data) (h1)
+Individuals can show up during our regular hours and volunteer without an appointment. Groups of 10 or more need to call Joeth Strickland at [910-890-7201](tel:910-890-7201) to schedule a time to come.
 
-## Subtitle (only used for page data) (h2)
+---{.spacer}
 
-### Section Header (h3)
+#### Our Hours:
 
-#### Subsection Header (h4)
+**Mon:** Closed
 
-##### Image Header (changed background, and centered) (h5)
+**Tue-Thur:** 10:00am-2:00pm
 
-###### Non-indented normal test (h6)
+**Fri:** Closed
 
-!Spacer (just put with no text, to get a 20px space) (---{.spacer})
+**Sat:** 8:00am-12:00pm
 
-**This is bold text**
+**Sun:** Closed
 
-*This is italic text*
+*Evenings and weekends are by appointment only!*
 
-~~This is strike through~~
+---{.spacer}
 
-This is ==very important== text.
+### Who Can Volunteer?
 
-This is a superscript text ^2^.
+**EVERYONE!**  We welcome **ALL** ages. Including those with physical and mental disabilities are welcome. We have jobs for those that need to sit. We work with families with special needs children to accommodate their abilities and create the environment that works for them. We welcome individuals and groups up to 50 people at one time. Families, Youth groups, ladies' groups, men’s groups, scout troops, AHG troops, businesses, school clubs (KEY Club, sports, etc.). We work with those needing service hours for clubs and those needing required hours for the courts upon approval. If you are willing, we can use you!
 
-This is a subscript text ~2~.
+---{.spacer}
 
----
-This is a divider ^
+#### Things that ***ALWAYS*** need to be done:
 
-[This is a link](https://example.com)
+1. **Sort clothes** – We sort by season, and gender.
 
-::: photo-block
-  This is a photo title {#title}
+2. **Sorting and bagging shoes** – We bag each pair of shoes and mark the size for distribution for those in need.
 
-  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
-:::
+3. **Make Hygiene kits** – This is a great area for families with young children to work. It is simple, easy for them to see they made a difference in just 30 minutes. They can understand how it makes a difference.
 
-::: photo-block
-  This is a photo title {#title}
-  
-  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
-:::
+4. **Sorting & boxing medical supplies** – We receive medical donations on a regular basis. We sort these by categories and box them to send to locations of need.
 
-| Left Aligned | Center Aligned | Right Aligned |
-| :----------- | :------------: | ------------: |
-| Text         | Text           | Text          |
-| Text         | Text           | Text          |
+5. **Packing shipments for local, national, and international needs** – We always have multiple projects going on at one time that need to be packed and prepared to ship.
 
+6. **Pulling orders of requested items** – We receive request for supplies needed by churches and other ministries.
 
-<a href="#"><button id="middle">This is a button :O</button></a>
+7. **Sorting donations that have come in and putting them in the correct area** – We receive donations for individual, other ministries and businesses.
+
+8. **Cutting fabric for our sewing ministry** – We have a sewing ministry where individuals sew bags in their homes. We cut the fabric for this project.
+
+9. **General maintenance** – taking trash out, cleaning bathrooms, sweeping floors.
