@@ -23,12 +23,15 @@
     padding: 1px;
   }
 
-
   .link {
     padding: 0;
   }
 
   .link-group {
     margin: 10px 3px;
+  }
+
+  .image {
+    padding: 7px;
   }
 }
