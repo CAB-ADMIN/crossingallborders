@@ -1,4 +1,4 @@
-function checkAllInputs(formData) {
+function checkAllInputs(formData, questions) {
   const errors = [];
   //^ Name:
   if (!formData.name) {
@@ -59,16 +59,24 @@ function checkAllInputs(formData) {
     }
   }
 
+  //^ Bot Test:
+  const questionAnswer = questions[formData.question].answer.toLowerCase().replace(/\s+/g, '');
+  if (!formData.answer) {
+    errors.push("Please answer the question to prove you are not a bot!");
+  } else if (formData.answer.toLowerCase().replace(/\s+/g, '') != questionAnswer) {
+    errors.push("Your answer to the question is incorrect. Please try again.");
+  } 
+
   //^ Honeypot:
   if (formData.bot && formData.bot.trim() !== '') {
     document.location.href = "https://www.google.com";
   }
 
+  const errorDiv = document.getElementById("submission-form").querySelector(".errors");
+  errorDiv.innerHTML = "";
   errors.forEach((error) => {
-    const errorDiv = document.getElementById("submission-form").querySelector(".errors");
-    errorDiv.innerHTML = "";
     if (errorDiv) {
-      const errorElement = document.createElement("p");
+      const errorElement = document.createElement("li");
       errorElement.textContent = error;
       errorDiv.appendChild(errorElement);
     }
