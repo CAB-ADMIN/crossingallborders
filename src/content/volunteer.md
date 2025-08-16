@@ -60,13 +60,13 @@ This is a divider ^
 ::: photo-block
   This is a photo title {#title}
 
-  <img src="assets/images/main/logo.jpg" alt="Logo Image">
+  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 ::: photo-block
   This is a photo title {#title}
   
-  <img src="assets/images/main/logo.jpg" alt="Logo Image">
+  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 | Left Aligned | Center Aligned | Right Aligned |
