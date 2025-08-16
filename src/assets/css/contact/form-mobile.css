@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  input, textarea {
+    font-size: 14px;
+  }
+
+.errorX {
+  font-size: 8px;
+}
+
+.errorText {
+  font-size: 10px;
+}
+
+}
