@@ -76,8 +76,9 @@ function checkAllInputs(formData, questions) {
   errorDiv.innerHTML = "";
   errors.forEach((error) => {
     if (errorDiv) {
-      const errorElement = document.createElement("li");
-      errorElement.textContent = error;
+      const errorElement = document.createElement("div");
+      errorElement.className = "errorDiv";
+      errorElement.innerHTML = `<span class="errorX">X</span> <span class="errorText">${error}</span>`;
       errorDiv.appendChild(errorElement);
     }
   })
