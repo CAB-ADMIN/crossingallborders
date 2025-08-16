@@ -1,3 +1,12 @@
+const questions = [
+  { id: 0, question: 'What is your favorite color?', answer: 'blue' },
+  { id: 1, question: 'What is your favorite animal?', answer: 'dog' },
+  { id: 2, question: 'What is your favorite food?', answer: 'pizza' }
+];
+let currentQuestionId = null;
+
+
+
 document.getElementById('submission-form').addEventListener('submit', async function(event) {
   event.preventDefault();
   const formData = new FormData(event.target);
@@ -8,11 +17,12 @@ document.getElementById('submission-form').addEventListener('submit', async func
     subject: formData.get('subject'),
     phone: formData.get('phone') ? stripPhoneNumber(formData.get('phone')) : null,
     phoneArea: formData.get('area-phone') ? stripAreaCode(formData.get('area-phone')) : null,
-    bot: formData.get('honeypot')
+    bot: formData.get('honeypot'),
+    question: currentQuestionId,
+    answer: formData.get('bot-test')
   }
 
-  await checkAllInputs(data);
-  if (checkAllInputs(data)) {
+  if (checkAllInputs(data, questions)) {
     try {
       fetch('/.netlify/functions/sendEmail-background', {
         method: 'POST',
@@ -21,11 +31,23 @@ document.getElementById('submission-form').addEventListener('submit', async func
         },
         body: JSON.stringify(data)
       });
-      event.target.reset();
+      // event.target.reset();
       
-      window.location.href = '/thank-you';
+      // window.location.href = '/thank-you';
     } catch (error) {
       console.error('Error:', error);
     }
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const botTest = document.getElementById("submission-form").querySelector('.bot-test');
+  const testData = newQuestion();
+  botTest.placeholder = testData.question;
+  currentQuestionId = testData.id;
+})
+
+
+function newQuestion() {
+  return questions[Math.floor(Math.random() * questions.length)];
+}
