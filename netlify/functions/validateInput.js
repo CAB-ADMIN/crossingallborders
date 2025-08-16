@@ -1,6 +1,12 @@
 const validator = require('email-validator');
 
-function validateInput(name, email, subject, message, phone, phoneArea, bot) {
+const questions = [
+  { id: 0, question: 'What is your favorite color?', answer: 'blue' },
+  { id: 1, question: 'What is your favorite animal?', answer: 'dog' },
+  { id: 2, question: 'What is your favorite food?', answer: 'pizza' }
+];
+
+function validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer) {
   if (!name || !email || !subject || !message) {
     return false;
   }
@@ -30,7 +36,11 @@ function validateInput(name, email, subject, message, phone, phoneArea, bot) {
   if (phoneArea && (phoneArea.length < 1 || phoneArea.length > 5 || !checkIfOnlyNumbers(phoneArea))) {
     return false;
   }
-  
+
+  if (!answer || !question || answer.toLowerCase().replace(/\s+/g, '') != questions[question].answer.toLowerCase().replace(/\s+/g, '')) {
+    return false;
+  }
+
   // Bot field should be empty (honeypot)
   if (bot && bot.length > 0) {
     return false;
