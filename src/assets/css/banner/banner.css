@@ -26,26 +26,3 @@
 .banner-button:hover {
   color: var(--buttons-text)
 }
-
-@media (max-width: 768px) {
-  .banner {
-    flex-direction: column;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  .banner-text {
-    font-size: 12px;
-    margin: 0;
-    margin: 10px 0;
-    padding: 5px;
-  }
-
-  .banner-button {
-    width: 75%;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 12px
-  }
-}
