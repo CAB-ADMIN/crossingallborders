@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const { GMAIL_USER, GMAIL_PASS } = process.env;
+const { GMAIL_USER, GMAIL_PASS, ADMIN } = process.env;
 const { validateInput } = require('./validateInput.js');
 const { formatMessage } = require('./formatMessage.js');
 const { decryptData } = require('./decrypt');
@@ -30,7 +30,7 @@ exports.handler = async (event) => {
       return;
     }
 
-    let { name, email, message, subject, phone, phoneArea, bot } = requestData;
+    let { name, email, message, subject, phone, phoneArea, bot, question, answer } = requestData;
 
   if (!name || !email || !message || !subject) {
     return;
@@ -42,7 +42,7 @@ exports.handler = async (event) => {
     console.error(`Blocked request from blacklisted IP or email: ${ip} | ${email}`);
     return;
   }
-  if (!validateInput(name, email, subject, message, phone, phoneArea, bot)) {
+  if (!validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer)) {
     return;
   }
 
@@ -64,7 +64,7 @@ exports.handler = async (event) => {
       await transporter.sendMail({
         from: `"${sanitizedName}" <${GMAIL_USER}>`,
         replyTo: `"${sanitizedName}" <${sanitizedEmail}>`,
-        to: 'silasschlax@gmail.com',
+        to: `${ADMIN}`,
         subject: `${sanitizedName} - ${sanitizedSubject}`,
         html: htmlMessage
       });
