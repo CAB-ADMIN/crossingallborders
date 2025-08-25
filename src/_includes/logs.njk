@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  {% include "css.njk" %}
+  <link rel="stylesheet" href="/assets/css/dev-logs/logs.css">
+  <link rel="stylesheet" href="/assets/css/dev-logs/logs-mobile.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!--! Swiper CSS -->
+  <title>{{page_title}} | Crossing All Borders</title>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+
+<body>
+
+<div class="page-container">
+  {% include "header.njk" %}
+
+  {% include "banner.njk" %}
+
+
+  <main class="content-container">
+
+    
+    <h1>{{title | safe}}</h1>
+    <h2>{{subtitle | safe}}</h2>
+
+    <div class="info-header">
+      <p class="author">{{ author | safe }}</p>
+      <p><strong>Date:</strong> {{ postDate | safe }}</p>
+      <p><strong>Version:</strong> {{ version | safe }}</p>
+      <p><strong>Development Time:</strong> {{ devTime | safe }}</p>
+    </div>
+
+    <div class="dev">
+      {{ content | safe }}
+    </div>
+
+    {% if hasPhotos %}
+    
+    <div class="swiper" id="small">
+      <div class="swiper-wrapper">
+        {% for photo in photos %}
+          <div class="swiper-slide">
+            <img src="/assets/images/pages/{{ photo }}" alt="Photo">
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div> 
+      <div class="swiper-button-next"></div>
+    </div>
+
+    {% endif %}
+
+  </main>
+
+  {% include "footer.njk" %}
+</div>
+
+{% if hasPhotos %}
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      direction: 'horizontal',
+      loop: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+{% endif %}
+
+</body>
