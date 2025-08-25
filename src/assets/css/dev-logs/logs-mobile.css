@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .info-header {
+    font-size: 0.8rem;
+  }
+  .dev h4 {
+    font-size: 14px;
+  }
+}

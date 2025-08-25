@@ -1,0 +1,26 @@
+.info-header {
+  text-align: left;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--text-secondary);
+}
+
+.info-header p {
+  font-weight: 400;
+  text-indent: 0;
+  color: var(--text-secondary)
+}
+
+.info-header .author {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.dev h4 {
+  padding-top: 0;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
