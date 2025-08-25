@@ -5,14 +5,29 @@ const markdownItMark = require("markdown-it-mark");
 const markdownItSub = require("markdown-it-sub");
 const markdownItSup = require("markdown-it-sup");
 const markdownItContainer = require("markdown-it-container");
-
+const cacheBuster = require("@mightyplow/eleventy-plugin-cache-buster");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function(eleventyConfig) {
+  const cacheBusterOptions = {
+    outputDirectory: "_site",
+    hashParameter: "v"
+  };
+  eleventyConfig.addPlugin(cacheBuster(cacheBusterOptions));
+
+  eleventyConfig.addPlugin(sitemap, {
+    lastModifiedProperty: "updated",
+    sitemap: {
+      hostname: "https://crossingallborders.org"
+    }
+  })
+
+
   eleventyConfig.addPassthroughCopy("src/assets/css");
   eleventyConfig.addPassthroughCopy("src/assets/js"); 
   eleventyConfig.addPassthroughCopy("src/_redirects");
   eleventyConfig.addPassthroughCopy("src/assets/images");
-  
+
 
   eleventyConfig.addCollection("all", function(collection) {
     return collection.getAll();
