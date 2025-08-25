@@ -1,8 +1,16 @@
 const questions = [
-  { id: 0, question: 'What is your favorite color?', answer: 'blue' },
-  { id: 1, question: 'What is your favorite animal?', answer: 'dog' },
-  { id: 2, question: 'What is your favorite food?', answer: 'pizza' }
+  { id: 0, question: 'What is 1+1?', answer: '2' },
+  { id: 1, question: 'What is 3-2?', answer: '1' },
+  { id: 2, question: 'What color is the sky?', answer: 'blue' },
+  { id: 3, question: 'What color are bananas?', answer: 'yellow' },
+  { id: 4, question: 'Type the word: cat', answer: 'cat' },
+  { id: 5, question: 'Type the word: sun', answer: 'sun' },
+  { id: 6, question: 'Is fire hot? (yes or no)', answer: 'yes' },
+  { id: 7, question: 'Is ice warm? (yes or no)', answer: 'no' },
+  { id: 8, question: 'What is 2+2?', answer: '4' },
+  { id: 9, question: 'What color is grass?', answer: 'green' }
 ];
+
 let currentQuestionId = null;
 
 
@@ -43,7 +51,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
 document.addEventListener("DOMContentLoaded", () => {
   const botTest = document.getElementById("submission-form").querySelector('.bot-test');
   const testData = newQuestion();
-  botTest.placeholder = testData.question;
+  botTest.placeholder = `Prove You're Human: ${testData.question}`;
   currentQuestionId = testData.id;
 })
 
