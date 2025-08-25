@@ -20,9 +20,7 @@ function formatMessage(data) {
   const newSubject = `Re: Crossing All Borders - ${sanitizedSubject}`;
   const newMessage = `Dear ${sanitizedName},
 
-Thank you for reaching out to, Crossing All Borders! We appreciate your taking time to contact us.
-
-
+Thank you for reaching out to Crossing All Borders! We appreciate you taking the time to contact us.
 
 Re: ${sanitizedSubject}
   ${sanitizedMessage}
