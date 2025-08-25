@@ -1,9 +1,13 @@
 header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background: var(--header-bg);
   color: var(--header-text);
   margin: 0;
   font-size: 16px;
   max-height: 75px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .pfp img {
@@ -11,6 +15,8 @@ header {
   height: 50px;
   object-fit: cover;
   border-radius: 7px;
+  border: 1px solid var(--hr-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 nav {
