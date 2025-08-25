@@ -5,6 +5,7 @@ subtitle: ""
 page_title: "International Ministry"
 permalink: "ministries/international/index.html"
 meta_description: "????????????????????????????????????????"
+updated: "2025-8-25"
 ---
 
 We are blessed to work with many churches to provide support to missionaries and ministries they support. We also donate to other non-profits based in the United States that have ministries in other countries. This is how our international connections have been made. Every ministry or church internationally that we have been blessed to support with tangible goods is a Christian church or ministry that lines up with our mission, purpose and our Biblical doctrine. 

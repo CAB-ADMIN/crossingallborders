@@ -5,6 +5,7 @@ subtitle: ""
 page_title: "Medical Ministry"
 permalink: "ministries/medical/index.html"
 meta_description: "Support communities locally and globally by donating medical supplies to Crossing All Borders. All items help hospitals, clinics, and families in need."
+updated: "2025-8-25"
 ---
 
 

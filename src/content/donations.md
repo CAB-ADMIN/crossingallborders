@@ -5,6 +5,7 @@ subtitle: ""
 page_title: "Giving & Donations"
 permalink: "donations/index.html"
 meta_description: "Make an impact with Crossing All Borders! Contribute financially or donate essential items to help those in need locally and globally."
+updated: "2025-8-25"
 ---
 
 
@@ -24,10 +25,10 @@ meta_description: "Make an impact with Crossing All Borders! Contribute financia
 
 ---{.spacer}
 
-#### Accepted Items:
+#### Items Accepted:
 ==list of categories or items accepted items==
 
 ---{.spacer}
 
-#### Accepted Items:
+#### Items Not Accepted:
 ==list of categories or items not accepted==

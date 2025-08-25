@@ -5,6 +5,7 @@ subtitle: ""
 page_title: "Sewing Ministry"
 permalink: "ministries/sewing/index.html"
 meta_description: "Use your sewing skills to make a difference! Join Crossing All Borders to create bags, quilts, and clothing for orphanages and families worldwide."
+updated: "2025-8-25"
 ---
 
 

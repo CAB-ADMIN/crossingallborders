@@ -5,6 +5,7 @@ subtitle: ""
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
 meta_description: "Be a part of God’s work at Crossing All Borders! Volunteer individually or with groups to help sort donations, pack supplies, and serve those in need."
+updated: "2025-8-25"
 ---
 
 *Come when you can, leave when you need too! This ministry is able to help so many in need because of volunteers like you, come be a part of what God is doing!*

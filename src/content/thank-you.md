@@ -5,6 +5,8 @@ subtitle: ""
 page_title: "Thank you"
 permalink: "thank-you/index.html"
 noRobots: true
+sitemap: 
+  ignore: true
 ---
 
 

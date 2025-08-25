@@ -7,6 +7,7 @@ permalink: "contact/index.html"
 scripts: ["checkFormInputs.js", "submissionForm.js"]
 stylesheets: ["contact/form.css", "contact/form-mobile.css"]
 meta_description: "Have questions or want to get involved? Contact Crossing All Borders via our online form, email, phone, or visit our local office. We’d love to hear from you!"
+updated: "2025-8-25"
 ---
 
 <form id="submission-form">
@@ -23,14 +24,14 @@ meta_description: "Have questions or want to get involved? Contact Crossing All 
 
 ---{.spacer}
 
----{.spacer}
+
 
 ### Additional Contact Methods
 
 - Mail: **P.O. Box 132, Lillington, NC 27546**
 - Physical: **[1446 James Norris Rd, Angier, NC 27501](https://maps.app.goo.gl/UdbCsNFtKihZdYdx5)**
 
----{.spacer}
+
 
 ### Our Hours:
 
