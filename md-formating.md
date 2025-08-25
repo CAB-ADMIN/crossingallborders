@@ -7,6 +7,9 @@ permalink: "pageNameOrRoot/index.html"
 scripts: []
 stylesheets: []
 meta_description: ""
+hasPhotos: false
+photos: []
+eleventyExcludeFromCollections: true
 ---
 
 
