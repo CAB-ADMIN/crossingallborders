@@ -1,3 +1,8 @@
+a#btn {
+  padding: 0;
+  margin: 0;
+}
+
 button {
   background-color: var(--button-bg);
   color: var(--button-text);
@@ -15,6 +20,12 @@ button:hover {
 button#middle {
   display: block;
   margin: 0 auto;
+}
+
+button#small {
+  padding: 7px 10px;
+  font-size: 12px;
+  margin: 0;
 }
 
 button#form {
