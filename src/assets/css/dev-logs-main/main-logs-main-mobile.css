@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .log-categories {
+    padding: 5px;
+
+    .version-section {
+      margin: 5px 0;
+      padding: 10px;
+      border-bottom: 2px solid var(--hr-color);
+    }
+
+    h3 {
+      font-size: 1.2em;
+    }
+
+    .link-container {
+      border-bottom: 1px solid var(--hr-color);
+    }
+
+    .description {
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .divider {
+      max-width: 30px;
+    }
+
+    .postDate {
+      font-size: 10px;
+    }
+
+    .log-link {
+      font-size: 14px;
+      color: var(--links-text-mobile);
+      margin-top: 7px;
+    }
+  }
+}
