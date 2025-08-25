@@ -1,22 +1,31 @@
 .content-container {
-  .photo-block {
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .photo-block #title {
-    background-color: var(--photo-title-bg);
-    font-size: 16px;
-    border-top-left-radius: 0.75em;
-    border-top-right-radius: 0.75em;
-  }
-
-  .photo-block img {
+  .swiper {
     width: 100%;
-    height: auto;
-    display: block;
+    max-width: 900px;
+    height: 90vh; 
+    margin-top: 20px;
   }
 
+  .swiper#small {
+    width: 30%;
+    height: 50vh;
+  }
+
+
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    color: var(--hr-color);
+  }
 }
