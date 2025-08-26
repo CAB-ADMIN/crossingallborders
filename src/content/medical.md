@@ -9,7 +9,7 @@ updated: "2025-8-25"
 ---
 
 
-We receive medical donations from hospitals, clinics, doctor offices and individuals. We take **ANYTHING** medical. *Open packages and expired items are all acceptable.* Durable medical items are always needed. Hospital beds, walkers, bedside commodes, shower chairs, crutches, lift chairs, and electric scooters. These donations can be scheduled for pick-up when needed.
+We receive medical donations from hospitals, clinics, doctor offices and individuals. We take **ANYTHING** medical. ***Open packages and expired items are all acceptable.*** Durable medical items are always needed. Hospital beds, walkers, bedside commodes, shower chairs, crutches, lift chairs, and electric scooters. These donations can be scheduled for pick-up when needed.
 
 ---{.spacer}
 
