@@ -41,12 +41,12 @@ button#form:hover {
   border: 3px solid var(--background-opposite)
 }
 
-button.giving {
-  background-color: var(--button-bg-giving);
-  color: var(--button-text-giving);
+button.cash-donations {
+  background-color: var(--button-bg-cash-donations);
+  color: var(--button-text-cash-donations);
 }
 
-button.giving:hover {
-  background-color: var(--button-hover-bg-giving);
+button.cash-donations:hover {
+  background-color: var(--button-hover-bg-cash-donations);
 }
 
