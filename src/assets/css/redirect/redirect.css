@@ -1,0 +1,60 @@
+.redirect-container {
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+
+  background-color: var(--background);
+  backdrop-filter: blur(25px);
+}
+
+.redirect-container h3 {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.redirect-container p {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+#stats {
+  font-size: 1em;
+  color: var(--text-primary);
+  margin-bottom: 0;
+  line-height: 0.75rem;
+  text-align: center;
+  /* word-wrap: break-word; */
+}
+
+input#hideRedirect {
+  margin-right: 0.5rem;
+  accent-color: var(--accent-text);
+  /* make checkbox look nice */
+  border: 1px solid var(--text-primary);
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.redirect-container label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-primary);
+}
