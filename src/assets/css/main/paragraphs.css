@@ -121,4 +121,8 @@
   iframe {
     margin: auto;
   }
+
+  .accent {
+    color: var(--accent-text);
+  }
 }
