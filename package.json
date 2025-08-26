@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "build": "netlify build"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
