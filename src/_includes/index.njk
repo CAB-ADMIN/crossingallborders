@@ -1,32 +1,32 @@
 <html lang="en">
-<head>
-  {% include "css.njk" %}
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
-  <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
-  <title>{{page_title}} | Crossing All Borders</title>
-</head>
-
+  <head>
+    {% include "css.njk" %}
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+    <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
+    <title>{{page_title}} | Crossing All Borders</title>
+  </head>
+  
 <body>
+  <script src="/assets/js/redirect.js"></script>
 
-<div class="page-container">
-  {% include "header.njk" %}
+  <div class="page-container">
+    {% include "header.njk" %}
 
-  {% include "banner.njk" %}
+    {% include "banner.njk" %}
 
 
-  <main class="content-container">
+    <main class="content-container">
 
-    <h1>{{title | safe}}</h1>
-    <h2>{{subtitle | safe}}</h2>
+      <h1>{{title | safe}}</h1>
+      <h2>{{subtitle | safe}}</h2>
 
-    {{ content | safe }}
+      {{ content | safe }}
 
-  </main>
+    </main>
 
-  {% include "footer.njk" %}
-</div>
-
+    {% include "footer.njk" %}
+  </div>
 </body>
