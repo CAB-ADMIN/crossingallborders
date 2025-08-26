@@ -61,7 +61,7 @@ This is a subscript text ~2~.
 ---
 This is a divider ^
 
-[This is a link](https://example.com)
+[This is a link](https://example.com){target="_blank"}
 
 ::: photo-block
   This is a photo title {#title}
