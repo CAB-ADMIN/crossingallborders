@@ -61,7 +61,7 @@
       margin: 0;
     }
 
-    iframe {
+    iframe#map {
       width: 90%;
       height: 300px;
     }
