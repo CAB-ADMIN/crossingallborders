@@ -21,62 +21,63 @@
 </head>
 
 <body>
+  <script src="/assets/js/redirect.js"></script>
 
-<div class="page-container">
-  {% include "header.njk" %}
+  <div class="page-container">
+    {% include "header.njk" %}
 
-  {% include "banner.njk" %}
+    {% include "banner.njk" %}
 
 
-  <main class="content-container">
+    <main class="content-container">
 
-    
-    <h1>{{title | safe}}</h1>
-    <h2>{{subtitle | safe}}</h2>
-    {{ content | safe }}
+      
+      <h1>{{title | safe}}</h1>
+      <h2>{{subtitle | safe}}</h2>
+      {{ content | safe }}
 
-    {% if hasPhotos %}
-    
-    <div class="swiper" id="small">
-      <div class="swiper-wrapper">
-        {% for photo in photos %}
-          <div class="swiper-slide">
-            <img src="/assets/images/pages/{{ photo }}" alt="Photo">
-          </div>
-        {% endfor %}
+      {% if hasPhotos %}
+      
+      <div class="swiper" id="small">
+        <div class="swiper-wrapper">
+          {% for photo in photos %}
+            <div class="swiper-slide">
+              <img src="/assets/images/pages/{{ photo }}" alt="Photo">
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-button-prev"></div> 
+        <div class="swiper-button-next"></div>
       </div>
-      <div class="swiper-button-prev"></div> 
-      <div class="swiper-button-next"></div>
-    </div>
 
-    {% endif %}
+      {% endif %}
 
-  </main>
+    </main>
 
-  {% include "footer.njk" %}
-</div>
+    {% include "footer.njk" %}
+  </div>
 
-{% for script in scripts %}
-  <script src="/assets/js/{{ script }}"></script>
-{% endfor %}
+  {% for script in scripts %}
+    <script src="/assets/js/{{ script }}"></script>
+  {% endfor %}
 
-{% if hasPhotos %}
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      direction: 'horizontal',
-      loop: true,
 
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-{% endif %}
+  {% if hasPhotos %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+        direction: 'horizontal',
+        loop: true,
 
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+  {% endif %}
 </body>
