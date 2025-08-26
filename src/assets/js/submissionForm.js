@@ -39,9 +39,9 @@ document.getElementById('submission-form').addEventListener('submit', async func
         },
         body: JSON.stringify(data)
       });
-      // event.target.reset();
+      event.target.reset();
       
-      // window.location.href = '/thank-you';
+      window.location.href = '/thank-you';
     } catch (error) {
       console.error('Error:', error);
     }
