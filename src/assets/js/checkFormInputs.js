@@ -7,8 +7,6 @@ function checkAllInputs(formData, questions) {
     errors.push("Name is too long.");
   } else if (formData.name.length < 2 ) {
     errors.push("Name is too short.");
-  } else if (checkIfContainsIllegalCharacters(formData.name)) {
-    errors.push("Name contains illegal characters.");
   } else if (checkIfContainsNumbers(formData.name)) {
     errors.push("Name cannot contain numbers.");
   }
@@ -85,16 +83,6 @@ function checkAllInputs(formData, questions) {
   return errors.length > 0 ? false : true;
 }
 
-
-function checkIfContainsIllegalCharacters(input) {
-  const illegalCharacters = "!@#$%^&*()_+={}[]|\\:;\"'<>,.?/~`";
-  for (let char of illegalCharacters) {
-    if (input.includes(char)) {
-      return true;
-    }
-  }
-  return false;
-}
 
 function checkIfContainsNumbers(input) {
   return /\d/.test(input);
