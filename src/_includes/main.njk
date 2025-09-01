@@ -42,7 +42,7 @@
         <div class="swiper-wrapper">
           {% for photo in photos %}
             <div class="swiper-slide">
-              <img src="/assets/images/pages/{{ photo }}" alt="Photo">
+              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] || default("No Alt Text Given") }}">
             </div>
           {% endfor %}
         </div>
@@ -66,8 +66,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper('.swiper', {
+        lazy: true,
         autoplay: {
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false
         },
         direction: 'horizontal',
