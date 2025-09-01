@@ -25,8 +25,43 @@
     max-height: 100%;
     object-fit: contain; 
   }
+}
 
-  .swiper-button-prev, .swiper-button-next {
-    color: var(--hr-color);
-  }
+.swiper {
+  --swiper-navigation-color: var(--background-opposite);
+  --swiper-navigation-size: 22px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 12px;
+  border-radius: 100%;
+  background-color: var(--background);
+  color: var(--background--opposite);
+  display: grid;
+  place-items: center;  
+  box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+
+.swiper-button-next {
+  padding-right: 13px;
+  padding-left: 17px;
+}
+
+.swiper-button-prev {
+  padding-left: 13px;
+  padding-right: 17px;
+}
+
+.swiper-button-next::after, 
+.swiper-button-prev::after {
+  font-size: var(--swiper-navigation-size);
+  font-weight: bold;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+ filter: brightness(1.05);
+ transform: translateY(-1px);
+ transition: transform .2s ease, filter .2s ease;
 }
