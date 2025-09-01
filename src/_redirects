@@ -1,1 +1,8 @@
 /*         /404.html  404
+/donations http://localhost:8888/donations/financial 301
+/giving http://localhost:8888/donations/financial 301
+/contact-us http://localhost:8888/contact 301
+/about http://localhost:8888/about-us 301
+/ministry http://localhost:8888/ministries/international 301
+/ministries http://localhost:8888/ministries/international 301
+/domestic http://localhost:8888/ministries/national 301
