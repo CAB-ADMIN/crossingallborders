@@ -35,14 +35,18 @@
   }
 
   .group-links {
-  display: none;
-  position: relative;
-  z-index: 1000;
-  background: var(--box-bg-dropdown);
-  padding: 0;
-  flex-direction: column;
-  gap: 5px;
-  border-top: solid 3px var(--text-secondary);
+    display: none;
+    position: relative;
+    z-index: 1000;
+    background: var(--box-bg-dropdown);
+    padding: 0;
+    flex-direction: column;
+    gap: 5px;
+    border-top: solid 3px var(--text-secondary);
+  }
+
+  .group-links.open {
+    margin-top: 10px;
   }
 
   a, h4 {
@@ -53,7 +57,9 @@
 
   .nav-links.open {
     display: flex;
+    border-bottom: 1px solid var(--hr-color);
   }
+  
 
   .hamburger {
     display: block;

@@ -8,6 +8,6 @@
   }
 
   .redirect-container h3 {
-    font-size: 1.7rem;
+    font-size: calc(1.7em * var(--font-size-modifier));
   }
 }

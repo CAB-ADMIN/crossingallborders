@@ -1,7 +1,7 @@
 .content-container {
   p, h6 {
     color: var(--text-primary);
-    font-size: 16px;
+    font-size: calc(16px * var(--font-size-modifier));
     line-height: 1.5;
     text-indent: 2em;
     margin: 0;
@@ -13,7 +13,7 @@
   }
 
   #small-text-center {
-    font-size: 12px;
+    font-size: calc(12px * var(--font-size-modifier));
     color: var(--text-secondary);
     text-align: center;
   }
@@ -28,7 +28,7 @@
   }
 
   ul, ol {
-    font-size: 16px;
+    font-size: calc(16px * var(--font-size-modifier));
     line-height: 1.5em;
     margin: 0;
     margin-left: 10px;
@@ -54,7 +54,7 @@
 
 
   h1 {
-    font-size: 32px;
+    font-size: calc(32px * var(--font-size-modifier));
     text-indent: 0;
     font-weight: bold;
     text-align: center;
@@ -64,7 +64,7 @@
 
   h2 {
     color: var(--text-secondary);
-    font-size: 20px;
+    font-size: calc(20px * var(--font-size-modifier));
     text-indent: 0;
     text-align: center;
     margin: 0;
@@ -72,7 +72,7 @@
   }
 
   h3 {
-    font-size: 20px;
+    font-size: calc(20px * var(--font-size-modifier));
     line-height: 1.5em;
     text-indent: 0;
     font-weight: bold;
@@ -82,7 +82,7 @@
 
   h4 {
     color: var(--text-primary);
-    font-size: 18px;
+    font-size: calc(18px * var(--font-size-modifier));
     line-height: 1.5em;
     text-indent: 0;
     font-weight: bold;

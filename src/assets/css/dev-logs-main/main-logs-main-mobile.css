@@ -9,7 +9,7 @@
     }
 
     h3 {
-      font-size: 1.2em;
+      font-size: calc(1.2em * var(--font-size-modifier));
     }
 
     .link-container {
@@ -17,7 +17,7 @@
     }
 
     .description {
-      font-size: 14px;
+      font-size: calc(14px * var(--font-size-modifier));
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -28,11 +28,11 @@
     }
 
     .postDate {
-      font-size: 10px;
+      font-size: calc(10px * var(--font-size-modifier));
     }
 
     .log-link {
-      font-size: 14px;
+      font-size: calc(14px * var(--font-size-modifier));
       color: var(--links-text-mobile);
       margin-top: 7px;
     }

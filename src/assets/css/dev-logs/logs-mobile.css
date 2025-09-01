@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
   .info-header {
-    font-size: 0.8rem;
+    font-size: calc(0.8rem * var(--font-size-modifier));
   }
   .dev h4 {
-    font-size: 14px;
+    font-size: calc(14px * var(--font-size-modifier));
   }
 }

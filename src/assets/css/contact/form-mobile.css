@@ -1,14 +1,14 @@
 @media (max-width: 768px) {
   input, textarea {
-    font-size: 14px;
+    font-size: calc(14px * var(--font-size-modifier));
   }
 
 .errorX {
-  font-size: 8px;
+  font-size: calc(8px * var(--font-size-modifier));
 }
 
 .errorText {
-  font-size: 10px;
+  font-size: calc(10px * var(--font-size-modifier));
 }
 
 }

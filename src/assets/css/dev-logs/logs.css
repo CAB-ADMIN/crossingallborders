@@ -3,7 +3,7 @@
   padding: 0;
   border: none;
   background: none;
-  font-size: 16px;
+  font-size: calc(16px * var(--font-size-modifier));
   line-height: 1.2;
   color: var(--text-secondary);
 }
@@ -22,5 +22,5 @@
 .dev h4 {
   padding-top: 0;
   color: var(--text-secondary);
-  font-size: 16px;
+  font-size: calc(16px * var(--font-size-modifier));
 }
