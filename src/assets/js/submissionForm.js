@@ -19,12 +19,12 @@ document.getElementById('submission-form').addEventListener('submit', async func
   event.preventDefault();
   const formData = new FormData(event.target);
   const data = {
-    name: formData.get('name'),
-    email: formData.get('email'),
-    message: formData.get('message'),
-    subject: formData.get('subject'),
-    phone: formData.get('phone') ? stripPhoneNumber(formData.get('phone')) : null,
-    phoneArea: formData.get('area-phone') ? stripAreaCode(formData.get('area-phone')) : null,
+    name: formData.get('name').trim(),
+    email: formData.get('email').trim(),
+    message: formData.get('message').trim(),
+    subject: formData.get('subject').trim(),
+    phone: formData.get('phone') ? stripPhoneNumber(formData.get('phone')).trim() : null,
+    phoneArea: formData.get('area-phone') ? stripAreaCode(formData.get('area-phone')).trim() : null,
     bot: formData.get('honeypot'),
     question: currentQuestionId,
     answer: formData.get('bot-test')
@@ -39,9 +39,8 @@ document.getElementById('submission-form').addEventListener('submit', async func
         },
         body: JSON.stringify(data)
       });
-      event.target.reset();
-      
-      window.location.href = '/thank-you';
+      // window.location.href = '/thank-you';
+      // event.target.reset();
     } catch (error) {
       console.error('Error:', error);
     }
@@ -49,10 +48,29 @@ document.getElementById('submission-form').addEventListener('submit', async func
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const botTest = document.getElementById("submission-form").querySelector('.bot-test');
+  const form = document.getElementById("submission-form");
+  const botTest = form.querySelector('.bot-test');
   const testData = newQuestion();
   botTest.placeholder = `Prove You're Human: ${testData.question}`;
   currentQuestionId = testData.id;
+
+  //^ Mark Fields are "touched" for color styling
+  if (!form) return;
+  const fields = form.querySelectorAll('input[required], textarea[required]');
+
+  fields.forEach(el => {
+    el.addEventListener('blur', () => el.classList.add('touched'));
+    el.addEventListener('input', () => el.classList.remove('touched'));
+  });
+
+  form.addEventListener('submit', () => {
+    fields.forEach(el => el.classList.add('touched'));
+  });
+
+  form.addEventListener('reset', () => {
+    fields.forEach(el => el.classList.remove('touched'));
+  });
+
 })
 
 
