@@ -1,4 +1,11 @@
+.content-container-404 {
+  flex: 1;
+}
+
 .container-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   padding: 2rem;
   background-color: var(--box-bg);
@@ -7,7 +14,6 @@
   border-radius: 8px;
   margin-top: 7rem;
   margin-bottom: 7em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .links {
