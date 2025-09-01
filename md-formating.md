@@ -75,10 +75,5 @@ This is a divider ^
   <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
-| Left Aligned | Center Aligned | Right Aligned |
-| :----------- | :------------: | ------------: |
-| Text         | Text           | Text          |
-| Text         | Text           | Text          |
-
 
 <a href="#"><button id="middle">This is a button :O</button></a>
