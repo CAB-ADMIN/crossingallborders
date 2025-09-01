@@ -6,7 +6,12 @@ page_title: "About Us"
 permalink: "about-us/index.html"
 meta_description: "?????????????????????????????????????????"
 hasPhotos: true
-photos: ["about-us/history1.jpg", "about-us/history2.jpg", "about-us/history3.jpg", "about-us/history4.jpg"]
+photos: [
+  ["about-us/history1.jpg", "History Photo 1"],
+  ["about-us/history2.jpg", "History Photo 2"],
+  ["about-us/history3.jpg", "History Photo 3"],
+  ["about-us/history4.jpg", "History Photo 4"]
+]
 updated: "2025-8-25"
 ---
 
