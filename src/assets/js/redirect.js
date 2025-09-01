@@ -1,20 +1,28 @@
 const domains = [
-  "crossingallbordersministry.com"
+  "crossingallbordersministry.com",
+  "crossingallbordersministries.org",
+  "crossingallbordersministry.net",
+  "crossingallbordersministryinternational.org",
+  "crossingallbordersministryinternational.net",
+  "crossingallbordersministryinternational.com"
 ]
 
 const reasons = [
-  "The website you attempted to load has been moved."
+  "The website you were looking for has moved to a new domain and host. We’re sorry for the inconvenience and have redirected you here automatically.",
+  "This was a secondary domain that’s no longer used. We’ve redirected you to our main website for clarity."
 ]
 
 
 
 document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search)
+  const from = parseInt(params.get("from"))
+
 
   if (params && params.get("redirect") === "true" && localStorage.getItem("hideRedirect") != "true") {
-    const from = params.get("from") ? `<strong>From:</strong> ${domains[parseInt(params.get("from"))]}` : "Unknown";
-    const page = params.get("page") ? `<strong>Page:</strong> ${params.get("page")}` : "Unknown";
-    const reason = params.get("reason") ? `<strong>Reason:</strong> ${reasons[parseInt(params.get("reason"))]}` : "Unknown";
+    const from = params.get("from") ? `<strong>From:</strong> ${domains[parseInt(params.get("from"))] || "Unknown Domain"}` : "<strong>From:</strong> Unknown Domain";
+    const page = params.get("page") ? `<strong>Page:</strong> ${params.get("page") || "Unknown Page"}` : "<strong>Page:</strong> Unknown Page";
+    const reason = params.get("reason") ? `<strong>Reason:</strong> ${reasons[parseInt(params.get("reason"))] || "Unknown Reason"}` : "";
     const pageContainer = document.getElementsByClassName("page-container");
     console.log(pageContainer);
     const redirectDiv = document.createElement("div");
