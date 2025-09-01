@@ -42,6 +42,7 @@ exports.handler = async (event) => {
     console.error(`Blocked request from blacklisted IP or email: ${ip} | ${email}`);
     return;
   }
+
   if (!validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer)) {
     return;
   }
