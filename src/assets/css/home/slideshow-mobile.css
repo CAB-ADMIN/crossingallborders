@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+
+  .image-container {
+    height: 400px;
+  }
+
+  #waves {
+    height: 100px;
+    margin-bottom: -2px;
+  }
+
+  .tagline {
+    font-size: 24px;
+    max-width: 80%;
+  }
+}

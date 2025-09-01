@@ -1,0 +1,52 @@
+.image-container {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#home, .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+#waves {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+
+path.wave {
+  fill: var(--background); 
+}
+
+.tagline {
+  text-align: center;
+  padding: 30px;
+  max-width: 40%;
+  margin: auto;
+  font-size: calc(32px * var(--font-size-modifier));
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: bold;
+  font-weight: bolder;
+}
