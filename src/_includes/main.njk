@@ -42,7 +42,7 @@
         <div class="swiper-wrapper">
           {% for photo in photos %}
             <div class="swiper-slide">
-              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] || default('No Alt Text Given') }}">
+              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] | default('No Alt Text Given') }}">
             </div>
           {% endfor %}
         </div>
