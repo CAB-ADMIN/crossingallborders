@@ -19,42 +19,42 @@
 }
 
 .redirect-container h3 {
-  font-size: calc(2em * var(--font-size-modifier));
+  font-size: calc(32px * var(--font-size-modifier));
   color: var(--text-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   text-align: center;
 }
 
 .redirect-container p {
-  font-size: calc(1.2em * var(--font-size-modifier));
+  font-size: calc(1.32px * var(--font-size-modifier));
   color: var(--text-primary);
-  margin-bottom: 0.75rem;
+  margin-bottom: 12px;
   text-align: center;
 }
 
 #stats {
-  font-size: calc(1em * var(--font-size-modifier));
+  font-size: calc(16px * var(--font-size-modifier));
   color: var(--text-primary);
   margin-bottom: 0;
-  line-height: 0.75rem;
+  line-height: 12px;
   text-align: center;
   /* word-wrap: break-word; */
 }
 
 input#hideRedirect {
-  margin-right: 0.5rem;
+  margin-right: 8px;
   accent-color: var(--accent-text);
   /* make checkbox look nice */
   border: 1px solid var(--text-primary);
   border-radius: 4px;
-  padding: 0.5rem;
+  padding: 8px
 }
 
 .redirect-container label {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   font-size: calc(0.75em * var(--font-size-modifier));
   color: var(--text-primary);
 }
