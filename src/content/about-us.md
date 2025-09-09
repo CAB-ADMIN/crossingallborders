@@ -7,10 +7,7 @@ permalink: "about-us/index.html"
 meta_description: "?????????????????????????????????????????"
 hasPhotos: true
 photos: [
-  ["about-us/history1.jpg", "History Photo 1"],
-  ["about-us/history2.jpg", "History Photo 2"],
-  ["about-us/history3.jpg", "History Photo 3"],
-  ["about-us/history4.jpg", "History Photo 4"]
+  ["about-us/7094382065792386505.jpg.jpeg", "Picture of map in warehouse"],
 ]
 updated: "2025-8-25"
 ---

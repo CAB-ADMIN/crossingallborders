@@ -5,6 +5,20 @@ subtitle: ""
 page_title: "Sewing Ministry"
 permalink: "ministries/sewing/index.html"
 meta_description: "Use your sewing skills to make a difference! Join Crossing All Borders to create bags, quilts, and clothing for orphanages and families worldwide."
+hasPhotos: true
+photos: [
+  ["sewing/1525454344267719860.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/1751879982181422387.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/2385832705794592588.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/5672715547983675139.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/5744503412704526853.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/6912684547390788168.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/7318702338546431075.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/8185435344973915108.jpg.jpeg", "Picture of Volunteers"],
+  ["sewing/bag1-1024x683.jpg", "Picture of young girls holding bags made for them"],
+  ["sewing/dr2.jpg", "Picture of bags on chairs for children"],
+  ["sewing/h7.jpg", "Picture of group of children in a field"]
+]
 updated: "2025-8-25"
 ---
 

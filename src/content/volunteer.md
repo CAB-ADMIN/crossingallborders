@@ -5,6 +5,20 @@ subtitle: ""
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
 meta_description: "Be a part of God’s work at Crossing All Borders! Volunteer individually or with groups to help sort donations, pack supplies, and serve those in need."
+hasPhotos: true
+photos: [
+  ["volunteers/2174429735423553605.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/2687127956767261956.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/4446167165805748811.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/5679518203615582973.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/600853820794072188.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/611847615623726063.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/6628482955502349323.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/6746255853632827274.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/7497501146164971727.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/7663910432207977640.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/cbcc1-1024x561.jpg", "Picture of Volunteers"]
+]
 updated: "2025-8-25"
 ---
 
