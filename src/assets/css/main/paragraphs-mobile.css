@@ -1,9 +1,9 @@
 @media(max-width: 768px){
   .content-container {
     p {
-      font-size: calc(14px * var(--font-size-modifier));
+      font-size: calc(16px * var(--font-size-modifier));
       line-height: 1.4;
-      text-indent: 1.5em;
+      text-indent: 24px;
     }
 
     #small-text-center {
@@ -22,7 +22,7 @@
 
     ul, ol {
       font-size: calc(14px * var(--font-size-modifier));
-      line-height: 1.4em;
+      line-height: 22px;
       margin-left: 5px;
       padding-left: 15px;
     }
