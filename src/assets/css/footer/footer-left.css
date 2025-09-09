@@ -1,7 +1,7 @@
 .footer-left {
   color: var(--footer-text);
   text-align: left;
-  line-height: 0.5rem;
+  line-height: 8px;
   font-size: calc(12px * var(--font-size-modifier));
   padding: 0;
 }
@@ -29,7 +29,7 @@
 .disclaimers p {
   font-size: calc(12px * var(--font-size-modifier));
   max-width: 500px;
-  line-height: 0.75rem;
+  line-height: 12px;
 }
 
 .copyright {

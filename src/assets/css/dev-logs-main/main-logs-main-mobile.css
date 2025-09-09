@@ -9,7 +9,7 @@
     }
 
     h3 {
-      font-size: calc(1.2em * var(--font-size-modifier));
+      font-size: calc(1.32px * var(--font-size-modifier));
     }
 
     .link-container {
