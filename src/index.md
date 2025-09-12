@@ -40,7 +40,7 @@ photos: [
   ["home/cropped-CAB-Tuesday-Night-PIC-scaled-2.jpg", "Picture of volunteers"]
 ]
 updated: 2025-8-26
-tagline: "Crossing All Borders Ministries. Serving communities across the globe."
+tagline: "Spirit Lead Me Where My Trust Is Without Borders"
 ---
 
 list of photos
