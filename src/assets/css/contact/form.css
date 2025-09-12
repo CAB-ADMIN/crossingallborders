@@ -4,7 +4,7 @@
   padding: 10px;
 }
 
-input, textarea {
+input, textarea{
   width: 100%;
   border: 0;
   border-bottom: 3px solid var(--form-border-color);
@@ -34,6 +34,28 @@ input#short {
   margin-right: 15px;
 }
 
+button {
+  padding: 0;
+  margin: 0;
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--error-color);
+  font-size: calc(18px * var(--font-size-modifier));
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.input-group {
+  position: relative;
+}
+
+
 
 input:focus {
   border-bottom-color: var(--form-border-color-focus);
@@ -61,6 +83,14 @@ textarea[required].touched:valid {
   border-color: var(--form-border-color);
 }
 
+input[required].touched:invalid ~ .error-icon,
+textarea[required].touched:invalid ~ .error-icon {
+  display: inline-block;
+  visibility: visible;
+}
+
+
+
 
 
 textarea:focus {
@@ -83,7 +113,3 @@ textarea:focus {
   color: var(--text-secondary);
   font-size: calc(12px * var(--font-size-modifier));
 }
-
-
-
-
