@@ -6,7 +6,7 @@
       text-indent: 24px;
     }
 
-    #small-text-center {
+    #small-text-center, #small-text {
       font-size: calc(8px * var(--font-size-modifier));
     }
 
