@@ -1,8 +1,14 @@
-@media (max-width: 844px) {
+@media (max-width: 960px) {
   .top {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .link-groups {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
   }
 
   .footer {
