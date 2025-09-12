@@ -70,6 +70,10 @@ function checkAllInputs(formData, questions) {
     document.location.href = "https://www.google.com";
   }
 
+  if (!formData.terms) {
+    errors.push("You must agree to the terms and conditions and privacy policy.");
+  }
+
   const errorDiv = document.getElementById("submission-form").querySelector(".errors");
   errorDiv.innerHTML = "";
   errors.forEach((error) => {

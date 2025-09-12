@@ -27,7 +27,8 @@ document.getElementById('submission-form').addEventListener('submit', async func
     phoneArea: formData.get('area-phone') ? stripAreaCode(formData.get('area-phone')).trim() : null,
     bot: formData.get('honeypot'),
     question: currentQuestionId,
-    answer: formData.get('bot-test')
+    answer: formData.get('bot-test'),
+    terms: formData.get('terms') === 'on' ? true : false
   }
 
   if (checkAllInputs(data, questions)) {
@@ -72,6 +73,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 })
+
+
+window.onload = function() {
+  window.addEventListener("beforeunload", function (e) {
+    let conMsg = "Are you sure you want to leave? Your message will not be saved."; 
+    (e || window.event).returnValue = conMsg; 
+    return conMsg;
+  })
+}
+
 
 
 function newQuestion() {
