@@ -61,6 +61,7 @@ body {
   --error-color: #a80303;
   --form-border-color: var(--hr-color);
   --form-border-color-focus: #547ba3;
+  --form-checkbox-completed: #11af9f;
   --form-border-color-invalid: var(--error-color);
 }
 
@@ -97,6 +98,7 @@ body {
   --error-color: #ff3333;
   --form-border-color: var(--hr-color);
   --form-border-color-focus: #547ba3;
+  --form-checkbox-completed: #11af9f;
   --form-border-color-invalid: var(--error-color);
 }
 
