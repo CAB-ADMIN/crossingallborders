@@ -29,8 +29,7 @@ exports.handler = async (event) => {
       console.log('Invalid JSON received');
       return;
     }
-
-    let { name, email, message, subject, phone, phoneArea, bot, question, answer } = requestData;
+    let { name, email, message, subject, phone, phoneArea, bot, question, answer, terms } = requestData;
 
   if (!name || !email || !message || !subject) {
     return;
@@ -43,7 +42,7 @@ exports.handler = async (event) => {
     return;
   }
 
-  if (!validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer)) {
+  if (!validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer, terms)) {
     return;
   }
 

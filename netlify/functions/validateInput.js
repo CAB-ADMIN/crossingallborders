@@ -29,7 +29,8 @@ const ErrorCodes = {
   BOT_TRAP: 'BOT_TRAP',
   QUESTION_INDEX_INVALID: 'QUESTION_INDEX_INVALID',
   ANSWER_MISSING: 'ANSWER_MISSING',
-  ANSWER_INCORRECT: 'ANSWER_INCORRECT'
+  ANSWER_INCORRECT: 'ANSWER_INCORRECT',
+  TERMS_NOT_ACCEPTED: 'TERMS_NOT_ACCEPTED'
 };
 
 function toStr(v) {
@@ -67,11 +68,10 @@ function isSafeText(v) {
 
 
 function validateInputWithCode(fields) {
-  console.log(fields)
   let {
     name, email, subject, message,
     phone = '', phoneArea = '',
-    bot = '', question, answer
+    bot = '', question, answer, terms
   } = fields || {};
 
   name = trim(name);
@@ -153,13 +153,17 @@ function validateInputWithCode(fields) {
     return { ok: false, code: ErrorCodes.ANSWER_INCORRECT, message: 'challenge answer incorrect' };
   }
 
+  if (!terms) {
+    return { ok: false, code: ErrorCodes.TERMS_NOT_ACCEPTED, message: 'terms and conditions must be accepted' };
+  }
+
   return { ok: true };
 }
 
 
-function validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer) {
+function validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer, terms) {
   const res = validateInputWithCode({
-    name, email, subject, message, phone, phoneArea, bot, question, answer
+    name, email, subject, message, phone, phoneArea, bot, question, answer, terms
   });
   return res.ok;
 }
