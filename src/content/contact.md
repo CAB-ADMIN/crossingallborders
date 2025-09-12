@@ -5,20 +5,43 @@ subtitle: ""
 page_title: "Contact Us"
 permalink: "contact/index.html"
 scripts: ["checkFormInputs.js", "submissionForm.js"]
-stylesheets: ["contact/form.css", "contact/form-mobile.css"]
-meta_description: "Have questions or want to get involved? Contact Crossing All Borders via our online form, email, phone, or visit our local office. We’d love to hear from you!"
+stylesheets: ["contact/form.css", "contact/form-checkbox.css", "contact/form-mobile.css"]
+meta_description: "Contact Crossing All Borders Ministries to ask questions, get involved, or request support. Reach us by online form, phone, or visit our North Carolina warehouse. We welcome your inquiries and look forward to connecting with you!"
 updated: "2025-8-25"
 ---
 
 <form id="submission-form">
-  <input type="text" name="name" placeholder="Name" maxlength="50" required>
-  <input type="email" name="email" placeholder="Email" maxlength="254" required>
-  <input type="text" name="subject" placeholder="Subject" maxlength="200" required>
+  <div class="input-group">
+    <input type="text" name="name" placeholder="Name" maxlength="50" required>
+    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+  </div>
+  <div class="input-group">
+    <input type="email" name="email" placeholder="Email" maxlength="254" required>
+    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+  </div>
+  <div class="input-group">
+    <input type="text" name="subject" placeholder="Subject" maxlength="200" required>
+    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+  </div>
   <span><input type="tel" id="short" name="area-phone" maxlength="5" placeholder="+1"><input type="tel" name="phone" placeholder="(000) 000-0000" maxlength="15"></span>
-  <input type="text" class="bot-test" id="null" name="bot-test" placeholder="Error..." maxlength="100" required>
-  <textarea name="message" placeholder="Your Message" maxlength="2000" required></textarea>
+  <div class="input-group">
+    <input type="text" class="bot-test" id="null" name="bot-test" placeholder="Error..." maxlength="100" required>
+    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+  </div>
+  <div class="input-group">
+    <textarea name="message" placeholder="Your Message" maxlength="2000" required></textarea>
+    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+  </div>
   <input type="text" name="honeypot" style="display:none;" aria-hidden="true" autocomplete="off">
-  <button type="submit" id="form">Send Message</button>
+  <div class="checkbox-group">
+    <label for="terms" class="checkbox-container">
+      <p><span>I agree to the </span><a target="_blank" href="/legal/terms-and-conditions">terms and conditions</a><span> and </span><a target="_blank" href="/legal/privacy-policy">privacy policy</a><span>.</span></p>
+      <input type="checkbox" name="terms" id="terms">
+      <span class="check-mark"></span>
+    </label>
+  </div>
+
+  <div><button type="submit" id="form">Send Message</button></div>
   <div ><ul class="errors"></ul></div>
 </form>
 

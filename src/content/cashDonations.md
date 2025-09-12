@@ -3,7 +3,7 @@ layout: "iframe-fullscreen"
 sub-text: ""
 page_title: "Financial Donations"
 permalink: "donations/financial/index.html"
-meta_description: "Make an impact with Crossing All Borders! Contribute financially to help those in need locally and globally."
+meta_description: "Support Crossing All Borders Ministries with a financial donation. Your contribution helps provide essential resources and aid to those in need locally and globally. Give securely online or by mail to make a lasting impact through Christ-centered outreach."
 stylesheets: ["donations/giving-form.css"]
 updated: "2025-8-25"
 ---
