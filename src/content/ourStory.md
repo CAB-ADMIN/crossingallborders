@@ -9,7 +9,13 @@ hasPhotos: true
 photos: [
   ["our-story/history1.jpg", "Picture of the original mission room"],
   ["our-story/history2.jpg", "Picture of the original mission room"],
-  ["our-story/history3.jpg", "Picture of barrels for sorting clothing"]
+  ["our-story/history3.jpg", "Picture of barrels for sorting clothing"],
+  ["our-story/8385795584050897889.jpg.jpeg", "Picture of Joeth and the Board of Directors"],
+  ["our-story/1662058648176417631.jpg.jpeg", "Picture of Joeth in front of boxes in the newly acquired warehouse"],
+  ["our-story/5554689048846376399.jpg.jpeg", "Picture of Joeth in newly acquired warehouse"],
+  ["our-story/830757742326392256.jpg.jpeg", "Picture of newly built wooden shelves in the warehouse"],
+  ["our-story/4568121740271206085.jpg.jpeg", "Picture of hygiene area"],
+  ["our-story5327272017549919486.jpg.jpeg", "Picture of hygiene area (different angle)"],
 ]
 updated: "2025-9-12"
 ---
@@ -21,6 +27,10 @@ We did ministry for fifteen years out of three Sunday school rooms with donation
 The 16,000 square foot warehouse space we are blessed to use was owned by Bob Barker until March 2020. He was so kind to bless us with using it rent free prior to selling.
 
 At the age of 19 and 20 my husband Ashley and I got married and started attending Faith Bible Fellowship in Raliegh. The ladies at that church were collecting things for missionaries all over the world. There was a brochure, Workers Together, that went out from Wheaton Bible College every other month. It would list missionaries all over the world. The brochure included things that they needed personally or things they needed for the ministry. The ladies would collect the donations but nobody knew how to ship them. Shipping internationally is complicated. It’s different for every country—what’s needed, how to ship it. At that particular time, I was doing architectural drafting and office design for a company that set up dental offices in North Carolina and South Carolina. 
+
+<a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Faithful-Small-Things-Ministry-Nations/dp/1961614480">
+  <img src="/assets/images/pages/our-story/faithful-book.jpeg" alt="Picture of the book Faithful in Small Things by Joeth Barker"/>
+</a>
 
 We had a shipping department at that company.  I went to my boss and I said, “Hey, can I use the shipping department on my lunch break? I’ll pay for everything. I’ll bring on my own supplies.” He agreed, and that helped me. I started learning how to ship internationally and fill out all the customs forms. Because of that, the ministry started internationally. We didn’t know we were starting a ministry, we were just being obedient. I want to tell the young people reading this that God will work in small things, and he can start them even now in your life. If he can trust you with something small, he will continue to give more and more and more and more. God used something I had from my job to help move those shipments to different missionaries and missions' organizations. That was one small thing that God had put in my life that made a big difference. My husband and I still just really felt God was calling us to go into foreign missions and we battled it for a long time. But in the meantime, I’m like, “Okay, God, I’m going to be obedient to what you’ve given me to do at this moment at this time, and maybe this is the stepping stone to go to a different country and serve you.”
 
