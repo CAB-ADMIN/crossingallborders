@@ -5,6 +5,14 @@ subtitle: ""
 page_title: "National (U.S.A) Ministry"
 permalink: "ministries/national/index.html"
 meta_description: "Providing prayer, encouragement, and tangible support to those in need across the U.S.A., Crossing All Borders Ministries meets physical, mental, and spiritual needs through Christ-centered outreach, partnerships, and donations to Christian organizations, following the example of Jesus in serving and sharing the Gospel."
+hasPhotos: true
+photos: [
+  ["national/9116840210174751595.jpg.jpeg", "Picture of women with boxes on cart"],
+  ["national/5264162329095214649.jpg.jpeg", "Picture of women standing in front of full box truck"],
+  ["national/319788174721096462.jpg.jpeg", "Picture of women making hygiene kits"],
+  ["national/7344109134822601224.jpg.jpeg", "Picture of truck loaded with supplies"],
+  ["national/7087510311010660192.jpg.jpeg", "Picture of truck loaded with supplies"]
+]
 updated: "2025-9-9"
 ---
 
