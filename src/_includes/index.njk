@@ -4,13 +4,15 @@
 
     <link rel="stylesheet" href="/assets/css/home/slideshow.css">
     <link rel="stylesheet" href="/assets/css/home/slideshow-mobile.css">
+    <link rel="stylesheet" href="/assets/css/home/home-content.css">
+    <link rel="stylesheet" href="/assets/css/home/home-content-mobile.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!--! Swiper CSS -->
     <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
-    <title>{{page_title}} | Crossing All Borders</title>
+    <title>{{page_title}} | Crossing All Borders Ministries</title>
   </head>
   
 <body>
@@ -24,7 +26,7 @@
         <div class="swiper-wrapper">
           {% for photo in photos %}
             <div class="swiper-slide">
-              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] | default('No Alt Text Given') }}">
+              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] | default('No Alt  Given') }}">
             </div>
           {% endfor %}
         </div>
@@ -43,7 +45,10 @@
     
     <div class="tagline"><i>{{ tagline }}</i></div>
 
+    
     <div class="main-container">
+      
+
       {{ content | safe}}
     </div>
 
@@ -55,7 +60,6 @@
 
     {% include "footer.njk" %}
   </div>
-
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
