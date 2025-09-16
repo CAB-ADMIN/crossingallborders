@@ -46,11 +46,11 @@ module.exports = function(eleventyConfig) {
     .use(markdownItMark)
     .use(markdownItSub)
     .use(markdownItSup)
-    .use(markdownItContainer, "photo-block", {
+    .use(markdownItContainer, "block", {
       render: function(tokens, idx) {
         const token = tokens[idx];
         if (token.nesting === 1) {
-          return `<div class="photo-block">\n`;
+          return `<div class="block">\n`;
         } else {
           return `</div>\n`;
         }
