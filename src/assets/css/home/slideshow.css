@@ -45,8 +45,8 @@ path.wave {
   padding: 30px;
   max-width: 40%;
   margin: auto;
-  font-size: calc(32px * var(--font-size-modifier));
-  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(28px * var(--font-size-modifier));
+  font-family: 'LEMONMILK-Regular', Times, serif;
   text-decoration: bold;
   font-weight: bolder;
   margin-bottom: 60px;
