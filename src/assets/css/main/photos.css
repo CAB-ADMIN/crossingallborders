@@ -12,6 +12,15 @@
     height: 50vh;
   }
 
+  .centered-sm-ctr {
+    display: flex;
+    justify-content: center;
+  }
+
+  .centered-sm-ctr img {
+    width: 30%;
+  }
+
 
 
   .swiper-slide {
