@@ -1,141 +1,92 @@
-# Crossing All Borders Ministry Website
+# Crossing All Borders Ministries
 
-A fast, secure, and maintainable static site for Crossing All Borders Ministry.
+A fast, secure, and maintainable static site for Crossing All Borders Ministries.
 
 Website: https://crossingallborders.org
 
-## About Crossing All Borders
+## Summary
 
-Crossing All Borders Ministry exists to share the love of Christ through missions, outreach, and service. This site helps communicate the mission, highlight opportunities to serve, and keep supporters informed.
+This repository builds a static website using Eleventy (11ty). Content is authored in Markdown and rendered with Nunjucks templates. Styling is theme-driven via CSS variables. 
 
-## Tech Stack
+Donations (cash/online) are processed through the Vanco system.
 
-- Eleventy (11ty) static site generator
-- Nunjucks templates (src/_includes)
-- Markdown content (src/content)
-- CSS with design tokens (CSS variables, light/dark themes)
-- Markdown-It and plugins:
-  - markdown-it-attrs, footnote, mark, sub, sup, container
-- Plugins:
-  - @mightyplow/eleventy-plugin-cache-buster (content-hash query params)
-  - @quasibit/eleventy-plugin-sitemap (XML sitemap)
+See the repository LICENSE for terms: ./LICENSE
 
-## How It Works
+## Key features
 
-- Content authoring
-  - Pages and dev logs are Markdown with front matter.
-  - Logs use a simple, essay-style header (author, date, version, update type) and paragraph sections.
-- Templates
-  - Shared partials in src/_includes (header.njk, banner.njk, footer.njk, css.njk).
-  - Logs layout uses a top-right essay header and optional photo gallery.
-- Assets
-  - CSS/JS/images live under src/assets and are passthrough-copied.
-  - Styles use CSS variables (no hardcoded colors) for easy theming.
-- Performance
-  - Minifier compresses output in _site.
-  - Cache buster appends ?v=<hash> to CSS/JS so browsers fetch fresh files only when content changes.
+- Static site powered by Eleventy
+- Light/dark theme support via CSS variables
+- Responsive homepage (hero + cards/slideshow) optimized for mobile and desktop
+- Swiper-based slideshow support for featured content
+- Serverless email handling via Netlify Functions (nodemailer)
+- VANCO integration for donation processing
+- Cache-busting for static assets
 
-## Project Structure
+## Tech stack
+
+- Eleventy (11ty)
+- Nunjucks templates in src/_includes
+- Markdown content in src/content
+- CSS variables for theming in src/assets/css
+- JS enhancements in src/assets/js
+- Netlify for deployment and Netlify Functions for server-side tasks
+
+## How it works
+
+- Templates: shared partials live in src/_includes (header.njk, footer.njk, css.njk, etc.).
+- Home page: uses a centered responsive hero and tile/card components or a Swiper slideshow. 
+- Assets: CSS/JS/images are passthrough-copied and cache-busted during build.
+- Email: serverless function sends site emails; credentials live in Netlify environment variables.
+- Donations: links/forms integrate with Vanco; sensitive keys and redirect URLs are stored in environment configuration.
+
+## Project structure (high level)
 
 - src/
-  - _includes/ … Nunjucks partials (css.njk, header.njk, banner.njk, footer.njk, logs.njk, etc.)
+  - _includes/ — Nunjucks partials
   - assets/
-    - css/ … global styles and section styles
-    - js/ … site scripts
-    - images/ … images and logos
-  - content/
-    - logs/
-      - Docs/
-        - template.md … dev log template
-- _site/ … build output (do not edit)
-- .eleventy.js … Eleventy config
-- package.json … scripts and metadata
+    - css/ — global and section styles
+    - js/ — theme, header, slideshow scripts
+    - images/ — logos and photos
+  - content/ — Markdown pages and dev logs
+- .eleventy.js — Eleventy configuration and passthroughs
+- netlify.toml — Netlify build/dev config
+- netlify/functions/ — serverless functions (email, validation)
+- _site/ — generated output
+- README.md — this document
+- LICENSE — see repository root (link only)
 
 ## Development
 
-Prerequisites: Node.js 18+ (LTS recommended)
+Requirements: Node.js 18+
 
 Install:
 ```powershell
 npm install
 ```
 
-Run locally (serve with live reload):
+Run locally:
 ```powershell
 npx @11ty/eleventy --serve
 ```
 
-Build for production:
+Build:
 ```powershell
 npx @11ty/eleventy
 ```
 
-Recommended package.json scripts:
-```json
-{
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "clean": "rimraf _site",
-    "build:clean": "rimraf _site && eleventy"
-  }
-}
-```
+## Cache busting
 
-On Windows, install rimraf if you use the clean scripts:
-```powershell
-npm i -D rimraf
-```
+A cache-buster plugin appends a content-based hash query string to static assets so browsers fetch updates only when the asset changes.
 
-## Cache Busting Notes
+## Donations / Vanco
 
-- The cache buster plugin scans built HTML and appends ?v=<md5> based on the asset’s file content.
-- Only changed files get a new hash; unchanged files keep the same URL for optimal caching.
-- Ensure assets are available before HTML is processed (passthrough copies in .eleventy.js handle this).
+The site integrates with Vanco for cash and online donations via embedded iframes and links. All information regarding Vanco is processed and handled by Vanco. No sensitive information is stored in this repository.
 
-
-## Writing Development Logs
-
-Use the provided template (src/content/logs/Docs/template.md):
-
-```markdown
----
-description: "Template document for development logs."
-postDate: "08-20-2025"
-author: "Silas Schlax"
-version: "x.x.x"
-subtitle: "patch/minor/major"
-devTime: "x hours"
-layout: "logs"
-sitemap:
-  ignore: true
-title: "Version x.x.x Log"
-page_title: "Version x.x.x Log"
-permalink: "development-logs/logs/docs/template/index.html"
-hasPhotos: false
-photos: []
----
-
-Intro paragraph explaining the update, what changed, and why.
-
-### Page/Feature affected
-- High-level change summary
-
-### Another Area
-- What changed and the impact
-```
-
-
-## Deployment
-
-- Build: `npx @11ty/eleventy`
-- Deploy the `_site` folder to any static host (Netlify, GitHub Pages, Cloudflare Pages, S3, etc.).
-- Because of cache busting, users receive updated assets immediately on each deploy.
 
 ## Contributing
 
-Single-developer project maintained for a non-profit. Open issues or PRs for suggestions and fixes.
+Single-developer maintained project. Open issues or PRs for suggested fixes.
 
 ## License
 
-See repository
+See ./LICENSE
