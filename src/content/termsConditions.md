@@ -41,7 +41,7 @@ These Terms and Conditions may be amended from time to time in order to maintain
 Please contact us if you have any questions or concerns.  Our contact details are as follows:
 **Email:** <a href="mailto:info@crossingallborders.org?subject=Terms and Conditions Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20regarding%20your%20privacy%20policy.%20Please%20get%20back%20to%20me.%0A%0AThank%20you!%0A">info@crossingallborders</a>
 **Us Mail:** 
-Crossing All Borders
+Crossing All Borders Ministries
 PO Box 132
 Lillington, NC  27546
 
