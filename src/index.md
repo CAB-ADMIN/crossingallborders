@@ -39,20 +39,6 @@ photos: [
   ["home/cropped-1000044641.jpg", "Picture of volunteers"],
   ["home/cropped-CAB-Tuesday-Night-PIC-scaled-2.jpg", "Picture of volunteers"]
 ]
-updated: 2025-8-26
-tagline: "Spirit Lead Me Where My Trust Is Without Borders"
+updated: 2025-9-12
+tagline: "We Cross Geographic, Ethnic, Economic, Educational, and Denominational Borders to Help Those in Need."
 ---
-
-list of photos
-
-Purpose:
-
-Mission:
-
-Beliefs:
-
-Volunteer
-
-donate
-
-**Make these tiles**
