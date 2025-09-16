@@ -36,7 +36,7 @@ body {
 
 
 :root[data-theme="light"] {
-  --text-primary: #1a1a1a;
+  --text-primary: #201B57;
   --text-secondary: #555555;
   --accent-text: #11af9f;
   --highlight-bg: #6289c4;
