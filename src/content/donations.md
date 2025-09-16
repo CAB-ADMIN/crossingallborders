@@ -39,7 +39,7 @@ updated: "2025-8-25"
 
 #### Items Not Accepted:
 
-- Beds, Sofas, electronic items, printers, pianos, desks, and Christmas items
+- Beds, sofas, electronic items, printers, pianos, desks, and christmas items
 
 
 *Please take these to [Beacon Thrift](https://www.beaconmission.com){target="_blank"} in Fuquay-Varina.*
