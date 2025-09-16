@@ -59,4 +59,9 @@ html, body {
   margin: 0 3px;
 }
 
+.footer-link {
+  color: var(--footer-text);
+  text-decoration: none;
+}
+
 
