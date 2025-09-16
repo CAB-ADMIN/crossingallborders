@@ -32,6 +32,10 @@ The items that we bless these ministries with allow them to do ministry to their
 
 We ship a lot of school supplies and have sent textbooks and school desk in order to start more schools in five different countries. Education is something we take for granted but it is non existent or lacking basic supplies in many parts of the world.
 
+<a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Gods-Power-Midst-War-Miraculous/dp/B0DZPJ8P1R">
+  <img src="/assets/images/pages/international/godPower-book.jpeg" alt="Picture of the book God's Power in The Midst of War by Joeth Barker"/>
+</a>
+
 We also ship medical supplies to hospitals and clinics in need. We currently have twelve countries that depend on us for basic and more complex supplies in order to provide medical care in their communities. We have shipped items to build medical clinics and even a medical college in Congo.
 
 We have been blessed to also go see and serve in Dominican Republic, Honduras, and Guatemala.
