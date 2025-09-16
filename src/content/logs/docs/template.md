@@ -16,14 +16,16 @@ hasPhotos: false
 photos: []
 ---
 
+### Category
 
-### Page/Feature effected:
-#### Type of effect ( ✅Created, ↗️updated, ⚠️ bug fix, etc...)
-- List of what was done
+1. Description of idea (✅Created, ↗️updated, ⚠️ bug fix, etc...)
+::: block
+<p>index.njk</p>
+<p>about-us.md</p>
+:::
+- Implement a new feature for user profiles
 
-### Page/Feature effected:
-#### Type of effect ( ✅Created, ↗️updated, ⚠️ bug fix, etc...)
-- List of what was done
+
 
 
 
