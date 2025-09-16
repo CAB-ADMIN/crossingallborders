@@ -1,0 +1,122 @@
+.handout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--paragraph-bg);
+  color: var(--text-primary);
+  max-width: 800px;
+  margin: auto;
+}
+
+.info-ct {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid var(--text-primary);
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.info-ct .cont {
+  max-width: 300px;
+  width: 100%;
+  line-height: 1;
+  text-align: left;
+  padding: 0;
+}
+
+.info-ct .cont p {
+  padding: 0;
+  font-size: 14px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+}
+
+.info-ct img {
+  max-width: 250px;
+  height: auto;
+  padding-right: 20px;
+}
+
+
+.hd {
+  font-size: 32px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.instr-ct {
+  width: 100%;
+  text-align: left;
+  font-size: 14px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  border: 4px solid var(--hr-color);
+  padding: 20px;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+.excl-mark {
+  font-size: 40px;
+  color: var(--error-color);
+  background-color: var(--background);
+  font-weight: bold;
+  margin-right: 10px;
+  /* align overlapping border in top left */
+  position: relative;
+  top: -23px;
+  left: -10px;
+}
+
+.instr-ct ul {
+  font-size: 16px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+}
+
+
+.no-donate-ct {
+  width: 99%;
+  text-align: left;
+  font-size: 14px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  padding: 0;
+  margin: 0;
+}
+
+.bubble {
+  position: relative;
+  max-width: 90%;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.bubble-svg.pc {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bubble-svg.mobile {
+  display: none;
+}
+
+.bubble-text {
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  width: 64%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.bubble-text p {
+  color: var(--footer-text);
+  font-size: 16px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  /* padding: 10px; */
+}
