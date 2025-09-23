@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .graphic-container .background {
+    max-height: 700px;
+    height: 700px;
+  }
+  .groups-ghc {
+    top: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 700px;
+  }
+}
