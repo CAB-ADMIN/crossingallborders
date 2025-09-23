@@ -1,8 +1,12 @@
 @media (max-width: 768px) {
   .graphic-container .background {
-    max-height: 700px;
-    height: 700px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
   }
+
   .groups-ghc {
     top: 0;
     align-items: center;
