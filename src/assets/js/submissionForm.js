@@ -40,8 +40,8 @@ document.getElementById('submission-form').addEventListener('submit', async func
         },
         body: JSON.stringify(data)
       });
-      // window.location.href = '/thank-you';
-      // event.target.reset();
+      window.location.href = '/thank-you';
+      event.target.reset();
     } catch (error) {
       console.error('Error:', error);
     }
