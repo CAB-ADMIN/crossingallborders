@@ -39,6 +39,7 @@ photos: [
   ["home/cropped-1000044641.jpg", "Picture of volunteers"],
   ["home/cropped-CAB-Tuesday-Night-PIC-scaled-2.jpg", "Picture of volunteers"]
 ]
-updated: 2025-9-12
+updated: 2025-9-23
 tagline: "We Cross Geographic, Ethnic, Economic, Educational, and Denominational Borders to Help Those in Need."
+meta_description: "Crossing All Borders Ministries provides essential goods—food, clothing, hygiene, medical, and household items—to individuals, families, ministries, and communities in need, locally and internationally, through volunteer-driven programs that demonstrate the love of Jesus Christ."
 ---
