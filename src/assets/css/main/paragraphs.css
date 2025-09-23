@@ -33,7 +33,7 @@
   }
 
   blockquote p {
-    color: var(--text-secondary);
+    color: var(--accent-text);
     line-height: 18px;
     text-indent: 0;
     margin-left: 20px;
