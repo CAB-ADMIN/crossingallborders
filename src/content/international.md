@@ -17,7 +17,7 @@ photos: [
   ["international/8374779718193253039.jpg.jpeg", "Picture of boxes and bags on table"],
   ["international/8571541712828152752.jpg.jpeg", "Picture of Joeth talking to a group of children"]
 ]
-updated: "2025-9-9"
+updated: "2025-9-23"
 ---
 
 We are blessed to work with many churches to provide support to missionaries and ministries all around the world. We donate to other non-profits and churches based in the United States that have ministries in other countries. This is how our international connections have been made. Every ministry or church internationally that we have been blessed to support with tangible goods is a Christian church or ministry that lines up with our mission, purpose and our Biblical doctrine. If we cloth and feed those in need but do not share the Gospel of Jesus Christ as the only way to receive salvation and go to heaven upon death it is wood, hay and stubble. Clothes will wear out and be outgrown. Food will provide a meal but one will be hungry again. We want to give the bread of life and living water to those in need. We have been blessed to have something from our ministry go into 105 other countries through other non-profits, churches and individual going on mission trips and through shipping boxes and containers. 
@@ -34,6 +34,7 @@ We ship a lot of school supplies and have sent textbooks and school desk in orde
 
 <a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Gods-Power-Midst-War-Miraculous/dp/B0DZPJ8P1R">
   <img src="/assets/images/pages/international/godPower-book.jpeg" alt="Picture of the book God's Power in The Midst of War by Joeth Barker"/>
+  <p>This is test text.</p>
 </a>
 
 We also ship medical supplies to hospitals and clinics in need. We currently have twelve countries that depend on us for basic and more complex supplies in order to provide medical care in their communities. We have shipped items to build medical clinics and even a medical college in Congo.

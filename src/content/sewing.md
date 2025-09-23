@@ -19,28 +19,26 @@ photos: [
   ["sewing/dr2.jpg", "Picture of bags on chairs for children"],
   ["sewing/h7.jpg", "Picture of group of children in a field"]
 ]
-updated: "2025-9-9"
+updated: "2025-9-23"
 ---
 
 
-***Can you sew? Can you cut fabric?*** Then we could use your skills in our sewing ministry. We have many different sewing projects that can be done by individuals or groups. You make these items at home in your own time and return them to us. Most items are shipped internationally to orphanages.
+Can you sew? Can you cut fabric? Then we could use your skills in our sewing ministry. We have multiple sewing projects that can be done by individuals or groups. You make these items at home in your own time and return them to us. Most of these items are shipped internationally to orphanages.
 
 ### Types of projects you can help with:{.accent}
 
 
-#### 1. Bags out of prison uniforms
+#### Bags out of prison uniforms
 
-One of the donations we receive is new prison uniforms from the Bob Barker Company in Fuquay-Varina, NC. They are manufacture defects, misprints and overstock. They all must be sent out of the USA. We ship all the wearable sizes to be used as clothing to those in need. The sizes 3XL to 20 XL are too big for anyone to wear in another country but the fabric is good quality and can be used in many different ways. One of the main ways we use the fabric is to make a simple cloth bag. We cut the uniforms into sqaures at the warehouse and individuals also cut these at home and return them to us. Then others pick them up and sew them in their homes.
+One of the donations we receive is new prison uniforms from the Bob Barker Company in Fuquay-Varina, NC. They are manufacturer defects, misprints and overstock that must be sent out of the United States. We ship all the wearable sizes to be used as clothing to those in need. The larger sizes (up to 20 XL) are cut into fabric squares from which basic cloth bags are made. As of August 2025, 57,000 bags have been made. They have gone into 105 countries through various organizations, churches and individuals. Our local Campbell University Medical School even uses them on their medical mission trips.
 
-**History:** We were getting so many uniforms that in 2012 my mother, Marlene Pannkuk, came up with the idea to make a simple cloth bag. This maybe a simple thing that we would not use but it is life changing for those who have nothing to receive one. As of August 2025, 57,000 bags have been made. They have gone into 105 countries through various organizations, churches, individuals and even our local Campbell University Medical School uses them on their medical mission trips.
+The uniform fabric has also been used to make Christmas stockings, adult bibs, hats, dresses, shorts, dolls, fidget quilts and bags for walkers.
 
-Other items that have been made from the uniforms: Quilts, Christmas stockings, beads of courage bags, adult bibs, hats, dresses, shorts, dolls, fidget quilts and bags for walkers.
+#### Blankets
 
-#### 2. Blankets
-
-We receive extremely large sweatshirts/thermal shirts (4-10XL). These are made into blankets for the homeless and those in need during disasters. We also make baby blankets for orphanages. 
+We receive extremely large sweatshirts/thermal shirts (4-10XL). These are made into blankets for the homeless and those in need during disasters. They are also used to make baby blankets for orphanages. 
 
 
-#### 3. clothing
+#### Clothing
 
-It is difficult to find clothes for teenagers in orphanages. We have ladies that make skirts to ship to these young ladies. We add a shirt out of our clothing donations along with 2 new pairs of underwear and ship them to orphanages in 12 countries. Furthermore, we also make pillowcases and t-shirt dresses for these girls which are shipped to 12 different countries.
+Teenagers in orphanages have difficulty obtaining clothes. Our volunteers make skirts and dresses to ship to these young ladies. We add a shirt from our clothing donations along with new underwear and ship them to orphanages in 12 countries.

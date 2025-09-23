@@ -7,7 +7,7 @@ permalink: "contact/index.html"
 scripts: ["checkFormInputs.js", "submissionForm.js"]
 stylesheets: ["contact/form.css", "contact/form-checkbox.css", "contact/form-mobile.css"]
 meta_description: "Contact Crossing All Borders Ministries to ask questions, get involved, or request support. Reach us by online form, phone, or visit our North Carolina warehouse. We welcome your inquiries and look forward to connecting with you!"
-updated: "2025-8-25"
+updated: "2025-9-23"
 ---
 
 <form id="submission-form">
@@ -60,17 +60,17 @@ updated: "2025-8-25"
 
 
 
-### Our Hours:
+### Our Hours:{#our-hours}
 
-**Sun-Mon:** Closed
+###### **Sun-Mon:** Closed
 
-**Tue-Thur:** 10:00am-2:00pm
+###### **Tue-Thur:** 10:00am-2:00pm
 
-**Fri:** Closed
+###### **Fri:** Closed
 
-**Sat:** 8:00am-12:00pm
+###### **Sat:** 8:00am-12:00pm
 
-*Evenings and weekends are by appointment only!*
+###### *Evenings and weekends are by appointment only!*
 
 
 ---{.spacer}

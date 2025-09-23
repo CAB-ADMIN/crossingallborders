@@ -10,18 +10,17 @@ photos: [
   ["national/9116840210174751595.jpg.jpeg", "Picture of women with boxes on cart"],
   ["national/5264162329095214649.jpg.jpeg", "Picture of women standing in front of full box truck"],
   ["national/319788174721096462.jpg.jpeg", "Picture of women making hygiene kits"],
-  ["national/7344109134822601224.jpg.jpeg", "Picture of truck loaded with supplies"],
+  ["national/7344109134822601224.jpg.jpeg", "Picture of truck loaded with supplies"], 
   ["national/7087510311010660192.jpg.jpeg", "Picture of truck loaded with supplies"]
 ]
-updated: "2025-9-9"
+updated: "2025-9-23"
 ---
 
-There are times in all of our lives where we need prayer, encouragement and help. When difficulties arise in individuals' lives, we are here ready to help with tangible goods to meet their needs.
-In Matthew ==INSERT VERSE==, we see an example of Jesus meeting the needs of the five thousand that were hungry. After ministering to their physical needs, HE ministered to their spiritual needs. This is our example that we follow. We meet physical needs, build relationships and share the Gospel of Jesus Christ. We strive to meet the needs of the entire person, physical, mental and spiritual as the Holy Spirit leads guides and directs us.
+There are times in our lives where we need prayer, encouragement and help. When difficulties arise in individuals&#39; lives, we are here ready to help with tangible goods to meet their needs.
 
-We help in any area of need from homelessness, drug addiction, unplanned pregnancies, house fires, domestic violence, nursing homes, disasters, and even in war. We cannot do all of this on our own, so we partner and donate to other ministries that specialize in these specific areas. We also donate to churches doing outreach in our area to help reach more people in need. We donate to induvial and churches going on mission trips as well. We only donate to Christian organizations that their purpose aligns with ours to share the Gospel of Jesus Christ.
+In Matthew chapter 14, we see an example of Jesus meeting the needs of the five thousand that were hungry. After ministering to their physical needs, He ministered to their spiritual needs. This is the example we follow. We meet physical needs, build relationships and share the Gospel of Jesus Christ. We strive to meet the needs of the entire person, physical, mental and spiritual, as the Holy Spirit leads and directs us.
 
-We do not donate to humanitarian aid organizations because it is not what the Lord has called us to do. If we feed and clothe people and only meet tangible needs, we are not meeting the most important need in all of lives and that is to hear and know the Gospel of Jesus Christ through the death burial and resurrection of Jesus Christ as the only way to have eternal life according to the Holy, invariant word of God, the Bible. ( bible verse I am the way the truth and the life no man cometh unto the father except through me.)
+We help in a variety of needs such as homelessness, drug addiction, unplanned pregnancies, house fires, domestic violence, nursing homes, and disaster relief. We cannot do all of this on our own, so we partner with other Christian ministries that specialize in these specific areas. We also support churches doing local outreach and mission programs. All this is done for the ultimate goal of sharing the Gospel of Jesus Christ.
 
-November and December are our busy months when so many churches, individuals and groups are doing things to help others. Our most requested item during this time is hygiene kits. Additionally, we also assist many churches and individuals doing shoe boxes for Samaritans Purse.
+November and December are our busy months, with our most requested items are personal hygiene kits.
 

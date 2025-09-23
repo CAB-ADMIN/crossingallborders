@@ -9,57 +9,48 @@ hasPhotos: true
 photos: [
   ["about-us/7094382065792386505.jpg.jpeg", "Picture of map in warehouse"],
 ]
-updated: "2025-9-9"
+updated: "2025-9-23"
 ---
 
-### Our Purpose: 
+### Our Mission: 
 
-###### Our singular objective is to advance the Gospel of the Lord Jesus Christ in truth and in action. Salvation comes only through the Lord Jesus Christ.
+We cross geographic, ethnic, educational and denominational borders to help those in need.
 
-> "Jesus saith unto him, I am the way the truth and the life no man cometh unto the father but by me" – John 14:6.
-
-
-### Our Mission:
-
-We strive to minister to the entire person, both physically and spiritually, in their time of need by following the example Jesus gave us in Matthew 14:13-21.  There HE gave us an example of providing for their physical need of hunger as well as their spiritual needs. 
-
-We meet an individual’s tangible needs during life’s difficult times while offering love and compassion. In doing so, we build relationships and share the Gospel of the Lord Jesus Christ. 
-
-…If we feed and clothe people but do not share the Gospel of the Lord Jesus Christ, Did we truly help them?
-
-Individual needs can range from drug addiction, homelessness, illnesses, unplanned pregnancies, domestic violence, to natural disasters and wars. 
-
-
-
-We meet these needs in local communities, across our nation, and in other countries through multiple ways. Those ways include donations to church outreach programs, and other Christian based ministries that align with our purpose.
-
-
-
-###### We cross geographically, ethnic, economic, educational and denominational borders to meet the needs of ALL people. We strive to give the best as if we were giving it to Jesus himself.
-
->  "40 Assuredly, I say to you, inasmuch as you did it to one of the least of these My brethren, you did it to Me" – Matthew 25:31-46.
-
-
-
+We strive to demonstrate the love of Jesus Christ through donations of tangible goods. Our mission is to participate in the work of the Holy Spirit to reach people for Christ and to provide opportunities for spiritual growth through service.
 
 
 ### Our Beliefs:
 
-###### 1. Scripture is our foundation. We are committed to serving others and living according to its truth and authority.{#non-list-style}
+###### There is one God. He is the creator and ruler of the universe.
 
-> "ALL scripture is given by the inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, thoroughly furnished unto all good works" – 2 Timothy 3:16-17.
+> “I am the LORD and there is no other; There is no God besides Me.” – Isaiah 45:5.
 
-###### 2. Our Faith is without borders; we trust the work of the Holy Spirit in our lives to serve HIM in boldness, sharing the Gospel of our Lord Jesus Christ knowing it is not of ourselves but of HIM who lives in us.
+###### Jesus Christ is the son of God. He was crucified as a sacrifice for the sins of all people. He arose from the dead and ascended into heaven. He is the only path to salvation.
 
-> "If you have the faith of a mustard seed.....nothing will be impossible for you" – Matthew 17:20.
+> “Jesus answered, ‘I am the way and the truth and the life. No one comes to the Father except through me.’” – John 14:6.
 
-###### 3. We serve with joy, knowing God is faithful.
+###### Scripture is our foundation. We are committed to serving others and living according to its truth and authority.
 
-> "And let us not be weary in well doing for in due season we shall reap, if we faint not." – Galatians 6:9.
+> “All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.” – 2 Timothy 3:16-17.
 
-###### 4. We serve knowing the Lord will return one day for HIS people and we want to be serving HIM when HE returns.
+###### God calls us to serve all that are in need.
 
-> "Behold, I say unto you, Lift up your eyes and look on the fields, for they are white already to harvest" – John 4:35.
+> “And the King will answer and say to them, ‘Assuredly, I say to you, inasmuch as you did it to one of the least of these My brethren, you did it to Me.’” – Matthew 25:40.
+
+###### Our Faith is without borders; we trust the work of the Holy Spirit in our lives to serve Him in boldness, sharing the Gospel of our Lord Jesus Christ knowing it is not of ourselves but of Him who lives in us.
+
+> “So Jesus said to them, ‘Because of your unbelief; for assuredly, I say to you, if you have faith as a mustard seed, you will say to this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.’” – Matthew 17:20.
+
+
+###### We serve with joy, knowing God is faithful.
+
+> “And let us not grow weary while doing good, for in due season we shall reap if we do not lose heart.” – Galatians 6:9
+
+###### We serve knowing the Lord will return one day for His people and we want to be serving Him when He returns.
+
+> “Do you not say, ‘There are still four months and then comes the harvest’? Behold, I say to you, lift up your eyes and look at the fields, for they are already white for harvest!” – John 4:35
+
+
 
 ### Our History:
 

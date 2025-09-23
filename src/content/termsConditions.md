@@ -3,7 +3,7 @@ layout: "main"
 title: "Terms and Conditions"
 subtitle: "Effective Date: October 9, 2025"
 permalink: "legal/terms-and-conditions/index.html"
-meta_description: "??"
+meta_description: "Terms and conditions for Crossing all Borders Ministries website."
 updated: "2025-9-9"
 ---
 
