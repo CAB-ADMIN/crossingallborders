@@ -12,6 +12,8 @@ const questions = [
 ];
 
 let currentQuestionId = null;
+let formTouched = false;
+let redirecting = false
 
 
 
@@ -40,6 +42,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
         },
         body: JSON.stringify(data)
       });
+      redirecting = true;
       window.location.href = '/thank-you';
       event.target.reset();
     } catch (error) {
@@ -62,14 +65,17 @@ document.addEventListener("DOMContentLoaded", () => {
   fields.forEach(el => {
     el.addEventListener('blur', () => el.classList.add('touched'));
     el.addEventListener('input', () => el.classList.remove('touched'));
+    formTouched = true;
   });
 
   form.addEventListener('submit', () => {
     fields.forEach(el => el.classList.add('touched'));
+    formTouched = true;
   });
 
   form.addEventListener('reset', () => {
     fields.forEach(el => el.classList.remove('touched'));
+    formTouched = false;
   });
 
 })
@@ -77,10 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 window.onload = function() {
   window.addEventListener("beforeunload", function (e) {
+    if (redirecting || !formTouched) return; // No prompt if redirecting or untouched
     let conMsg = "Are you sure you want to leave? Your message will not be saved."; 
     (e || window.event).returnValue = conMsg; 
     return conMsg;
-  })
+  });
 }
 
 
