@@ -7,13 +7,13 @@ header {
   margin: 0;
   padding: 0;
   font-size: calc(16px * var(--font-size-modifier));
-  max-height: 75px;
+  max-height: 85px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .pfp img {
   width: auto;
-  height: 50px;
+  height: 60px;
   object-fit: cover;
   border-radius: 7px;
   border: 1px solid var(--hr-color);
@@ -54,7 +54,7 @@ a:hover {
   padding: 15px;
   flex-direction: column;
   gap: 10px;
-  margin-top: 26px;
+  margin-top: 30px;
   align-items: center;
 }
 
