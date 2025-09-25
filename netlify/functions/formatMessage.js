@@ -40,9 +40,7 @@ Re: ${sanitizedSubject}
     ${sanitizedMessage.replace(/\n/g, '<br>')}
     </p>
 
-    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-      <a href="mailto:${sanitizedEmail}?subject=${encodeURIComponent(newSubject)}&body=${encodeURIComponent(newMessage)}" style="color: white; text-decoration: none;">Reply to ${sanitizedName}</a>
-    </button>
+    <a style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" href="mailto:${sanitizedEmail}?subject=${encodeURIComponent(newSubject)}&body=${encodeURIComponent(newMessage)}">Reply to ${sanitizedName}</a>
 
     <hr style="margin-top: 2em;">
 
