@@ -21,7 +21,7 @@ html, body {
   text-align: center;
   font-size: calc(14px * var(--font-size-modifier));
   max-width: 100%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: var(--font-family-secondary);
 }
 
 .top {
@@ -62,6 +62,10 @@ html, body {
 .footer-link {
   color: var(--footer-text);
   text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--footer-text);
 }
 
 

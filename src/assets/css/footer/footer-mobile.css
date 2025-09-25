@@ -40,4 +40,8 @@
   .image {
     padding: 7px;
   }
+
+  .footer-link {
+    padding: 0;
+  }
 }

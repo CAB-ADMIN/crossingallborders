@@ -13,6 +13,7 @@
   }
 
   h1 {
+    color: var(--accent-text);
     font-size: calc(32px * var(--font-size-modifier));
     text-indent: 0;
     font-weight: bold;

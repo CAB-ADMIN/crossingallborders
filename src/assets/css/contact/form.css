@@ -13,7 +13,7 @@ input, textarea{
   color: var(--text-secondary);
   border-radius: 2px;
   margin-bottom: 5px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: var(--font-family-secondary);
   font-size: calc(16px * var(--font-size-modifier));
 }
 

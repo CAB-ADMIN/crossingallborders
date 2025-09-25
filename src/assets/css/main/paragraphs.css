@@ -34,10 +34,12 @@
 
   blockquote p {
     color: var(--accent-text);
+    font-weight: bold;
     line-height: 18px;
     text-indent: 0;
     margin-left: 20px;
     border-left: 3px solid var(--text-secondary);
+    font-family: var(--font-family-secondary);
     padding-left: 15px;
     padding-bottom: 0;
   }
@@ -72,6 +74,7 @@
 
 
   h1 {
+    color: var(--accent-text);
     font-size: calc(32px * var(--font-size-modifier));
     text-indent: 0;
     font-weight: bold;
@@ -118,7 +121,7 @@
   }
 
   h1, h2, h3, h4, h5 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-family-accent);
   }
 
   h3, h4 {
