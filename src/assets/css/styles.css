@@ -4,11 +4,23 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/assets/fonts/Merriweather-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+}
+
 
 body {
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Merriweather', sans-serif;
   background-color: var(--background);
   color: var(--text-primary);
   font-size: calc(16px * var(--font-size-modifier));
@@ -26,8 +38,9 @@ body {
   --font-size-modifier: 1;
   --font-word-spacing-modifier: 1;
   --font-letter-spacing-modifier: 1; 
-  --font-family: Arial, sans-serif;
-  --font-family-secondary: 'Times New Roman', Times, serif;
+  --font-family: 'Merriweather', sans-serif;
+  --font-family-secondary: 'Montserrat', 'Merriweather', serif;
+  --font-family-accent: 'LEMONMILK-Regular', Arial, sans-serif;
   --font-line-height-modifier: 1;
   --click-target-padding-size-modifier: 1;
 }
@@ -62,9 +75,9 @@ body {
   --button-bg: #0077cc;
   --button-text: #ffffff;
   --button-hover-bg: #005fa3;
-  --button-bg-cash-donations: #C07B02;
+  --button-bg-cash-donations: #1EB0A1; /* #C07B02 */
   --button-text-cash-donations: #ffffff;
-  --button-hover-bg-cash-donations: #a66b02;
+  --button-hover-bg-cash-donations: #1A8B8D; /* #a66b02 */
   --error-color: #a80303;
   --form-border-color: var(--hr-color);
   --form-border-color-focus: #547ba3;
@@ -99,9 +112,9 @@ body {
   --button-bg: #3399ff;
   --button-text: #ffffff;
   --button-hover-bg: #1a8cff;
-  --button-bg-cash-donations: #C07B02;
+  --button-bg-cash-donations: #1EB0A1; /* #C07B02 */
   --button-text-cash-donations: #ffffff;
-  --button-hover-bg-cash-donations: #a66b02;
+  --button-hover-bg-cash-donations: #1A8B8D; /* #a66b02 */
   --error-color: #ff3333;
   --form-border-color: var(--hr-color);
   --form-border-color-focus: #547ba3;
