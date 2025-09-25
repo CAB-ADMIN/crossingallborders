@@ -16,13 +16,15 @@ photos: [
   ["medical/8846302737252397246.jpg.jpeg", "Picture of Volunteers"],
   ["medical/medical1.jpg", "Picture of makeshift medical clinic"]
 ]
-updated: "2025-9-9"
+updated: "2025-9-25"
 ---
 
-We are blessed in the United States with amazing medical facilities and abilities to get the care we need when we are sick or need surgeries. This unfortunately is not the case in many other parts of the world. We were blessed to add medical donations to our ministry in 2019. The Lord opened the door for us to take over medical donations from another non-profit ministry. We receive from one of the largest hospitals in our area every other week. These donations consist of a wide variety of supplies from basic first aid up to surgical kits. Since that time the Lord has opened up the door for us to ship these items into twelve different countries to simple clinics as well as hospitals doing surgical procedures. Due to lack of medical supplies many countries reuse needles and other basic items that are only meant to be used on one patient then discarded. Our supplies are only shipped to medical doctors and not to individuals. We also donate non-prescription items received to those in need in our local community. Things such as wound care, chucks, diapers and durable medical items.
+We in the United States are blessed with excellent medical care. This unfortunately is not the case in many other parts of the world. Medical donations became part of our ministry in 2019 when the Lord opened the door for us to take over medical donations from another non-profit ministry. We receive medical supply donations from a major local hospital every other week. These donations consist of a wide variety of items from basic first aid to surgical kits. We have been privileged to provide materials to hospitals and clinics in 12 countries thus far.
 
-We also donate items to Campbell University medical School for their medical mission trips as well as churches and organizations going on medical mission trips. We have shipped entire containers of medical supplies to hospitals in Haiti, Ukraine, Zambia and St. Lucia. We shipped medical books and items needed in 2022 to help start a medical college in Congo. This year we are shipping items to Zambia to start a new medical clinic. We have three new countries requesting shipments this year.
+These medical supplies are only shipped to medical doctors and not to individuals. We distribute non-prescription medical goods to those in need in our local community.
 
-We also receive medical donations from clinics, doctor offices and individuals. We take **ANYTHING** medical. ***(Open packages and expired items are all acceptable.)***
+We also donate items to churches, organizations, and Campbell University Medical School for their medical mission trips. We have distributed entire shipping containers of medical supplies to hospitals in Haiti, Ukraine, Zambia and St. Lucia. We shipped medical books and items needed in 2022 to help start a medical college in Congo. In 2025 we shipped items to Zambia to start a new medical clinic.
 
-Durable medical items are always needed. Hospital beds, walkers, bedside commodes, shower chairs, crutches, lift chairs and electric scooters. These donations can be scheduled for pick-up as needed.
+We accept medical donations from clinics, doctors, and individuals, including open packages and expired items.
+
+Durable medical items are always needed. These include hospital beds, walkers, bedside commodes, shower chairs, crutches, lift chairs and electric scooters. These donations can be scheduled for pick-up as needed.

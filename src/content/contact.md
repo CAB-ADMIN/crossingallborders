@@ -7,7 +7,7 @@ permalink: "contact/index.html"
 scripts: ["checkFormInputs.js", "submissionForm.js"]
 stylesheets: ["contact/form.css", "contact/form-checkbox.css", "contact/form-mobile.css"]
 meta_description: "Contact Crossing All Borders Ministries to ask questions, get involved, or request support. Reach us by online form, phone, or visit our North Carolina warehouse. We welcome your inquiries and look forward to connecting with you!"
-updated: "2025-9-23"
+updated: "2025-9-25"
 ---
 
 <form id="submission-form">
@@ -35,8 +35,8 @@ updated: "2025-9-23"
   <input type="text" name="honeypot" style="display:none;" aria-hidden="true" autocomplete="off">
   <div class="checkbox-group">
     <label for="terms" class="checkbox-container">
+      <input tabindex="0" type="checkbox" name="terms" id="terms">
       <p><span>I agree to the </span><a target="_blank" href="/legal/terms-and-conditions">terms and conditions</a><span> and </span><a target="_blank" href="/legal/privacy-policy">privacy policy</a><span>.</span></p>
-      <input type="checkbox" name="terms" id="terms">
       <span class="check-mark"></span>
     </label>
   </div>
@@ -62,13 +62,9 @@ updated: "2025-9-23"
 
 ### Our Hours:{#our-hours}
 
-###### **Sun-Mon:** Closed
+###### **Tuesday, Wednesday, Thursday:** 10:00am-2:00pm
 
-###### **Tue-Thur:** 10:00am-2:00pm
-
-###### **Fri:** Closed
-
-###### **Sat:** 8:00am-12:00pm
+###### **Saturday:** 8:00am-12:00pm
 
 ###### *Evenings and weekends are by appointment only!*
 
