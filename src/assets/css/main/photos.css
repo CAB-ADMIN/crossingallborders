@@ -20,6 +20,8 @@
   }
 
   .centered-sm-ctr p {
+    width: 30%;
+    text-align: center;
     padding-top: 3px;
     padding-bottom: 20px;
     font-size: calc(12px * var(--font-size-modifier));
@@ -29,6 +31,7 @@
 
   .centered-sm-ctr img {
     width: 30%;
+    border: 7px solid var(--background-opposite);
   }
 
 
