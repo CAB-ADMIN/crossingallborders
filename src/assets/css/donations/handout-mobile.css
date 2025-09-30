@@ -49,3 +49,31 @@
     top: 16%
   }
 }
+
+@media (max-width: 961px) and (min-width: 601px) {
+  .bubble {
+    max-width: 80%;
+    width: 80%;
+  }
+
+  .bubble-text p {
+    font-size: 13px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+    padding: 8px;
+  }
+
+  .bubble-svg.pc {
+    display: none;
+  }
+  
+  .bubble-svg.mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .bubble-text {
+    top: 18%
+  }
+  
+}

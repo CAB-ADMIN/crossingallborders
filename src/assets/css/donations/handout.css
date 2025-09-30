@@ -117,6 +117,6 @@
 
 .bubble-text p {
   color: var(--footer-text);
-  font-size: 16px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  font-size: 15px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
   /* padding: 10px; */
 }
