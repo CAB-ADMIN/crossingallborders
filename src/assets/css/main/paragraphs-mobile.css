@@ -1,9 +1,13 @@
 @media(max-width: 768px){
   .content-container {
     p {
-      font-size: 14px;
+      font-size: calc(16px * var(--font-size-modifier));
       line-height: 1.4;
-      text-indent: 1.5em;
+      text-indent: 24px;
+    }
+
+    #small-text-center, #small-text {
+      font-size: calc(8px * var(--font-size-modifier));
     }
 
     blockquote {
@@ -17,8 +21,8 @@
     }
 
     ul, ol {
-      font-size: 14px;
-      line-height: 1.4em;
+      font-size: calc(14px * var(--font-size-modifier));
+      line-height: 22px;
       margin-left: 5px;
       padding-left: 15px;
     }
@@ -28,31 +32,38 @@
     }
 
     h1 {
-      font-size: 24px;
+      font-size: calc(28px * var(--font-size-modifier));
     }
 
     h2 {
-      font-size: 18px;
+      font-size: calc(22px * var(--font-size-modifier));
       padding-bottom: 10px;
     }
 
     h3 {
-      font-size: 16px;
+      font-size: calc(16px * var(--font-size-modifier));
       text-align: left;
     }
 
     h4 {
-      font-size: 14px;
+      font-size: calc(14px * var(--font-size-modifier));
       text-align: left;
     }
 
     h6 {
-      font-size: 14px;
+      font-size: calc(14px * var(--font-size-modifier));
       line-height: 1.4;
     }
 
     a {
       color: var(--links-text-mobile);
+      padding: 0;
+      margin: 0;
+    }
+
+    iframe#map {
+      width: 90%;
+      height: 300px;
     }
   }
 }

@@ -1,8 +1,14 @@
 .content-container {
   max-width: 1200px;
   width: 90%;
-  padding: 20px;
+  padding: 40px;
   margin: auto;
   background-color: var(--paragraph-bg);
+  
+  /* If content cannot fill page, center vertically (text and content wise)*/ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 

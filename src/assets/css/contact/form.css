@@ -1,0 +1,115 @@
+#submission-form {
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+
+input, textarea{
+  width: 100%;
+  border: 0;
+  border-bottom: 3px solid var(--form-border-color);
+  padding: 10px;
+  background-color: var(--paragraph-bg);
+  color: var(--text-secondary);
+  border-radius: 2px;
+  margin-bottom: 5px;
+  font-family: var(--font-family-secondary);
+  font-size: calc(16px * var(--font-size-modifier));
+}
+
+textarea {
+  min-height: 150px;
+  height: auto;
+  border: 3px solid var(--form-border-color);
+  margin-top: 10px;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
+input#short {
+  width: 50px;
+  margin-right: 15px;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--error-color);
+  font-size: calc(18px * var(--font-size-modifier));
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.input-group {
+  position: relative;
+}
+
+
+
+input:focus {
+  border-bottom-color: var(--form-border-color-focus);
+  outline: none;
+}
+
+input[required].touched:invalid {
+  border-bottom-color: var(--form-border-color-invalid);
+}
+
+input[required].touched:valid {
+  border-bottom-color: var(--form-border-color);
+}
+
+textarea:focus {
+  border-color: var(--form-border-color-focus);
+  outline: none;
+}
+
+textarea[required].touched:invalid {
+  border-color: var(--form-border-color-invalid);
+}
+
+textarea[required].touched:valid {
+  border-color: var(--form-border-color);
+}
+
+input[required].touched:invalid ~ .error-icon,
+textarea[required].touched:invalid ~ .error-icon {
+  display: inline-block;
+  visibility: visible;
+}
+
+
+
+
+
+textarea:focus {
+  border-color: var(--form-border-color-focus);
+}
+
+.errorDiv {
+  display: flex;
+  columns: 2;
+}
+
+.errorX {
+  color: var(--error-color);
+  font-size: calc(10px * var(--font-size-modifier));
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.errorText {
+  color: var(--text-secondary);
+  font-size: calc(12px * var(--font-size-modifier));
+}

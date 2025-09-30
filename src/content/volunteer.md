@@ -1,74 +1,52 @@
 ---
 layout: "main"
-title: "Volunteer"
+title: "Volunteering"
 subtitle: ""
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
+meta_description: "Join Crossing All Borders Ministries as a volunteer—help sort donations, pack supplies, and serve those in need. All ages and abilities are welcome, including individuals, families, and groups. Flexible hours and meaningful opportunities to make a difference in your community."
+hasPhotos: true
+photos: [
+  ["volunteers/2174429735423553605.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/2687127956767261956.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/4446167165805748811.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/5679518203615582973.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/600853820794072188.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/611847615623726063.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/6628482955502349323.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/6746255853632827274.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/7497501146164971727.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/7663910432207977640.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/cbcc1-1024x561.jpg", "Picture of Volunteers"],
+  ["volunteers/8428436275329135318.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/3215404115753913095.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/8612120906003079314.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/5354060266215099429.jpg.jpeg", "Picture of Volunteers"],
+  ["volunteers/5401895406077368578.jpg.jpeg", "Picture of Volunteers"],
+]
+updated: "2025-9-23"
 ---
 
-Lorem ipsum dolor **sit amet consectetur adipisicing** elit. Molestias maxime, culpa, nulla quaerat cum a aliquam, in deserunt excepturi earum *tempore consequatur fugiat hic incidunt laboriosam placeat!* Debitis, recusandae aperiam.
+Selfless discipleship through Christian service is the engine that powers Crossing all Borders. Come be a part of what God is doing! Come when you can, leave when you need to.
 
-> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolorem repellendus perspiciatis voluptate in ex reprehenderit optio illum, sunt laboriosam molestias odit quaerat! Velit minima earum ut cupiditate nesciunt consectetur.
+Individual volunteers can serve during our [regular hours](/contact/#our-hours) and volunteer without an appointment. For groups of 10 or more, please call (910-890-7201) to schedule a time to come.
 
-###### Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officiis pariatur, eius explicabo odio possimus iure fugit optio ea cumque tenetur. Quisquam nesciunt porro amet, et doloribus aliquam cupiditate quae.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non temporibus sequi deleniti sint consectetur nesciunt incidunt molestias id quibusdam! Voluptatum neque nobis, repudiandae et temporibus sequi. Id praesentium porro recusandae!
+### Who Can Volunteer?
 
-- This is a bullet point
-- This is another bullet point
+Everyone! We welcome all ages. We have jobs for those that need to sit. We work with families with special needs children to accommodate their abilities and create the environment that works for them. We welcome individuals and groups up to 50 people at one time. This included families, youth groups, ladies', groups, men’s groups, scout troops, businesses, and school clubs. We work with those who need service hours for clubs and those who need required community service hours for the courts upon approval. If you are willing, God can use you!
+
+
+#### You can serve by helping with:
+- Sorting clothes
+- Making hygiene kits
+- Sorting and boxing medical supplies
+- Breaking down surgical kits
+- Packing shipments for various countries
+- Preparing orders of requested items
+- Sorting donations that have come in and putting them in the correct area
+- General maintenance – cutting grass, weed eating, taking trash out, cleaning bathrooms, sweeping floors
 
 ---{.spacer}
-<!-- this is a spacer ^^^ -->
 
-1. This is a numbered list
-2. This is another numbered list
-
-# Title (only used once per page, put in page data) (h1)
-
-## Subtitle (only used for page data) (h2)
-
-### Section Header (h3)
-
-#### Subsection Header (h4)
-
-##### Image Header (changed background, and centered) (h5)
-
-###### Non-indented normal test (h6)
-
-!Spacer (just put with no text, to get a 20px space) (---{.spacer})
-
-**This is bold text**
-
-*This is italic text*
-
-~~This is strike through~~
-
-This is ==very important== text.
-
-This is a superscript text ^2^.
-
-This is a subscript text ~2~.
-
----
-This is a divider ^
-
-[This is a link](https://example.com)
-
-::: photo-block
-  This is a photo title {#title}
-
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
-:::
-
-::: photo-block
-  This is a photo title {#title}
-  
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
-:::
-
-| Left Aligned | Center Aligned | Right Aligned |
-| :----------- | :------------: | ------------: |
-| Text         | Text           | Text          |
-| Text         | Text           | Text          |
-
-
+**REQUIREMENT: We ask those that serve to complete a liability and media release form.**{.accent}

@@ -1,0 +1,52 @@
+a#btn {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+
+button#middle {
+  display: block;
+  margin: 0 auto;
+}
+
+button#small {
+  padding: 7px 10px;
+  font-size: calc(12px * var(--font-size-modifier));
+  margin: 0;
+}
+
+button#form {
+  width: 100%;
+  background-color: var(--paragraph-bg);
+  border: 3px solid var(--hr-color);
+  color: var(--text-primary);
+  font-size: calc(16px * var(--font-size-modifier));
+  padding: 5px;
+}
+
+button#form:hover {
+  border: 3px solid var(--background-opposite)
+}
+
+button.cash-donations {
+  background-color: var(--button-bg-cash-donations);
+  color: var(--button-text-cash-donations);
+}
+
+button.cash-donations:hover {
+  background-color: var(--button-hover-bg-cash-donations);
+}
+

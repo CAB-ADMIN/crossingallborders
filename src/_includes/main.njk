@@ -1,30 +1,84 @@
 <html lang="en">
 <head>
   {% include "css.njk" %}
+  {% for css in stylesheets %}
+    <link rel="stylesheet" href="/assets/css/{{ css }}">
+  {% endfor %}
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{page_title}} | Crossing All Borders</title>
+  <meta name="description" content="{{meta_description}}">
+  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!--! Swiper CSS -->
+  <title>{{page_title}} | Crossing All Borders Ministries</title>
+
+  <!--! Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
+
+  {% if noRobots %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
 </head>
 
 <body>
+  <script src="/assets/js/redirect.js"></script>
 
-<div class="page-container">
-  {% include "header.njk" %}
+  <div class="page-container">
+    {% include "header.njk" %}
 
-  {% include "banner.njk" %}
+    {% include "banner.njk" %}
 
 
-  <main class="content-container">
+    <main class="content-container">
 
-    <h1>{{title | safe}}</h1>
-    <h2>{{subtitle | safe}}</h2>
+      
+      <h1>{{title | safe}}</h1>
+      <h2>{{subtitle | safe}}</h2>
+      {{ content | safe }}
 
-    {{ content | safe }}
+      {% if hasPhotos %}
+      
+      <div class="swiper" id="small">
+        <div class="swiper-wrapper">
+          {% for photo in photos %}
+            <div class="swiper-slide">
+              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] | default('No Alt Text Given') }}">
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-button-prev"></div> 
+        <div class="swiper-button-next"></div>
+      </div>
 
-  </main>
+      {% endif %}
 
-  {% include "footer.njk" %}
-</div>
+    </main>
 
+    {% include "footer.njk" %}
+  </div>
+
+  {% for script in scripts %}
+    <script src="/assets/js/{{ script }}"></script>
+  {% endfor %}
+
+
+  {% if hasPhotos %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        lazy: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        direction: 'horizontal',
+        loop: true,
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+  {% endif %}
 </body>

@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  {% include "css.njk" %}
+  {% for css in stylesheets %}
+    <link rel="stylesheet" href="/assets/css/{{ css }}">
+  {% endfor %}
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{meta_description}}">
+  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+  <title>{{page_title}} | Crossing All Borders Ministries</title>
+
+  <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
+</head>
+
+<body>
+  <script src="/assets/js/redirect.js"></script>
+
+  <div class="page-container">
+    {% include "header.njk" %}
+
+    {% include "banner.njk" %}
+
+
+    <main class="content-container">
+
+      <div class="handout">
+        <div class="info-ct">
+          <img src="/assets/images/main/logo.jpg" alt="Crossing All Borders Ministries Logo">
+          <div class="cont">
+            <p><strong>Crossing All Borders Ministries</strong></p>
+            <p>1446 James Norris Rd</p>
+            <p>Angier, NC 27501</p><br>
+            <p><strong>HOURS:</strong> Tuesday, Wednesday, Thursday 10am-2pm; Saturday 8am-12pm</p>
+          </div>
+        </div>
+
+        <div class="instr-ct">
+          <i class="excl-mark fa-solid fa-circle-exclamation"></i>
+          <p class="hd">Instructions for Donations</p>
+          <ul>
+            <li>Please bag like items together and separately from other donations. E.g. all towels together, all toys, together, etc.</li>
+            <li>PLease help us by <strong>pre-sorting</strong> and <strong>labeling</strong> your donations before bringing them to us. Mixed boxes/bags will NOT be accepted.</li>
+            <li>Donations will be accepted during regular hours ONLY. ALL donations must be checked by someone before left.</li>
+          </ul>
+        </div>
+
+        <div class="no-donate-ct">
+          <p class="hd">Items the CANNOT be donated</p>
+          <p>Beds, sofas, electronic items, printers, pianos, desks, and christmas items<br>Please takes these to <a target="_blank" href="https://www.beaconmission.com">Beacon Thrift</a> in Fuquary-Varina</p>
+            <div class="bubble">
+              <svg class="bubble-svg pc" width="100%" height="auto" viewBox="0 0 1626 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M147.409 300.807C132.86 288.691 122.941 275.077 118.256 260.791C113.57 246.506 114.215 231.846 120.151 217.701C128.995 195.242 147.103 174.198 173.08 156.19C199.217 137.698 232.534 122.645 270.603 112.128C323.076 97.3345 383.977 94.3611 440.375 103.839C453.184 74.4605 486.437 49.0103 533.002 32.9483C575.348 17.9215 623.187 8.19142 673.133 4.44647C723.102 0.239967 774.088 1.47523 823.189 8.08191C882.735 16.5888 934.606 33.2391 965.967 59.1234C1015.47 39.5417 1076.44 30.7579 1137.06 34.4752C1185.52 36.692 1232.68 44.2331 1275.74 56.6513C1318.14 68.3822 1355.01 85.356 1383.45 106.239C1413 127.75 1426.66 154.606 1421.69 181.419C1458.69 182.709 1494.4 189.4 1525.13 200.8C1555.85 212.201 1580.49 227.899 1596.49 246.276C1612.23 263.235 1621.89 281.699 1624.94 300.662C1628.12 319.774 1624.44 339.044 1614.09 357.374C1590.14 399.037 1530.59 434.3 1428.84 444.625C1430.74 466.251 1421.57 487.737 1402.37 506.645C1374.79 533.312 1334.66 555.412 1286.19 570.629C1235.11 587.22 1176.94 596.076 1117.61 596.295C1053.82 596.183 991.754 584.9 940.428 564.085C888.822 588.879 800.297 600.876 713.36 599.931C676.185 599.64 639.213 596.856 603.266 591.642C569.534 586.965 537.646 578.931 509.184 567.939C481.573 557.391 461.282 542.013 451.623 524.314C353.173 536.165 272.588 527.804 212.38 508.1C173.9 495.452 142.097 477.503 120.118 456.027C98.1397 434.552 86.7477 410.296 87.0695 385.658C87.1561 354.223 108.686 323.947 147.409 300.807ZM101.625 640.793C125.994 640.609 149.893 644.487 170.169 651.917C180.294 655.193 188.688 659.864 194.519 665.468C200.351 671.073 203.419 677.417 203.419 683.873C203.419 690.329 200.351 696.673 194.519 702.278C188.688 707.882 180.294 712.553 170.169 715.828C149.893 723.258 125.994 727.137 101.625 726.953C77.2974 727.136 53.4416 723.257 33.2135 715.828C23.0883 712.553 14.6947 707.882 8.86314 702.278C3.03155 696.673 -0.0359802 690.329 -0.0359802 683.873C-0.0359802 677.417 3.03155 671.073 8.86314 665.468C14.6947 659.864 23.0883 655.193 33.2135 651.917C53.4416 644.489 77.2974 640.61 101.625 640.793ZM342.323 557.323C375.862 557.115 408.739 562.461 436.67 572.665C450.074 576.943 461.198 583.079 468.931 590.461C476.664 597.842 480.733 606.21 480.733 614.727C480.733 623.244 476.664 631.612 468.931 638.993C461.198 646.375 450.074 652.511 436.67 656.789C408.611 667.009 375.586 672.332 341.926 672.058C308.224 672.333 275.156 667.011 247.049 656.789C233.646 652.511 222.521 646.375 214.789 638.993C207.056 631.612 202.986 623.244 202.986 614.727C202.986 606.21 207.056 597.842 214.789 590.461C222.521 583.079 233.646 576.943 247.049 572.665C275.144 562.421 308.211 557.074 341.926 557.323H342.323Z" fill="var(--banner-bg)" stroke="var(--paragraph-bg)" stroke-width="3.58073"/>
+              </svg>
+
+            <svg class="bubble-svg mobile" width="100%" height="auto" viewBox="0 0 1450 1649" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M133.116 680.016C120.178 652.524 111.358 621.633 107.191 589.217C103.024 556.801 103.598 523.536 108.876 491.44C116.741 440.478 132.844 392.726 155.944 351.864C179.186 309.906 208.814 275.749 242.666 251.884C289.328 218.316 343.484 211.569 393.636 233.076C405.026 166.412 434.597 108.663 476.005 72.2166C513.662 38.1192 556.202 16.0407 600.617 7.543C645.052 -2.00201 690.392 0.800922 734.055 15.7922C787.006 35.0953 833.132 72.8765 861.02 131.611C905.041 87.1778 959.26 67.2465 1013.17 75.6812C1056.26 80.7115 1098.2 97.8231 1136.48 126.001C1174.19 152.62 1206.97 191.135 1232.27 238.52C1258.55 287.332 1270.7 348.27 1266.27 409.113C1299.18 412.04 1330.93 427.221 1358.25 453.09C1385.58 478.959 1407.48 514.58 1421.72 556.279C1435.71 594.762 1444.3 636.658 1447.01 679.687C1449.84 723.054 1446.57 766.779 1437.37 808.374C1416.07 902.909 1363.12 982.926 1272.63 1006.35C1274.32 1055.43 1266.17 1104.18 1249.09 1147.09C1224.57 1207.6 1188.88 1257.74 1145.78 1292.27C1100.36 1329.92 1048.63 1350.01 995.869 1350.51C939.143 1350.26 883.951 1324.65 838.31 1277.42C792.419 1333.68 713.698 1360.9 636.389 1358.76C603.331 1358.1 570.454 1351.78 538.488 1339.95C508.491 1329.34 480.135 1311.11 454.825 1286.17C430.272 1262.23 412.228 1227.34 403.638 1187.18C316.092 1214.07 244.431 1195.1 190.892 1150.38C156.673 1121.69 128.392 1080.96 108.847 1032.23C89.303 983.498 79.1725 928.457 79.4587 872.552C79.5358 801.222 98.6812 732.524 133.116 680.016ZM92.4023 1451.48C114.073 1451.06 135.325 1459.86 153.355 1476.72C162.359 1484.15 169.823 1494.75 175.009 1507.47C180.195 1520.19 182.922 1534.58 182.922 1549.23C182.922 1563.88 180.195 1578.28 175.009 1591C169.823 1603.71 162.359 1614.31 153.355 1621.74C135.325 1638.6 114.073 1647.4 92.4023 1646.99C70.7689 1647.4 49.555 1638.6 31.5672 1621.74C22.5633 1614.31 15.0993 1603.71 9.91356 1591C4.72781 1578.28 2 1563.88 2 1549.23C2 1534.58 4.72781 1520.19 9.91356 1507.47C15.0993 1494.75 22.5633 1484.15 31.5672 1476.72C49.555 1459.87 70.7689 1451.06 92.4023 1451.48ZM306.443 1262.08C336.268 1261.61 365.504 1273.74 390.342 1296.89C402.261 1306.6 412.153 1320.52 419.03 1337.27C425.906 1354.02 429.525 1373.01 429.525 1392.33C429.525 1411.66 425.906 1430.65 419.03 1447.4C412.153 1464.15 402.261 1478.07 390.342 1487.78C365.391 1510.97 336.023 1523.04 306.09 1522.42C276.121 1523.05 246.715 1510.97 221.721 1487.78C209.802 1478.07 199.91 1464.15 193.033 1447.4C186.157 1430.65 182.538 1411.66 182.538 1392.33C182.538 1373.01 186.157 1354.02 193.033 1337.27C199.91 1320.52 209.802 1306.6 221.721 1296.89C246.705 1273.65 276.109 1261.51 306.09 1262.08H306.443Z" fill="var(--banner-bg)" stroke="var(--paragraph-bg)" stroke-width="3.58073"/>
+              </svg>
+
+              <div class="bubble-text">
+                <p>Before donations think to yourself, "Would I give this to Jesus?", "Would I like to receive this if I was in need?". If the answer is YES, then please donate it to be a blessing to someone else. If NO, then does it be to go in the trash or be recycled instead?</p>
+                <p>"Truly I tell you, whatever you did for one of the least of these brothers and sisters of mine, you did for me." - Matthew 25:40 (NIV).</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="donate-ct">
+          <p class="hd">Items that CAN be donated</p>
+          <p><strong>CLOTHES</strong> (including wedding dresses) – Bag clothes according to season and gender. E.g. women’s summer, women’s winter, Men’s summer etc. <strong>Smoke-free/pet-free clothes ONLY. Please put in white 13-gallon trash bags. NO large black trash bags accepted, they are too large and heavy for us to handle. NO clothes in cardboard boxes.</strong></p>
+          <p><strong>BOOKS</strong> – Bibles, hymn books, children’s , educational, Christian, Medical, devotional, Daily bread, Sunday school material, VBS material, and music books</p>
+          <p><strong>CRAFT SUPPLIES</strong> – Paint, glue sticks, construction paper, paint brushes, canvases, stickers, craft kits, etc.</p>
+          <p><strong>SEWING SUPPLIES</strong> – Fabric, thread, needles, sewing machines, scissors, etc.</p>
+          <p><strong>SCHOOL SUPPLIES</strong> – Paper, pencils, markers, crayons, binders, folders, composition books, etc.</p>
+          <p><strong>HYGIENE ITEMS</strong> – <strong>Full-size and unused</strong>. Shampoo, bars of soap, toothbrushes, small packs of Kleenex, razors, lotion, mouth wash, chapstick, nail clippers, dental floss, brushes/combs, deodorant, etc. <strong>Gallon ziplock bags are appreciated, we use them to pack these items.</strong></p>
+          <p><strong>MEDICAL</strong> – We take ALL medical items, including open packages and expired items.</p>
+          <p><strong>TOYS</strong> – Gently used with all pieces together. Stuffed animals (without stains), puzzles, board games, bicycles etc.</p>
+          <p><strong>KITCHEN ITEMS</strong> – <strong>Clean, in working order and newer than 10 yrs</strong>. EVERYTHING. Pots/pans, silverware, dishes, cooking utensils, measuring cups, knives, etc. When you bring items in, you will put them into 3 different sorting bins: <strong>glass items, appliances and everything else.</strong></p>
+          <p><strong>HOME DECOR</strong> – Framed artwork (no empty picture frames), knick-knacks, small furniture, lamps, etc.</p>
+          <p><strong>BABY ITEMS</strong> – Car seats, pack-n-play, cribs, swings, etc.</p>
+          <p><strong>CAMPING GEAR</strong> – Tents, coolers, sleeping bags, etc.</p>
+          <p><strong>YARD TOOLS</strong> – Rakes, shovels, axes, saws, etc.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+    {% include "footer.njk" %}
+  </div>
+</body>

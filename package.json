@@ -1,7 +1,7 @@
 {
   "name": "crossingallborders",
   "version": "1.0.0",
-  "description": "A simple website for Crossing All Borders Ministry to help them share their mission and give volunteers more information.",
+  "description": "A simple website for Crossing All Borders Ministries to help them share their mission and give volunteers more information.",
   "homepage": "https://github.com/Silas-N-Schlax/crossingallborders#readme",
   "bugs": {
     "url": "https://github.com/Silas-N-Schlax/crossingallborders/issues"
@@ -15,16 +15,24 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "build": "netlify build"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@mightyplow/eleventy-plugin-cache-buster": "^1.1.3",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.1",
+    "email-validator": "^2.0.4",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",
     "markdown-it-container": "^4.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-mark": "^4.0.0",
     "markdown-it-sub": "^2.0.0",
-    "markdown-it-sup": "^2.0.0"
+    "markdown-it-sup": "^2.0.0",
+    "nodemailer": "^7.0.5",
+    "validator": "^13.15.15"
   }
 }

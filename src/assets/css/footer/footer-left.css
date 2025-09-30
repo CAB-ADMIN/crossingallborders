@@ -1,8 +1,8 @@
 .footer-left {
   color: var(--footer-text);
   text-align: left;
-  line-height: 0.5rem;
-  font-size: 12px;
+  line-height: 8px;
+  font-size: calc(12px * var(--font-size-modifier));
   padding: 0;
 }
 
@@ -22,17 +22,18 @@
 .image img {
   width: 125px;
   height: auto;
+  border-radius: 12px;
 }
 
 
 .disclaimers p {
-  font-size: 12px;
+  font-size: calc(12px * var(--font-size-modifier));
   max-width: 500px;
-  line-height: 0.75rem;
+  line-height: 12px;
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: calc(14px * var(--font-size-modifier));
   text-decoration: bold;
   padding-bottom: 10px;
 }
@@ -40,6 +41,6 @@
 .name {
   font-weight: bold;
   color: var(--footer-text);
-  font-size: 16px;
+  font-size: calc(16px * var(--font-size-modifier));
   margin-bottom: 5px;
 }

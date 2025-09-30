@@ -4,15 +4,24 @@ title: ""
 subtitle: ""
 page_title: "TabTitle"
 permalink: "pageNameOrRoot/index.html"
+scripts: []
+stylesheets: []
+meta_description: ""
+hasPhotos: false
+photos: []
+eleventyExcludeFromCollections: true
 ---
 
 
 
-> Block quote
 
-###### Standard text, no indent
+Lorem ipsum dolor **sit amet consectetur adipisicing** elit. Molestias maxime, culpa, nulla quaerat cum a aliquam, in deserunt excepturi earum *tempore consequatur fugiat hic incidunt laboriosam placeat!* Debitis, recusandae aperiam.
 
-Standard Text with indent
+> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolorem repellendus perspiciatis voluptate in ex reprehenderit optio illum, sunt laboriosam molestias odit quaerat! Velit minima earum ut cupiditate nesciunt consectetur.
+
+###### Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, officiis pariatur, eius explicabo odio possimus iure fugit optio ea cumque tenetur. Quisquam nesciunt porro amet, et doloribus aliquam cupiditate quae.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non temporibus sequi deleniti sint consectetur nesciunt incidunt molestias id quibusdam! Voluptatum neque nobis, repudiandae et temporibus sequi. Id praesentium porro recusandae!
 
 - This is a bullet point
 - This is another bullet point
@@ -52,23 +61,19 @@ This is a subscript text ~2~.
 ---
 This is a divider ^
 
-[This is a link](https://example.com)
+[This is a link](https://example.com){target="_blank"}
 
 ::: photo-block
   This is a photo title {#title}
 
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
+  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 ::: photo-block
   This is a photo title {#title}
   
-  <img src="assets/images/main/logo.jpeg" alt="Logo Image">
+  <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
-| Left Aligned | Center Aligned | Right Aligned |
-| :----------- | :------------: | ------------: |
-| Text         | Text           | Text          |
-| Text         | Text           | Text          |
 
-
+<a href="#"><button id="middle">This is a button :O</button></a>

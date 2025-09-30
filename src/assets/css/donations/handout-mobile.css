@@ -1,0 +1,79 @@
+@media (max-width: 600px) { 
+  .handout {
+    max-width: 300px;
+  }
+
+  .info-ct .cont {
+    max-width: 200px;
+    text-align: left;
+  }
+
+  .info-ct .cont p {
+    font-size: 12px;
+    word-wrap: break-word; 
+    padding: 0;
+    text-indent: 0;
+  }
+
+  .info-ct img {
+    max-width: 150px;
+  }
+
+  .bubble {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .donate-ct p, .no-donate-ct p {
+    text-indent: 0;
+    font-size: 14px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+  }
+
+  .bubble-text p {
+    font-size: 11px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+    padding: 5px;
+  }
+
+  .bubble-svg.pc {
+    display: none;
+  }
+  
+  .bubble-svg.mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .bubble-text {
+    top: 16%
+  }
+}
+
+@media (max-width: 961px) and (min-width: 601px) {
+  .bubble {
+    max-width: 80%;
+    width: 80%;
+  }
+
+  .bubble-text p {
+    font-size: 13px; /* NO FONT SIZE CHANGE FOR HANDOUTS!*/
+    padding: 8px;
+  }
+
+  .bubble-svg.pc {
+    display: none;
+  }
+  
+  .bubble-svg.mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .bubble-text {
+    top: 18%
+  }
+  
+}

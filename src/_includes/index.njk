@@ -1,30 +1,105 @@
 <html lang="en">
-<head>
-  {% include "css.njk" %}
+  <head>
+    {% include "css.njk" %}
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{page_title}} | Crossing All Borders</title>
-</head>
+    <link rel="stylesheet" href="/assets/css/home/slideshow.css">
+    <link rel="stylesheet" href="/assets/css/home/slideshow-mobile.css">
+    <link rel="stylesheet" href="/assets/css/home/home-content.css">
+    <link rel="stylesheet" href="/assets/css/home/home-content-mobile.css">
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+    <meta name="description" content="{{meta_description}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!--! Swiper CSS -->
+    <link rel="canonical" href="{{ site.url }}{{ permalink }}" />
+    <title>{{page_title}} | Crossing All Borders Ministries</title>
+  </head>
+  
 <body>
+  <script src="/assets/js/redirect.js"></script>
 
-<div class="page-container">
-  {% include "header.njk" %}
+  <div class="page-container">
+    {% include "header.njk" %}
+    
+    <div class="image-container">
+      <div class="swiper" id="home">
+        <div class="swiper-wrapper">
+          {% for photo in photos %}
+            <div class="swiper-slide">
+              <img src="/assets/images/pages/{{ photo[0] }}" alt="{{ photo[1] | default('No Alt  Given') }}">
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-button-prev"></div> 
+        <div class="swiper-button-next"></div>
+      </div>
+      
+      <div id="waves">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <!-- <path class="wave" d="M-1.12,75.48 C182.28,192.92 344.24,-17.27 507.89,123.84 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path> -->
+          <!-- <path class="wave wave-alt" d="M0,102 C120,135 300,70 500,110 L500,150 L0,150 Z" style="stroke: none;"></path> -->
+          <path class="wave" d="M0,92 C70,72 150,112 230,92 S390,72 500,94 L500,150 L0,150 Z" style="stroke: none;"></path>
+        </svg>
+      </div>
+    </div>
+    
+    <div class="tagline">{{ tagline }}</div>
 
-  {% include "banner.njk" %}
+    <div class="graphic-container">
+      <img class="background" src="/assets/images/home_assets/background.png" alt="Picture of clouds and sky">
+      <div class="groups-ghc">
+        <a href="/about-us">
+          <div class="group-ghc">
+            <img class="graphic first" src="/assets/images/home_assets/graphic1.png" alt="Crossing All Borders Ministries Logo circular">
+            <img class="title first" src="/assets/images/home_assets/title1.png" alt="Image saying 'Who We Are'">
+          </div>
+        </a>
+        <a href="/volunteer">
+          <div class="group-ghc">
+            <img class="graphic" src="/assets/images/home_assets/graphic2.png" alt="Image of animated group of people">
+            <img class="title" src="/assets/images/home_assets/title2.png" alt="Image saying 'Volunteer'">
+          </div>
+        </a>
+        <a href="/donations/financial">
+          <div class="group-ghc">
+            <img class="graphic last" src="/assets/images/home_assets/graphic3.png" alt="Image of animated boxes stacked">
+            <img class="title last" src="/assets/images/home_assets/title3.png" alt="Image saying 'Donations'">
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="main-container">
+      
+
+      {{ content | safe}}
+    </div>
+
+    <!-- <main class="content-container">
 
 
-  <main class="content-container">
 
-    <h1>{{title | safe}}</h1>
-    <h2>{{subtitle | safe}}</h2>
+    </main> -->
 
-    {{ content | safe }}
+    {% include "footer.njk" %}
+  </div>
+  <script src="/assets/js/home.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        lazy: true,
+        autoplay: {
+          delay: 7000,
+          disableOnInteraction: false
+        },
+        direction: 'horizontal',
+        loop: true,
 
-  </main>
-
-  {% include "footer.njk" %}
-</div>
-
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
 </body>

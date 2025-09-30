@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .redirect-container h3,
+  .redirect-container p,
+  .redirect-container label 
+  .redirect-container button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .redirect-container h3 {
+    font-size: calc(1.7em * var(--font-size-modifier));
+  }
+}

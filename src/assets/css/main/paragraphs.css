@@ -1,29 +1,64 @@
 .content-container {
-  p {
+  p, h6, h6#non-list-style {
     color: var(--text-primary);
-    font-size: 16px;
+    font-size: calc(18px * var(--font-size-modifier));
     line-height: 1.5;
-    text-indent: 2em;
+    text-indent: 0;
     margin: 0;
     padding: 0;
+    padding-bottom: 20px
+  }
+
+  #center {
+    text-align: center;
+  }
+
+  #indent {
+    text-indent: 32px;
+  }
+
+  #small-text-center {
+    font-size: calc(12px * var(--font-size-modifier));
+    color: var(--text-secondary);
+    text-align: center;
+  }
+
+  #small-text {
+    font-size: calc(12px * var(--font-size-modifier));
+    color: var(--text-secondary);
+  }
+
+  blockquote {
+    padding-bottom: 20px;
   }
 
   blockquote p {
-    color: var(--text-secondary);
-    line-height: 1em;
+    color: var(--accent-text);
+    font-weight: bold;
+    line-height: 18px;
     text-indent: 0;
     margin-left: 20px;
     border-left: 3px solid var(--text-secondary);
+    font-family: var(--font-family-secondary);
     padding-left: 15px;
+    padding-bottom: 0;
   }
 
   ul, ol {
-    color: var(--text-primary);
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: calc(16px * var(--font-size-modifier));
+    line-height: 24px;
     margin: 0;
     margin-left: 10px;
     padding-left: 20px;
+    text-indent: 0;
+    p {
+      padding-bottom: 0;
+    }
+  }
+
+  li p {
+    text-indent: 0;
+    padding-left: 5px;
   }
 
   .spacer {
@@ -37,9 +72,10 @@
     margin: 20px 0;
   }
 
+
   h1 {
-    color: var(--text-primary);
-    font-size: 32px;
+    color: var(--accent-text);
+    font-size: calc(32px * var(--font-size-modifier));
     text-indent: 0;
     font-weight: bold;
     text-align: center;
@@ -49,7 +85,7 @@
 
   h2 {
     color: var(--text-secondary);
-    font-size: 20px;
+    font-size: calc(20px * var(--font-size-modifier));
     text-indent: 0;
     text-align: center;
     margin: 0;
@@ -57,34 +93,39 @@
   }
 
   h3 {
-    color: var(--text-primary);
-    font-size: 20px;
-    line-height: 1.5em;
+    font-size: calc(20px * var(--font-size-modifier));
+    line-height: 24px;
     text-indent: 0;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    padding-bottom: 5px;
   }
 
   h4 {
     color: var(--text-primary);
-    font-size: 18px;
-    line-height: 1.5em;
+    font-size: calc(18px * var(--font-size-modifier));
+    line-height: 24px;
     text-indent: 0;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    padding-bottom: 5px;
   }
 
 
-  h6 {
-    color: var(--text-primary);
-    font-size: 16px;
-    line-height: 1.5em;
-    text-indent: 0;
+  h6, h6#non-list-style {
+    /* text-indent: 32px; */
     font-weight: normal;
-    margin: 0;
     padding: 0;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-family-accent);
+  }
+
+  h3, h4 {
+    padding-top: 20px;
   }
 
   a {
@@ -99,5 +140,13 @@
   mark {
     background-color: var(--highlight-bg);
     color: var(--highlight-text);
+  }
+
+  iframe {
+    margin: auto;
+  }
+
+  .accent {
+    color: var(--accent-text);
   }
 }

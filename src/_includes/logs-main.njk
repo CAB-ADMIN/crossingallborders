@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+  {% include "css.njk" %}
+  {% for css in stylesheets %}
+    <link rel="stylesheet" href="/assets/css/{{ css }}">
+  {% endfor %}
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>{{page_title}} | Crossing All Borders Ministries</title>
+
+  <meta name="robots" content="noindex, nofollow">
+</head>
+
+<body>
+
+<div class="page-container">
+  {% include "header.njk" %}
+
+  {% include "banner.njk" %}
+
+
+  <main class="content-container">
+
+    <h1>{{title | safe}}</h1>
+    <h2>{{subtitle | safe}}</h2>
+    {{ content | safe }}
+
+<div class="log-categories">
+      {% for versionKey, versionLogs in logs %}
+        <div class="version-section">
+          <h3>{{ versionKey | upper }}</h3>
+          
+          <div class="log-links">
+            {% for log in versionLogs %}
+              {% if log.permalink %}
+                <span class="link-container">
+                  <a href="{{ log.permalink }}" class="log-link">
+                    {{ log.file | replace('.md', '') | replace('-log', '') }}
+                  </a>
+                  <p class="divider-dev">➡️</p>
+                  <p class="description">{{ log.description | default("No description available...") }}</p>
+                  <i><p class="postDate">{{ log.postDate | default("00-00-0000") }}</p></i>
+                </span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </main>
+
+  {% include "footer.njk" %}
+</div>
+
+{% for script in scripts %}
+  <script src="/assets/js/{{ script }}"></script>
+{% endfor %}
+
+
+</body>

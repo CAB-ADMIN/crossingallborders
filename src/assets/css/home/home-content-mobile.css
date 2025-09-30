@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .graphic-container .background {
+    min-height: 900px;
+    max-height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+  }
+
+  .groups-ghc {
+    top: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 700px;
+  }
+}

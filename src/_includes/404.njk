@@ -1,11 +1,17 @@
+---
+sitemap: 
+  ignore: true
+---
+
 <html lang="en">
 <head>
   {% include "css.njk" %}
 
-  <link rel="stylesheet" href="assets/css/404.css">
+  <link rel="stylesheet" href="/assets/css/404.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{page_title}} | Crossing All Borders</title>
+    <link rel="icon" href="/assets/images/main/logo.jpg" type="image/jpeg">
+  <title>{{page_title}} | Crossing All Borders Ministries</title>
 </head>
 
 <body>
@@ -16,7 +22,7 @@
   {% include "banner.njk" %}
 
 
-  <main class="main-content">
+  <main class="content-container-404">
 
     <div class="container-404">
       <h2 class="main">Oops — the page you’re looking for has gone on a mission trip.</h2>
@@ -24,9 +30,9 @@
         across countries, across cultures, and even across denominational lines.</p>
       <div class="links">
         <a href="/">Home</a>
-        <a href="/">About Us</a>
-        <a href="/">Volunteer</a>
-        <a href="/">Contact Us</a>
+        <a href="/about-us">About Us</a>
+        <a href="/volunteer">Volunteer</a>
+        <a href="/contact">Contact Us</a>
       </div>
     </div>
 
