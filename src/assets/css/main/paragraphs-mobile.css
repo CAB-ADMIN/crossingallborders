@@ -32,11 +32,11 @@
     }
 
     h1 {
-      font-size: calc(24px * var(--font-size-modifier));
+      font-size: calc(28px * var(--font-size-modifier));
     }
 
     h2 {
-      font-size: calc(18px * var(--font-size-modifier));
+      font-size: calc(22px * var(--font-size-modifier));
       padding-bottom: 10px;
     }
 

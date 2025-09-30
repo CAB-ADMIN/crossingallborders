@@ -11,11 +11,12 @@
     }
 
     .centered-sm-ctr img {
-    width: 75%;
+      width: 75%;
     }
 
     .centered-sm-ctr p {
       font-size: calc(12px * var(--font-size-modifier));
+      width: 75%;
     }
   }
 }
