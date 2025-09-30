@@ -29,7 +29,7 @@
   justify-content: center;
   z-index: 10;
   pointer-events: auto;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .groups-ghc a:hover {
