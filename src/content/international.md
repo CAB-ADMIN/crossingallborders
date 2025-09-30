@@ -15,13 +15,18 @@ photos: [
   ["international/6566579471633712697.jpg.jpeg", "Picture of two guys closing a box"],
   ["international/6956120964431665868.jpg.jpeg", "Picture of container partially packed"],
   ["international/8374779718193253039.jpg.jpeg", "Picture of boxes and bags on table"],
-  ["international/8571541712828152752.jpg.jpeg", "Picture of Joeth talking to a group of children"]
+  ["international/8571541712828152752.jpg.jpeg", "Picture of Joeth talking to a group of children"],
+  ["international/1653978508613366630.jpg.jpeg", "Picture of volunteers in front of shipping container"],
+  ["international/3346655466501392841.jpg.jpeg", "Picture of hygiene area"],
+  ["international/4703264782286633207.jpg.jpeg", "Picture of Men with bike on board road"],
+  ["international/1420559666132925046.jpg.jpeg", "Picture of man and women fits"],
+  ["international/6726876478023857084.jpg.jpeg", "Volunteers holding up sign saying 46th container"],
+
 ]
 updated: "2025-9-25"
 ---
 
 We are privileged to work with many churches in support of missionaries and ministries around the world. We provide tangible goods to groups who align with our beliefs. Some items we have shipped internationally are Bibles, hymn books, clothing, blankets, bedding, shoes, food, hygiene items, school supplies, desks, craft supplies, stuffed animals, and toys just to name a few.
-
 
 <img src="/assets/images/pages/international/map.jpg" alt="Map of all countries we have shipped supplies to" style="width:100%;max-width:800px;margin-bottom:20px;margin:auto">
 
@@ -34,7 +39,7 @@ Pictures, updates, and prayer requests come to us regularly from these recipient
 
 <a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Gods-Power-Midst-War-Miraculous/dp/B0DZPJ8P1R">
   <img src="/assets/images/pages/international/godPower-book.jpeg" alt="Picture of the book God's Power in The Midst of War by Joeth Barker"/>
-  <p>This is test text.</p>
+  <p>Above: Joeth’s first book, <u>Faithful in Small Things</u>, where she shares her story about how God has worked through Crossing all Borders to turn adversity into mission.</p>
 </a>
 
 Periodically, we have opportunities to personally serve in other countries. Thus far, we have travelled to the Dominican Republic, Honduras, and Guatemala.

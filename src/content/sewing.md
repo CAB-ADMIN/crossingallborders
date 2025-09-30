@@ -34,6 +34,10 @@ One of the donations we receive is new prison uniforms from the Bob Barker Compa
 
 The uniform fabric has also been used to make Christmas stockings, adult bibs, hats, dresses, shorts, dolls, fidget quilts and bags for walkers.
 
+<!-- <div class="centered-sm-ctr">
+  <img src="/assets/images/pages/sewing/sewing_middle.jpeg" alt=""/>
+</div> -->
+
 #### Blankets
 
 We receive extremely large sweatshirts/thermal shirts (4-10XL). These are made into blankets for the homeless and those in need during disasters. They are also used to make baby blankets for orphanages. 

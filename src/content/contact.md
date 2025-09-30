@@ -66,7 +66,7 @@ updated: "2025-9-25"
 
 ###### **Saturday:** 8:00am-12:00pm
 
-###### *Evenings and weekends are by appointment only!*
+###### *Evenings are by appointment only!*
 
 
 ---{.spacer}

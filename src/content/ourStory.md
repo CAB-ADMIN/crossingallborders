@@ -16,6 +16,8 @@ photos: [
   ["our-story/830757742326392256.jpg.jpeg", "Picture of newly built wooden shelves in the warehouse"],
   ["our-story/4568121740271206085.jpg.jpeg", "Picture of hygiene area"],
   ["our-story/5327272017549919486.jpg.jpeg", "Picture of hygiene area (different angle)"],
+  ["our-story/837163018441676315.jpg.jpeg", "Picture of inside of warehouse"],
+  ["our-story/6534792078366797941.jpg.jpeg", "Picture of inside of warehouse"]
 ]
 updated: "2025-9-23"
 ---
@@ -30,7 +32,7 @@ At the age of 19 and 20 my husband Ashley and I got married and started attendin
 
 <a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Faithful-Small-Things-Ministry-Nations/dp/1961614480">
   <img src="/assets/images/pages/our-story/faithful-book.jpeg" alt="Picture of the book Faithful in Small Things by Joeth Barker"/>
-  <p>This is test text.</p>
+  <p>Above: Joeth’s second book, God's Power in the Midst of War, is a compelling testament to faith, resilience, and miraculous provision amidst the war in Ukraine.</p>
 </a>
 
 We had a shipping department at that company.  I went to my boss and I said, “Hey, can I use the shipping department on my lunch break? I’ll pay for everything. I’ll bring on my own supplies.” He agreed, and that helped me. I started learning how to ship internationally and fill out all the customs forms. Because of that, the ministry started internationally. We didn’t know we were starting a ministry, we were just being obedient. I want to tell the young people reading this that God will work in small things, and he can start them even now in your life. If he can trust you with something small, he will continue to give more and more and more and more. God used something I had from my job to help move those shipments to different missionaries and missions' organizations. That was one small thing that God had put in my life that made a big difference. My husband and I still just really felt God was calling us to go into foreign missions and we battled it for a long time. But in the meantime, I’m like, “Okay, God, I’m going to be obedient to what you’ve given me to do at this moment at this time, and maybe this is the stepping stone to go to a different country and serve you.”

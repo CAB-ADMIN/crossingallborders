@@ -16,9 +16,9 @@ photos: [
 updated: "2025-9-23"
 ---
 
-There are times in our lives where we need prayer, encouragement and help. When difficulties arise in individuals&#39; lives, we are here ready to help with tangible goods to meet their needs.
+There are times in our lives where we need prayer, encouragement and help. When difficulties arise in individuals' lives, we are here ready to help with tangible goods to meet their needs.
 
-In Matthew chapter 14, we see an example of Jesus meeting the needs of the five thousand that were hungry. After ministering to their physical needs, He ministered to their spiritual needs. This is the example we follow. We meet physical needs, build relationships and share the Gospel of Jesus Christ. We strive to meet the needs of the entire person, physical, mental and spiritual, as the Holy Spirit leads and directs us.
+In Matthew chapter 14, we see an example of Jesus meeting the needs of the five thousand that were hungry. After ministering to their physical needs, He ministered to their spiritual needs. This is the example we follow. We meet physical needs, showing the love and compassion of Jesus Christ, build relationships and share the Gospel of Jesus Christ. We strive to meet the needs of the entire person, physical, mental and spiritual, as the Holy Spirit leads and directs us.
 
 We help in a variety of needs such as homelessness, drug addiction, unplanned pregnancies, house fires, domestic violence, nursing homes, and disaster relief. We cannot do all of this on our own, so we partner with other Christian ministries that specialize in these specific areas. We also support churches doing local outreach and mission programs. All this is done for the ultimate goal of sharing the Gospel of Jesus Christ.
 
