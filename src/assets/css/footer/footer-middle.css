@@ -1,0 +1,24 @@
+.footer-middle {
+  max-width: 35%;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.footer-middle .teal {
+  background-color: var(--ministry-teal);
+  height: 10px;
+  width: 100%;
+}
+
+.footer-middle .blue {
+  background-color: var(--ministry-blue);
+  color: var(--footer-text);
+  padding: 10px;
+  text-align: center;
+  font-size: calc(16px * var(--font-size-modifier));
+}
+
+.footer-middle .blue p {
+  margin: 5px 0;
+  line-height: 1.4;
+}

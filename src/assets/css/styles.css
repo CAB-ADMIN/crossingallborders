@@ -39,19 +39,21 @@ body {
   --font-word-spacing-modifier: 1;
   --font-letter-spacing-modifier: 1; 
   --font-family: 'Merriweather', sans-serif;
-  --font-family-secondary: 'Montserrat', 'Merriweather', serif;
+  --font-family-secondary: 'Merriweather', serif; /* 'Montserrat', removed only two fonts wanted */
   --font-family-accent: 'LEMONMILK-Regular', Arial, sans-serif;
   --font-line-height-modifier: 1;
   --click-target-padding-size-modifier: 1;
+  --ministry-teal: #11af9f;
+  --ministry-blue: #201B57;
 }
 
 
 
 
 :root[data-theme="light"] {
-  --text-primary: #201B57;
+  --text-primary: var(--ministry-blue);
   --text-secondary: #555555;
-  --accent-text: #11af9f;
+  --accent-text: var(--ministry-teal);
   --highlight-bg: #6289c4;
   --highlight-text: #ffffff;
   --hr-color: #cccccc;
@@ -60,7 +62,7 @@ body {
   --background-opposite: #121212;
   --banner-bg: #586e83;
   --header-bg: #fff;
-  --footer-bg: #47576e;
+  --footer-bg: var(--ministry-blue); /* #47576e */
   --banner-text: #ffffff;
   --header-text: #1a1a1a;
   --footer-text: #fdfbfb;
@@ -75,7 +77,7 @@ body {
   --button-bg: #0077cc;
   --button-text: #ffffff;
   --button-hover-bg: #005fa3;
-  --button-bg-cash-donations: #1EB0A1; /* #C07B02 */
+  --button-bg-cash-donations: var(--ministry-teal); /* #C07B02 */
   --button-text-cash-donations: #ffffff;
   --button-hover-bg-cash-donations: #1A8B8D; /* #a66b02 */
   --error-color: #a80303;
@@ -88,7 +90,7 @@ body {
 :root[data-theme="dark"] {
   --text-primary: #f2f2f2;
   --text-secondary: #bbbbbb;
-  --accent-text: #11af9f;
+  --accent-text: var(--ministry-teal);
   --highlight-bg: #345fbd;
   --highlight-text: #ffffff;
   --hr-color: #3f3e3e;
@@ -97,7 +99,7 @@ body {
   --background-opposite: #ffffff;
   --banner-bg: #2c3e50;
   --header-bg: #1f1e1e;
-  --footer-bg: #1f2630;
+  --footer-bg: var(--ministry-blue); /* #1f2630 */
   --banner-text: #ffffff;
   --header-text: #f2f2f2;
   --footer-text: #ebe6e6;
@@ -112,7 +114,7 @@ body {
   --button-bg: #3399ff;
   --button-text: #ffffff;
   --button-hover-bg: #1a8cff;
-  --button-bg-cash-donations: #1EB0A1; /* #C07B02 */
+  --button-bg-cash-donations: var(--ministry-teal); /* #C07B02 */
   --button-text-cash-donations: #ffffff;
   --button-hover-bg-cash-donations: #1A8B8D; /* #a66b02 */
   --error-color: #ff3333;

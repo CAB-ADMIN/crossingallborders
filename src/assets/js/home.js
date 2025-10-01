@@ -1,6 +1,6 @@
 function setDynamicBackgroundHeight() {
-  if (window.innerHeight > 768) {
-    const group  = document.querySelector('.groups-ghc .group-ghc');
+  if (window.innerWidth < 768) {
+    const group = document.querySelector('.groups-ghc .group-ghc');
     // return console.log(group.offsetHeight);
     const bg = document.querySelector('.background');
     if (group && bg) {
@@ -11,6 +11,13 @@ function setDynamicBackgroundHeight() {
     } else {
       const bg = document.querySelector('.background');
       if (bg) bg.style.minHeight = '';
+    }
+  } else {
+    const group = document.querySelector('.groups-ghc .group-ghc');
+    const bg = document.querySelector('.background');
+    if (group && bg) {
+      let height = groups.offsetHeight + 20 + "px";
+      if (bg) bg.style.maxHeight = height;
     }
   }
 }

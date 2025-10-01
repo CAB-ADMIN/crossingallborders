@@ -9,7 +9,6 @@ hasPhotos: true
 photos: [
   ["volunteers/2174429735423553605.jpg.jpeg", "Picture of Volunteers"],
   ["volunteers/2687127956767261956.jpg.jpeg", "Picture of Volunteers"],
-  ["volunteers/4446167165805748811.jpg.jpeg", "Picture of Volunteers"],
   ["volunteers/5679518203615582973.jpg.jpeg", "Picture of Volunteers"],
   ["volunteers/600853820794072188.jpg.jpeg", "Picture of Volunteers"],
   ["volunteers/611847615623726063.jpg.jpeg", "Picture of Volunteers"],

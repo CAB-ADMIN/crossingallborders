@@ -8,7 +8,6 @@ photos: [
   ["home/2044634673666091961.jpg.jpeg", "Picture of volunteers"],
   ["home/2364631703027473642.jpg.jpeg", "Picture of volunteers"],
   ["home/2662268944157210893.jpg.jpeg", "Picture of truck from Samaritan's Purse being unloaded"],
-  ["home/2920905360942018042.jpg.jpeg", "Picture of volunteers"],
   ["home/2984622233926455118.jpg.jpeg", "Picture of volunteers"],
   ["home/3704389407273793029.jpg.jpeg", "Picture of volunteers"],
   ["home/3892008535314179135.jpg.jpeg", "Picture of volunteers"],
