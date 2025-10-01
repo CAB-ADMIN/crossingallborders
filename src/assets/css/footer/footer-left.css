@@ -30,6 +30,7 @@
   font-size: calc(12px * var(--font-size-modifier));
   max-width: 500px;
   line-height: 12px;
+  padding: 5px;
 }
 
 .copyright {
