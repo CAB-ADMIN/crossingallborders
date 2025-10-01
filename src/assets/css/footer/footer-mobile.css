@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .top {
     display: flex;
     flex-direction: column;
@@ -48,4 +48,13 @@
   .name {
     line-height: 1.2;
   }
+
+  .footer-middle {
+    max-width: 100%;
+  }
+
+  .footer-middle .blue p {
+    font-size: calc(12px * var(--font-size-modifier));
+  }
+
 }
