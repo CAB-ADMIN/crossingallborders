@@ -4,7 +4,6 @@ title: "home"
 page_title: "Home"
 photos: [
   ["home/1000044639-2.jpg", "Picture of portion of warehouse"],
-  ["home/1508444879247021128.jpg.jpeg", "Picture of young man sitting in gaylord of supplies"],
   ["home/2044634673666091961.jpg.jpeg", "Picture of volunteers"],
   ["home/2364631703027473642.jpg.jpeg", "Picture of volunteers"],
   ["home/2662268944157210893.jpg.jpeg", "Picture of truck from Samaritan's Purse being unloaded"],
