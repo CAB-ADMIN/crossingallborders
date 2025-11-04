@@ -49,3 +49,5 @@ Everyone! We welcome all ages. We have jobs for those that need to sit. We work 
 ---{.spacer}
 
 **REQUIREMENT: We ask those that serve to complete a liability and media release form.**{.accent}
+
+<div>{% include "hours.njk" %}</div>

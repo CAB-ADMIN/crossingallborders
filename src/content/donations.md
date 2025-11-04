@@ -44,3 +44,5 @@ updated: "2025-9-2"
 
 
 *Please take these to [Beacon Thrift](https://www.beaconmission.com){target="_blank"} in Fuquay-Varina.*
+
+<div>{% include "hours.njk" %}</div>
