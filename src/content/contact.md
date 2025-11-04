@@ -60,14 +60,15 @@ updated: "2025-9-25"
 
 
 
-### Our Hours:{#our-hours}
+<!-- ### Our Hours:{#our-hours}
 
 ###### **Tuesday, Wednesday, Thursday:** 10:00am-2:00pm
 
 ###### **Saturday:** 8:00am-12:00pm
 
-###### *Evenings are by appointment only!*
+###### *Evenings are by appointment only!* -->
 
+<div>{% include "hours.njk" %}</div>
 
 ---{.spacer}
 
