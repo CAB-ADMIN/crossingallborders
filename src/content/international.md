@@ -4,7 +4,7 @@ title: "International"
 subtitle: ""
 page_title: "International Ministry"
 permalink: "ministries/international/index.html"
-meta_description: "Crossing All Borders Ministries partners with churches and non-profits to provide Christian support, supplies, and encouragement to missionaries and ministries in over 100 countries. We ship Bibles, clothing, school and medical supplies, and more to meet physical, mental, and spiritual needs worldwide, sharing the Gospel and helping communities thrive."
+meta_description: "Crossing ALL Borders Ministries partners with churches and non-profits to provide Christian support, supplies, and encouragement to missionaries and ministries in over 100 countries. We ship Bibles, clothing, school and medical supplies, and more to meet physical, mental, and spiritual needs worldwide, sharing the Gospel and helping communities thrive."
 hasPhotos: true
 photos: [
   ["international/1521965273738672329.jpg.jpeg", "Picture of volunteers standing in front of freshly packed container for Ukraine"],
@@ -39,7 +39,7 @@ Pictures, updates, and prayer requests come to us regularly from these recipient
 
 <a class="centered-sm-ctr" target="_blank" href="https://www.amazon.com/Gods-Power-Midst-War-Miraculous/dp/B0DZPJ8P1R">
   <img src="/assets/images/pages/international/godPower-book.jpeg" alt="Picture of the book God's Power in The Midst of War by Joeth Barker"/>
-  <p>Above: Joeth’s first book, <u>Faithful in Small Things</u>, where she shares her story about how God has worked through Crossing all Borders to turn adversity into mission.</p>
+  <p>Above: Joeth’s first book, <u>Faithful in Small Things</u>, where she shares her story about how God has worked through Crossing ALL Borders Ministries to turn adversity into mission.</p>
 </a>
 
 Periodically, we have opportunities to personally serve in other countries. Thus far, we have travelled to the Dominican Republic, Honduras, and Guatemala.

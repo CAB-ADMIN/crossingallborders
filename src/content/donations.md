@@ -4,14 +4,14 @@ title: "Tangible Donations"
 subtitle: ""
 page_title: "Tangible Donations"
 permalink: "donations/tangible/index.html"
-meta_description: "Donate essential items to Crossing All Borders Ministries and make a difference locally and globally. We accept clothes, books, craft and school supplies, hygiene products, medical items, toys, kitchenware, home decor, baby gear, camping equipment, and yard tools—help us bless those in need through your tangible gifts."
+meta_description: "Donate essential items to Crossing ALL Borders Ministries and make a difference locally and globally. We accept clothes, books, craft and school supplies, hygiene products, medical items, toys, kitchenware, home decor, baby gear, camping equipment, and yard tools—help us bless those in need through your tangible gifts."
 updated: "2025-9-2"
 ---
 
 
 ### Tangible Donations
 
-###### Crossing All Borders Ministries accepts a wide variety of tangible donations; however, some items are not acceptable. When considering donating, ask yourself, “Would I give this to Jesus?”, “Would I like to receive this if I was in need?”. If the answer is yes, then please donate it to be a blessing to someone else.
+###### Crossing ALL Borders Ministries accepts a wide variety of tangible donations; however, some items are not acceptable. When considering donating, ask yourself, “Would I give this to Jesus?”, “Would I like to receive this if I was in need?”. If the answer is yes, then please donate it to be a blessing to someone else.
 
 > “Truly I tell you, whatever you did for one of the least of these brothers and sisters of mine, you did for me.” – Matthew 25:40
 

@@ -4,7 +4,7 @@ title: "Volunteering"
 subtitle: ""
 page_title: "Volunteer"
 permalink: "volunteer/index.html"
-meta_description: "Join Crossing All Borders Ministries as a volunteer—help sort donations, pack supplies, and serve those in need. All ages and abilities are welcome, including individuals, families, and groups. Flexible hours and meaningful opportunities to make a difference in your community."
+meta_description: "Join Crossing ALL Borders Ministries as a volunteer—help sort donations, pack supplies, and serve those in need. All ages and abilities are welcome, including individuals, families, and groups. Flexible hours and meaningful opportunities to make a difference in your community."
 hasPhotos: true
 photos: [
   ["volunteers/2174429735423553605.jpg.jpeg", "Picture of Volunteers"],
@@ -26,7 +26,7 @@ photos: [
 updated: "2025-9-23"
 ---
 
-Selfless discipleship through Christian service is the engine that powers Crossing all Borders. Come be a part of what God is doing! Come when you can, leave when you need to.
+Selfless discipleship through Christian service is the engine that powers Crossing ALL Borders Ministries. Come be a part of what God is doing! Come when you can, leave when you need to.
 
 Individual volunteers can serve during our [regular hours](/contact/#our-hours) and volunteer without an appointment. For groups of 10 or more, please call (910-890-7201) to schedule a time to come.
 
