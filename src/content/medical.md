@@ -4,7 +4,7 @@ title: "Medical"
 subtitle: ""
 page_title: "Medical Ministry"
 permalink: "ministries/medical/index.html"
-meta_description: "Support global and local communities by donating medical supplies to Crossing All Borders Ministries. We accept all medical items—including open and expired packages—to help hospitals, clinics, and families in need through shipments to over a dozen countries and local outreach."
+meta_description: "Support global and local communities by donating medical supplies to Crossing ALL Borders Ministries. We accept all medical items—including open and expired packages—to help hospitals, clinics, and families in need through shipments to over a dozen countries and local outreach."
 hasPhotos: true
 photos: [
   ["medical/144763231177917296.jpg.jpeg", "Picture of Volunteers"],

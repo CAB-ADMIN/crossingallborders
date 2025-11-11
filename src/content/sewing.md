@@ -4,7 +4,7 @@ title: "Sewing"
 subtitle: ""
 page_title: "Sewing Ministry"
 permalink: "ministries/sewing/index.html"
-meta_description: "Use your sewing and fabric-cutting skills to support orphanages and families worldwide with Crossing All Borders Ministries. Help create bags, quilts, clothing, and more from donated materials—most projects can be completed at home and shipped internationally to those in need."
+meta_description: "Use your sewing and fabric-cutting skills to support orphanages and families worldwide with Crossing ALL Borders Ministries. Help create bags, quilts, clothing, and more from donated materials—most projects can be completed at home and shipped internationally to those in need."
 hasPhotos: true
 photos: [
   ["sewing/1525454344267719860.jpg.jpeg", "Picture of Volunteers"],

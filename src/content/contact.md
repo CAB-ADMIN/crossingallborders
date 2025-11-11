@@ -6,7 +6,7 @@ page_title: "Contact Us"
 permalink: "contact/index.html"
 scripts: ["checkFormInputs.js", "submissionForm.js"]
 stylesheets: ["contact/form.css", "contact/form-checkbox.css", "contact/form-mobile.css"]
-meta_description: "Contact Crossing All Borders Ministries to ask questions, get involved, or request support. Reach us by online form, phone, or visit our North Carolina warehouse. We welcome your inquiries and look forward to connecting with you!"
+meta_description: "Contact Crossing ALL Borders Ministries to ask questions, get involved, or request support. Reach us by online form, phone, or visit our North Carolina warehouse. We welcome your inquiries and look forward to connecting with you!"
 updated: "2025-9-25"
 ---
 

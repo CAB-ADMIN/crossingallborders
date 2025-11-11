@@ -4,7 +4,7 @@ title: "Privacy Policy (<a href='https://www.crossingallborders.org/'>www.crossi
 subtitle: "Type of website: Nonprofit<br>Effective date: October 9, 2025"
 page_title: "Privacy Policy"
 permalink: "legal/privacy-policy/index.html"
-meta_description: "Privacy policy for Crossing all Borders Ministries website."
+meta_description: "Privacy policy for Crossing ALL Borders Ministries website."
 updated: "2025-9-9"
 ---
 
@@ -13,7 +13,7 @@ updated: "2025-9-9"
 
 **Email:** <a href="mailto:info@crossingallborders.org?subject=Privacy Policy Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20regarding%20your%20privacy%20policy.%20Please%20get%20back%20to%20me.%0A%0AThank%20you!%0A">info@crossingallborders</a>
 **Us Mail:** 
-Crossing All Borders Ministries
+Crossing ALL Borders Ministries
 PO Box 132
 Lillington, NC  27546
 
