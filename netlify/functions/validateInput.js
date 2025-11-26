@@ -168,4 +168,4 @@ function validateInput(name, email, subject, message, phone, phoneArea, bot, que
   return res.ok;
 }
 
-module.exports = { validateInput };
+module.exports = { validateInput, validateInputWithCode };

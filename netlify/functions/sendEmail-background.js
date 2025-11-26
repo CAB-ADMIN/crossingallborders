@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
-const { GMAIL_USER, GMAIL_PASS, ADMIN } = process.env;
-const { validateInput } = require('./validateInput.js');
+const { GMAIL_USER, GMAIL_PASS, ADMIN, ADMIN_DEBUG } = process.env;
+const { validateInput, validateInputWithCode } = require('./validateInput.js');
 const { formatMessage } = require('./formatMessage.js');
 const { decryptData } = require('./decrypt');
 const encryptedIpList = require("./ipBlacklist.js");
@@ -43,6 +43,49 @@ exports.handler = async (event) => {
   }
 
   if (!validateInput(name, email, subject, message, phone, phoneArea, bot, question, answer, terms)) {
+    try {
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          user: GMAIL_USER,
+          pass: GMAIL_PASS
+        }
+      });
+
+      const data = validateInputWithCode({
+        name, email, subject, message, phone, phoneArea, bot, question, answer, terms
+      })
+      const allData = `
+      Name: ${name} \n
+      Email: ${email} \n
+      Subject: ${subject} \n
+      Message ${message} \n
+      Phone: ${phone} \n
+      Phone Area: ${phoneArea} \n
+      Bot: ${bot} \n
+      Question: ${question} \n
+      Answer: ${answer} \n
+      Terms: ${terms} \n
+      Data: ${data.code || "Null"} \n
+      Pass: ${data.ok || "False"} \n
+      `
+
+      try {
+      await transporter.sendMail({
+        from: `"CAB WEB" <${GMAIL_USER}>`,
+        replyTo: `"Dev" <dev@dev.com>`,
+        to: `${ADMIN_DEBUG}`,
+        subject: `⚠️Error with CAB's Email Form!`,
+        html: `${allData}`
+      });
+      } catch (error) {
+        console.log(error)
+      }
+      
+    } catch {
+
+    }
+    console.log("Error")
     return;
   }
 
