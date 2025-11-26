@@ -10,7 +10,7 @@ updated: "2025-9-25"
 
 <div style="text-align: center;">
   <h1>You can make a onetime or recurring online donation below.</h1>
-  <h2>Crossing ALL Borders Ministries is 100% funded by generous donors like you!</h2>
+  <h2>Crossing ALL Borders Ministries is a 501(c)(3) tax-exempt charity and 100% funded by generous donors like you!</h2>
 </div>
 
 <iframe id="v-frame" width="75%" frameborder="0" allow="clipboard-write" src="https://secure.myvanco.com/L-ZXHS" scrolling="no"></iframe>
