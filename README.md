@@ -1,6 +1,6 @@
-# Crossing All Borders Ministries
+# Crossing ALL Borders Ministries
 
-A fast, secure, and maintainable static site for Crossing All Borders Ministries.
+A fast, secure, and maintainable static site for Crossing ALL Borders Ministries.
 
 Website: https://crossingallborders.org
 
