@@ -35,6 +35,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
 
   if (checkAllInputs(data, questions)) {
     try {
+      await sendDiscordNot(data)
       fetch('/.netlify/functions/sendEmail-background', {
         method: 'POST',
         headers: {
@@ -50,6 +51,35 @@ document.getElementById('submission-form').addEventListener('submit', async func
     }
   }
 });
+
+async function sendDiscordNot(formContent) {
+  const webhook = "https://discord.com/api/webhooks/1474536233903591454/nMCK0IisIuEGO_pJzCZe6-KthOOm8Mw081Q1iMIaUnNrOtaM3xPkTF_2TVrNmloxW7lu"
+
+  const formattedFormContent = JSON.stringify(formContent, null, 2);
+  const fileBlob = new Blob([formattedFormContent], { type: 'text/plain' });
+
+  const formData = new FormData();
+  
+  formData.append('file', fileBlob, 'submission.txt')
+
+  formData.append('payload_json', JSON.stringify({
+    content: '<@890576956054188083> There is a new submission, check info@crossingallborders.org to ensure send'
+  }))
+
+  
+  try {
+    await fetch(webhook, {
+      method: "POST",
+      body: formData
+    })
+    if (!response.ok) {
+      const errText = await response.text();
+      console.error("Discord API Error:", errText);
+    }
+  } catch (error) {
+    console.log("Network Error:", error);
+  }
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("submission-form");

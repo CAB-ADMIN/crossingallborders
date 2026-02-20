@@ -17,13 +17,10 @@ function formatMessage(data) {
   const sanitizedSubject = escapeHtml(subject);
   const sanitizedMessage = escapeHtml(message);
 
-  const newSubject = `Re: Crossing All Borders Ministries - ${sanitizedSubject}`;
-  const newMessage = `Dear ${sanitizedName},
-
-Thank you for reaching out to Crossing All Borders Ministries! We appreciate you taking the time to contact us.
-
+  const newSubject = `Re: Crossing ALL Borders Ministries - ${sanitizedSubject}`;
+  const newMessage = `
 Re: ${sanitizedSubject}
-  ${sanitizedMessage}
+${sanitizedMessage}
   `;
 
   return `
@@ -46,7 +43,7 @@ Re: ${sanitizedSubject}
 
     <p style="font-size: 0.9em; color: #666;">
     Best regards,<br>
-    The Crossing All Borders Ministries Website<br>
+    The Crossing ALL Borders Ministries Website<br>
     <em>(${randomEnding()})</em>
     </p>
     <p style="font-size: 0.001em; opacity: 0;">
