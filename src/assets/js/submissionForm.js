@@ -35,27 +35,47 @@ document.getElementById('submission-form').addEventListener('submit', async func
 
   if (checkAllInputs(data, questions)) {
     try {
-      await sendDiscordNot(data)
-      fetch('/.netlify/functions/sendEmail-background', {
+      const res = await fetch('/.netlify/functions/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(data)
       });
-      redirecting = true;
-      window.location.href = '/thank-you';
-      event.target.reset();
+      const submissionData = await res.json();
+      
+      if (res.ok) {
+        updateNotice(submissionData)
+        // redirecting = true;
+        // window.location.href = '/thank-you';
+        // event.target.reset();
+      } else {
+        updateNotice(submissionData)
+      }
+      await sendDiscordNot(data, submissionData)
+     
+     
+      console.log(submissionData.reason)
+      return console.log(res);
+
     } catch (error) {
       console.error('Error:', error);
     }
   }
 });
 
-async function sendDiscordNot(formContent) {
+function updateNotice(data) {
+  const errorDiv = document.getElementById("submission-form").querySelector(".errors");
+  const newError = document.createElement("div");
+  newError.className = 'errorDiv';
+  newError.innerHTML = `<span class="errorX">X</span> <span class="errorText">${data.reason}</span>`
+  errorDiv.appendChild(newError);
+}
+
+async function sendDiscordNot(formContent, submissionData) {
   const webhook = "https://discord.com/api/webhooks/1474536233903591454/nMCK0IisIuEGO_pJzCZe6-KthOOm8Mw081Q1iMIaUnNrOtaM3xPkTF_2TVrNmloxW7lu"
 
-  const formattedFormContent = JSON.stringify(formContent, null, 2);
+  const formattedFormContent = JSON.stringify([formContent, submissionData.nodemailerData], null, 2);
   const fileBlob = new Blob([formattedFormContent], { type: 'text/plain' });
 
   const formData = new FormData();

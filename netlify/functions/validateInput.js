@@ -85,6 +85,7 @@ function validateInputWithCode(fields) {
   const questionStr = trim(question);
 
   if (!name || !email || !subject || !message) {
+    console.log(name, email, subject, message)
     return { ok: false, code: ErrorCodes.MISSING_REQUIRED, message: 'name, email, subject, message are required' };
   }
 
@@ -165,7 +166,8 @@ function validateInput(name, email, subject, message, phone, phoneArea, bot, que
   const res = validateInputWithCode({
     name, email, subject, message, phone, phoneArea, bot, question, answer, terms
   });
-  return res.ok;
+  console.log(res)
+  return res
 }
 
 module.exports = { validateInput, validateInputWithCode };
