@@ -60,7 +60,9 @@ exports.handler = async (event) => {
           subject: `${sanitizedName} - ${sanitizeForEmailHeader(subject)}`,
           html: htmlMessage
         })
+        console.log("---------------")
         console.log(response)
+        console.log("---------------")
         return { statusCode: 202, body: JSON.stringify({ 
           reason: "Accepted - Email has been sent, thank you!",
           nodemailerData: response
