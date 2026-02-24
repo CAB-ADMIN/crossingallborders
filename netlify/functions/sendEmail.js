@@ -18,10 +18,10 @@ const transporter = nodemailer.createTransport({
     pass: GMAIL_PASS
   }
 });
-console.log("created transporter");
+console.log("Created Transporter!")
 
 transporter.verify().catch(() => {});
-console.log("verified transporter")
+console.log("Verified Transporter!")
 
 
 function sanitizeForEmailHeader (input) {
@@ -51,7 +51,6 @@ exports.handler = async (event) => {
       const htmlMessage = formatMessage({ name, email, subject, message, phone, phoneArea, ip });
 
       try {
-        console.log("valid input")
         const sanitizedName = sanitizeForEmailHeader(name);
 
         const response = await transporter.sendMail({
@@ -61,7 +60,9 @@ exports.handler = async (event) => {
           subject: `${sanitizedName} - ${sanitizeForEmailHeader(subject)}`,
           html: htmlMessage
         })
-        console.log("sent email")
+        console.log("---------------")
+        console.log(response)
+        console.log("---------------")
         return { statusCode: 202, body: JSON.stringify({ 
           reason: "Accepted - Email has been sent, thank you!",
           nodemailerData: response
@@ -78,7 +79,6 @@ exports.handler = async (event) => {
 
   } catch (err) {
     console.log(err)
-    console.log("main")
     return { statusCode: 500, body: JSON.stringify({ reason: `Internal Server Error: ${err}.` }) }
   }
 }
