@@ -46,17 +46,13 @@ document.getElementById('submission-form').addEventListener('submit', async func
       
       if (res.ok) {
         updateNotice(submissionData)
-        // redirecting = true;
-        // window.location.href = '/thank-you';
-        // event.target.reset();
+        redirecting = true;
+        window.location.href = '/thank-you';
+        event.target.reset();
       } else {
         updateNotice(submissionData)
       }
       await sendDiscordNot(data, submissionData)
-     
-     
-      console.log(submissionData.reason)
-      return console.log(res);
 
     } catch (error) {
       console.error('Error:', error);
