@@ -55,7 +55,7 @@ exports.handler = async (event) => {
 
         const response = await transporter.sendMail({
           from: `"${sanitizedName}" <${GMAIL_USER}>`,
-          replyTo: `"${sanitizedName} <${sanitizeForEmailHeader(email)}>`,
+          replyTo: `"${sanitizedName}" <${sanitizeForEmailHeader(email)}>`,
           to: `${ADMIN}`,
           subject: `${sanitizedName} - ${sanitizeForEmailHeader(subject)}`,
           html: htmlMessage
