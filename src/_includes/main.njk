@@ -1,5 +1,13 @@
 <html lang="en">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9LZMRE1YV8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9LZMRE1YV8');
+  </script>
   {% include "css.njk" %}
   {% for css in stylesheets %}
     <link rel="stylesheet" href="/assets/css/{{ css }}">
@@ -10,8 +18,6 @@
   <meta name="description" content="{{meta_description}}">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> <!--! Swiper CSS -->
-  <!-- 100% privacy-first analytics -->
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
   <title>{{page_title}} | Crossing ALL Borders Ministries</title>
 
