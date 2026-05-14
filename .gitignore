@@ -4,3 +4,4 @@ node_modules
 .env
 encrypt.js
 /znotes
+oldFunc.js
