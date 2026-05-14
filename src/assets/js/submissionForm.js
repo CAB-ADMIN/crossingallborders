@@ -19,6 +19,7 @@ let redirecting = false
 
 document.getElementById('submission-form').addEventListener('submit', async function(event) {
   event.preventDefault();
+  buttonDisabled(true)
   const formData = new FormData(event.target);
   const data = {
     name: formData.get('name').trim(),
@@ -51,6 +52,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
         event.target.reset();
       } else {
         updateNotice(submissionData)
+        buttonDisabled(false)
       }
       await sendDiscordNot(data, submissionData)
 
@@ -58,6 +60,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
       console.error('Error:', error);
     }
   }
+  buttonDisabled(false)
 });
 
 function updateNotice(data) {
@@ -66,6 +69,10 @@ function updateNotice(data) {
   newError.className = 'errorDiv';
   newError.innerHTML = `<span class="errorX">X</span> <span class="errorText">${data.reason}</span>`
   errorDiv.appendChild(newError);
+}
+
+function buttonDisabled(boolean) {
+  document.querySelector('.contact-button').disabled = boolean
 }
 
 async function sendDiscordNot(formContent, submissionData) {

@@ -41,7 +41,7 @@ updated: "2025-9-25"
     </label>
   </div>
 
-  <div><button type="submit" id="form">Send Message</button></div>
+  <div><button class="contact-button" type="submit" id="form">Send Message</button></div>
   <div ><ul class="errors"></ul></div>
 </form>
 
