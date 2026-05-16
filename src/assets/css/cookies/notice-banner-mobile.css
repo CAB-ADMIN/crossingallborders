@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+  .cookie-banner {
+    margin: auto;
+    align-items: center;
+    top: 50%;
+    bottom: 50%;
+    max-width: 100%;
+    width: 70%;
+    border-radius: 8px;
+    border: 2px solid var(--background-opposite);
+  }
+  .cookie-banner p {
+    text-align: center;
+  }
+}
