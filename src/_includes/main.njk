@@ -1,13 +1,6 @@
 <html lang="en">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9LZMRE1YV8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-9LZMRE1YV8');
-  </script>
+  {% include "google.njk"}
   {% include "css.njk" %}
   {% for css in stylesheets %}
     <link rel="stylesheet" href="/assets/css/{{ css }}">
