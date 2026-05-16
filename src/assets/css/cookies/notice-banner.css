@@ -1,0 +1,35 @@
+.cookie-banner {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 7px;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: var(--background);
+  padding: 20px;
+  border-top-right-radius: 8px;
+  border-top: 2px solid var(--background-opposite);
+  border-right: 2px solid var(--background-opposite);
+  width: 25%;
+  max-width: 450px;
+  min-width: 300px;
+}
+
+.cookie-banner h3 {
+  color: var(--ministry-teal);
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+
+.cookie-banner p {
+  color: var(--background-opposite);
+  font-size: 1em;
+}
+
+.buttons {
+  display: flex;
+  gap: 7px;
+}

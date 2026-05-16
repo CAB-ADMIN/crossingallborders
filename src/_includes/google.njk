@@ -1,0 +1,23 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+const savedConsent = localStorage.getItem("analyticsConsent")
+/* Default: deny tracking */
+gtag('consent', 'default', {
+    analytics_storage: savedConsent === "granted" ? "granted" : "denied",
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+})
+
+gtag('js', new Date())
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9LZMRE1YV8"></script>
+
+<script>
+gtag('config', 'G-9LZMRE1YV8', {
+    anonymize_ip: true
+});
+</script>
