@@ -1,11 +1,11 @@
 ---
 layout: "main"
 title: "Privacy Policy (<a href='https://www.crossingallborders.org/'>www.crossingallborders.org</a>)"
-subtitle: "Type of website: Nonprofit<br>Effective date: October 9, 2025"
+subtitle: "Type of website: Nonprofit<br>Effective date: May 27, 2026"
 page_title: "Privacy Policy"
 permalink: "legal/privacy-policy/index.html"
 meta_description: "Privacy policy for Crossing ALL Borders Ministries website."
-updated: "2025-9-9"
+updated: "2026-5-27"
 ---
 
 [(www.crossingallborders.org)](https://www.crossingallborders.org/) (the “Site”) is owned and operated by Crossing all Border Ministries and can be contacted at:
@@ -54,6 +54,10 @@ We may disclose user data to any member of our organization who reasonably needs
 ###### We may share user data with third parties for the following purposes:
 	
   Accepting online donations.{#indent}
+
+###### We use Google Analytics to monitor website usage. All data is collected using anonymized IP addresses to protect your identity.
+
+  Any information collected is accessible only to Google LLC and Crossing ALL Borders Ministries. By default — and without requiring cookie consent — our use of Google Analytics is limited to privacy-compliant methods approved under the GDPR (General Data Protection Regulation) and the EU Data Act. This includes techniques such as event tracking that do not collect or store any user-specific information.{#indent}
 
 Third parties will not be able to access user data beyond what is reasonably necessary to achieve the given purpose.
 
