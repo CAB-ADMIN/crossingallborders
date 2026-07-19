@@ -37,7 +37,7 @@ body {
 :root {
   --font-size-modifier: 1;
   --font-word-spacing-modifier: 1;
-  --font-letter-spacing-modifier: 1; 
+  --font-letter-spacing-modifier: 1;
   --font-family: 'Merriweather', sans-serif;
   --font-family-secondary: 'Merriweather', serif; /* 'Montserrat', removed only two fonts wanted */
   --font-family-accent: 'LEMONMILK-Regular', Arial, sans-serif;
@@ -85,6 +85,7 @@ body {
   --form-border-color-focus: #547ba3;
   --form-checkbox-completed: #11af9f;
   --form-border-color-invalid: var(--error-color);
+  --border-color: black
 }
 
 :root[data-theme="dark"] {
@@ -122,6 +123,7 @@ body {
   --form-border-color-focus: #547ba3;
   --form-checkbox-completed: #11af9f;
   --form-border-color-invalid: var(--error-color);
+  --border-color: white
 }
 
 :root[data-theme="light-hc"] {

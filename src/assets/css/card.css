@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: var(--box-bg);
+  border: solid 1px var(--border-color);
+  padding: 20px;
+  border-radius: 16px;
+  gap: 15px;
+
+  .card__title {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  .card__description {
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-wrap: pretty;
+  }
+
+  .card__button-ctr {
+    padding: 12px 0;
+  }
+
+  .card__btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+    &:hover {
+      background-color: var(--button-hover-bg);
+      color: var(--text-primary)
+    }
+  }
+}
