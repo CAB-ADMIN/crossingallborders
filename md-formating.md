@@ -71,9 +71,27 @@ This is a divider ^
 
 ::: photo-block
   This is a photo title {#title}
-  
+
   <img src="/assets/images/main/logo.jpg" alt="Logo Image">
 :::
 
 
 <a href="#"><button id="middle">This is a button :O</button></a>
+
+
+<div class="card">
+  <div class="card__title">
+    This needs a good title
+  </div>
+
+  <div class="card__description">
+    This is a description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsa officiis at iure iste dignissimos temporibus nisi amet explicabo ullam eum non quasi qui placeat, quis accusantium accusamus? Minima, minus!
+  </div>
+
+  <div class="card__button-ctr">
+    <a href="#" class="card__btn">
+      Donate Now
+    </a>
+  </div>
+</div>
+</div>
