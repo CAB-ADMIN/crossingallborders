@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const { GMAIL_USER, GMAIL_PASS, ADMIN, ADMIN_DEBUG } = process.env;
+const { GMAIL_USER, GMAIL_PASS, ADMIN, ADMIN_DEBUG, DISCORD_WEBHOOK_URL } = process.env;
 const { validateInput, validateInputWithCode } = require('./validateInput.js');
 const { formatMessage } = require('./formatMessage.js');
 const ipList = require('./ipBlacklist.js');
@@ -63,7 +63,8 @@ exports.handler = async (event) => {
         console.log("---------------")
         console.log(response)
         console.log("---------------")
-        return { statusCode: 202, body: JSON.stringify({ 
+        await sendDiscordNot({ name, email, subject, message, phone, phoneArea }, response);
+        return { statusCode: 202, body: JSON.stringify({
           reason: "Accepted - Email has been sent, thank you!",
           nodemailerData: response
         }) }
@@ -80,6 +81,27 @@ exports.handler = async (event) => {
   } catch (err) {
     console.log(err)
     return { statusCode: 500, body: JSON.stringify({ reason: `Internal Server Error: ${err}.` }) }
+  }
+}
+
+async function sendDiscordNot(formContent, nodemailerData) {
+  if (!DISCORD_WEBHOOK_URL) {
+    console.error("DISCORD_WEBHOOK_URL is not set; skipping Discord notification.");
+    return;
+  }
+
+  const fileBlob = new Blob([JSON.stringify([formContent, nodemailerData], null, 2)], { type: 'text/plain' });
+  const formData = new FormData();
+  formData.append('file', fileBlob, 'submission.txt');
+  formData.append('payload_json', JSON.stringify({
+    content: '<@890576956054188083> There is a new submission, check info@crossingallborders.org to ensure send'
+  }));
+
+  try {
+    const res = await fetch(DISCORD_WEBHOOK_URL, { method: 'POST', body: formData });
+    if (!res.ok) console.error("Discord API Error:", await res.text());
+  } catch (error) {
+    console.error("Discord Network Error:", error);
   }
 }
 

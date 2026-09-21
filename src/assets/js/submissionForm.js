@@ -44,7 +44,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
         body: JSON.stringify(data)
       });
       const submissionData = await res.json();
-      
+
       if (res.ok) {
         updateNotice(submissionData)
         redirecting = true;
@@ -54,9 +54,7 @@ document.getElementById('submission-form').addEventListener('submit', async func
         updateNotice(submissionData)
         buttonDisabled(false)
       }
-      await sendDiscordNot(data, submissionData)
-
-    } catch (error) {
+g    } catch (error) {
       console.error('Error:', error);
     }
   }
@@ -73,35 +71,6 @@ function updateNotice(data) {
 
 function buttonDisabled(boolean) {
   document.querySelector('.contact-button').disabled = boolean
-}
-
-async function sendDiscordNot(formContent, submissionData) {
-  const webhook = "https://discord.com/api/webhooks/1474536233903591454/nMCK0IisIuEGO_pJzCZe6-KthOOm8Mw081Q1iMIaUnNrOtaM3xPkTF_2TVrNmloxW7lu"
-
-  const formattedFormContent = JSON.stringify([formContent, submissionData.nodemailerData], null, 2);
-  const fileBlob = new Blob([formattedFormContent], { type: 'text/plain' });
-
-  const formData = new FormData();
-  
-  formData.append('file', fileBlob, 'submission.txt')
-
-  formData.append('payload_json', JSON.stringify({
-    content: '<@890576956054188083> There is a new submission, check info@crossingallborders.org to ensure send'
-  }))
-
-  
-  try {
-    await fetch(webhook, {
-      method: "POST",
-      body: formData
-    })
-    if (!response.ok) {
-      const errText = await response.text();
-      console.error("Discord API Error:", errText);
-    }
-  } catch (error) {
-    console.log("Network Error:", error);
-  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -137,8 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
 window.onload = function() {
   window.addEventListener("beforeunload", function (e) {
     if (redirecting || !formTouched) return; // No prompt if redirecting or untouched
-    let conMsg = "Are you sure you want to leave? Your message will not be saved."; 
-    (e || window.event).returnValue = conMsg; 
+    let conMsg = "Are you sure you want to leave? Your message will not be saved.";
+    (e || window.event).returnValue = conMsg;
     return conMsg;
   });
 }
