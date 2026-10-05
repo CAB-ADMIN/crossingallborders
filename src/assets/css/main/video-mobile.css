@@ -1,0 +1,8 @@
+@media (max-width: 786px) {
+  .content-container {
+    .video-embed {
+      width: 100%;
+      border-width: 4px;
+    }
+  }
+}

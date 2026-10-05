@@ -1,0 +1,16 @@
+.content-container {
+  .video-embed {
+    width: 60%;
+    max-width: 640px;
+    margin: 30px auto 0;
+    aspect-ratio: 16 / 9;
+    border: 7px solid var(--background-opposite);
+  }
+
+  .video-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+}
