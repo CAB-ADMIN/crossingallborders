@@ -2,7 +2,7 @@
   .video-embed {
     width: 60%;
     max-width: 640px;
-    margin: 30px auto 0;
+    margin: 30px auto 10px;
     aspect-ratio: 16 / 9;
     border: 7px solid var(--background-opposite);
   }

@@ -38,6 +38,18 @@
       <h2>{{subtitle | safe}}</h2>
       {{ content | safe }}
 
+      {% if video %}
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ video.id }}"
+          title="{{ video.title | default('YouTube video') }}"
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+      {% endif %}
+
       {% if hasPhotos %}
       
       <div class="swiper" id="small">
@@ -52,18 +64,6 @@
         <div class="swiper-button-next"></div>
       </div>
 
-      {% endif %}
-
-      {% if video %}
-      <div class="video-embed">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/{{ video.id }}"
-          title="{{ video.title | default('YouTube video') }}"
-          loading="lazy"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
-      </div>
       {% endif %}
 
     </main>
