@@ -6,13 +6,17 @@ page_title: "About Us"
 permalink: "about-us/index.html"
 meta_description: "Learn about Crossing ALL Borders Ministries—our purpose, mission, beliefs, and history. We advance the Gospel of Jesus Christ by meeting physical and spiritual needs locally, nationally, and internationally, partnering with churches and ministries to serve people from all backgrounds with compassion and faith."
 hasPhotos: true
+stylesheets: ["main/video.css", "main/video-mobile.css"]
+video:
+  id: "1NxzII1HKFA"
+  title: "About Crossing All Borders"
 photos: [
   ["about-us/7094382065792386505.jpg.jpeg", "Picture of map in warehouse"],
 ]
-updated: "2025-9-23"
+updated: "2026-10-5"
 ---
 
-### Our Mission: 
+### Our Mission:
 
 We cross geographic, ethnic, educational and denominational borders to help those in need.
 
@@ -49,7 +53,6 @@ We strive to demonstrate the love of Jesus Christ through donations of tangible 
 ###### We serve knowing the Lord will return one day for His people and we want to be serving Him when He returns.
 
 > “Do you not say, ‘There are still four months and then comes the harvest’? Behold, I say to you, lift up your eyes and look at the fields, for they are already white for harvest!” – John 4:35
-
 
 
 <!-- ### Our History:
